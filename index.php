@@ -26,4 +26,4 @@
             Não poderá morrer sem dizer tudo.<br>
         </p>
     </main>
-<?php include_once 'includes/footer.php'; ?>aaaa
+<?php include_once 'includes/footer.php'; ?>
