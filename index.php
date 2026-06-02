@@ -1,7 +1,4 @@
 <?php include_once 'includes/header.php'; ?>
-    <head>
-        <link rel="stylesheet" href="assets/css/style.css">
-    </head>
     <main>
 
         <section class="hero">
@@ -9,10 +6,6 @@
             <div class="hero-overlay"></div>
 
             <div class="hero-content">
-
-                <span class="tag">
-                    COPA DO MUNDO 2026
-                </span>
 
                 <h1>
                     MEMÓRIA DO
