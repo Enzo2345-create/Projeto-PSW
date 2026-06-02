@@ -1,29 +1,60 @@
 <?php include_once 'includes/header.php'; ?>
-<main>
-        <p> Não direi: <br>
-            Que o silêncio me sufoca e amordaça.<br>
-            Calado estou, calado ﬁcarei,<br>
-            Pois que a língua que falo é doutra raça. <br> <br><br>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <main>
+          <div class="hero-text">
 
-            Palavras consumidas se acumulam,<br>
-            Se represam, cisterna de águas mortas,<br>
-            Ácidas mágoas em limos transformadas,<br>
-            Vasa de fundo em que há raízes tortas. <br> <br><br>
+                <span class="tag">
+                    COPA DO MUNDO 2026
+                </span>
 
-            Não direi: <br>
-            Que nem sequer o esforço de as dizer merecem,<br>
-            Palavras que não digam quanto sei<br>
-            Neste retiro em que me não conhecem. <br> <br><br>
+                <h1>
+                    MEMÓRIA DO
+                    FUTEBOL
+                    MUNDIAL
+                </h1>
 
-            Nem só lodos se arrastam, nem só lamas,<br>
-            Nem só animais boiam, mortos, medos,<br>
-            Túrgidos frutos em cachos se entrelaçam<br>
-            No negro poço de onde sobem dedos. <br> <br><br>
+                <p>
+                    Explore todas as seleções campeãs da história,
+                    descubra seus craques e monte o seu Dream Team.
+                </p>
 
-            Só direi,<br>
-            Crispadamente recolhido e mudo,<br>
-            Que quem se cala quanto me calei<br>
-            Não poderá morrer sem dizer tudo.<br>
-        </p>
+                <div class="buttons">
+
+                    <a href="#" class="btn-primary">
+                        Explorar
+                    </a>
+
+                    <a href="#" class="btn-secondary">
+                        Dream Team
+                    </a>
+
+                </div>
+
+            </div> <br>
+
+        <section class="highlights">
+
+            <div class="card">
+                <h3>Seleções Campeãs</h3>
+                <p>Conheça todos os campeões mundiais.</p>
+            </div>
+
+            <div class="card">
+                <h3>Jogadores Históricos</h3>
+                <p>Pesquise craques de todas as épocas.</p>
+            </div>
+
+            <div class="card">
+                <h3>Dream Team</h3>
+                <p>Monte seu time ideal das Copas.</p>
+            </div>
+
+            <div class="card">
+                <h3>Copa 2026</h3>
+                <p>Vote na seleção favorita ao título.</p>
+            </div>
+
+        </section>
+
     </main>
 <?php include_once 'includes/footer.php'; ?>
