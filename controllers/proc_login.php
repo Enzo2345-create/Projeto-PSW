@@ -5,7 +5,7 @@
             if($usuario == 'welison' && $senha == '1234') {
                 $_SESSION['usuario'] = $usuario;
                 $_SESSION['logado'] = true;
-                header('Location: ../index.php');
+                header('Location: ../painel.php');
                 exit;
             }else{
             header('Location: ../login.php');

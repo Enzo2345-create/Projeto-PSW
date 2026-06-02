@@ -9,7 +9,6 @@
 <body>
     <header>
         <a href="index.php">Início</a>
-        <a href="produto.php">Produto</a>
-        <a href="sair.php">Sair</a>
+        <a href="produto.php">Rankings</a>
         <a href="perfil.php">Perfil</a>
     </header>
