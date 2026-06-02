@@ -1,5 +1,5 @@
 <?php include_once 'includes/header.php'; ?>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/.css">
     <main>
           <div class="hero-text">
 
