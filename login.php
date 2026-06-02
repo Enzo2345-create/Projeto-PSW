@@ -1,9 +1,9 @@
-<?php include_once 'includes/header.php'; ?>
+<?php include 'includes/header.php'; ?>
 <main>
-        <form action="controllers/con_login.php" method="post">
-            <input type="text" name="usuário" placeholder="Usuário">
-            <input type="password" name="senha" placeholder="Senha">
+        <form action="controllers/proc_login.php" method="post">
+            <input type="text" name="usuário" placeholder="Usuário" required>
+            <input type="password" name="senha" placeholder="Senha" required>
             <button type="submit">Entrar</button>
         </form>
 </main>
-<?php include_once 'includes/footer.php'; ?>
+<?php include 'includes/footer.php'; ?>

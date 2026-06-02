@@ -1,0 +1,1 @@
+<?php funcion limpar($v){return htmlspecialchars(trim($v));}?>
