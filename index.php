@@ -1,7 +1,7 @@
 <?php include_once 'includes/header.php'; ?>
-
-    <link rel="stylesheet" href="assets/css/style.css">
-
+    <head>
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
     <main>
 
         <section class="hero">
