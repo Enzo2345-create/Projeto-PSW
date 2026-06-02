@@ -11,7 +11,7 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 
 body{
-    font-family: Arial, Helvetica, Changa One, sans-serif;
+    font-family: 'Urbanist', Arial, Helvetica, sans-serif;
     background: #f5f6fa;
     color: #222;
 }
@@ -261,4 +261,8 @@ footer{
 
 .login-cadastro a:hover{
     color: var(--red);
+}
+
+h1, h2, h3, .logo, .login-logo {
+    font-family: 'Changa One', Arial, sans-serif;
 }
