@@ -7,6 +7,8 @@
 
             <div class="hero-content">
 
+                <span class="tag">COPA DO MUNDO 2026</span>
+
                 <h1>
                     MEMÓRIA DO
                     FUTEBOL
@@ -31,14 +33,14 @@
 
             <div class="cards">
 
-                <a href="selecoes.php" class="card">
+                <a href="selecoes.php" class="card" id="card-selecoes">
                     <h3>Seleções Campeãs</h3>
                     <p>
                         Conheça todas as seleções campeãs da história da Copa do Mundo.
                     </p>
                 </a>
 
-                <a href="dreamteam.php" class="card">
+                <a href="dreamteam.php" class="card" id="card-dreamteam">
                     <h3>Time dos Sonhos</h3>
                     <p>
                         Monte seu time ideal utilizando jogadores históricos.

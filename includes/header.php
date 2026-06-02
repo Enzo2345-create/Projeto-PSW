@@ -3,12 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha loja</title>
+    <title>MFM - Memória do Futebol Mundial</title>
     <link rel="stylesheet" href="/PROJETO PSW/assets/css/style.css">
 </head>
 <body>
-    <header>
-        <a href="index.php">Início</a>
-        <a href="produto.php">Rankings</a>
-        <a href="perfil.php">Perfil</a>
-    </header>
+
+<header>
+    <div class="logo">MFM</div>
+    <nav>
+        <a href="/PROJETO PSW/index.php">Home</a>
+        <a href="/PROJETO PSW/selecoes.php">Seleções</a>
+        <a href="/PROJETO PSW/dreamteam.php">Dream Team</a>
+        <a href="/PROJETO PSW/votacao.php">Votação</a>
+        <a href="/PROJETO PSW/login.php">Login</a>
+    </nav>
+</header>
