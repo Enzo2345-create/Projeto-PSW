@@ -10,7 +10,7 @@
 
         <form action="controllers/proc_login.php" method="post" class="login-form">
 
-            <input type="text" name="usuário" placeholder="Usuário" required>
+            <input type="text" name="usuario" placeholder="Usuário" required><input type="text" name="usuário" placeholder="Usuário" required>
             <input type="password" name="senha" placeholder="Senha" required>
             <button type="submit">Entrar</button>
 
