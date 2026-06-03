@@ -295,3 +295,228 @@ footer{
 .login-cadastro a:hover{
     color: var(--red);
 }
+
+
+/* HERO SHAPES */
+.hero{
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-shape{
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.08;
+    pointer-events: none;
+}
+
+.hero-shape-1{
+    width: 600px;
+    height: 600px;
+    background: var(--lime);
+    top: -200px;
+    right: -150px;
+}
+
+.hero-shape-2{
+    width: 400px;
+    height: 400px;
+    background: var(--cyan);
+    bottom: -150px;
+    left: -100px;
+}
+
+.hero-shape-3{
+    width: 200px;
+    height: 200px;
+    background: var(--pink);
+    top: 40%;
+    left: 30%;
+}
+
+/* HERO BTNS */
+.hero-btns{
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.btn-outline{
+    background: transparent;
+    border: 2px solid var(--lime);
+    color: var(--lime);
+}
+
+.btn-outline:hover{
+    background: var(--lime);
+    color: var(--indigo);
+}
+
+/* HERO STATS */
+.hero-stats{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    border-top: 1px solid rgba(255,255,255,0.15);
+    padding-top: 30px;
+    flex-wrap: wrap;
+}
+
+.stat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.stat-num{
+    font-family: 'Changa One', Arial, sans-serif;
+    font-size: 2.5rem;
+    color: var(--lime);
+    line-height: 1;
+}
+
+.stat-label{
+    font-size: 13px;
+    color: rgba(255,255,255,0.65);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.stat-divider{
+    width: 1px;
+    height: 50px;
+    background: rgba(255,255,255,0.2);
+}
+
+/* FEATURES */
+.features{
+    background: #f0f1f8;
+    padding: 80px 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+.features::before{
+    content: '';
+    position: absolute;
+    top: -100px;
+    right: -100px;
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(135deg, var(--blue), var(--violet));
+    opacity: 0.05;
+    border-radius: 50%;
+}
+
+.features::after{
+    content: '';
+    position: absolute;
+    bottom: -80px;
+    left: -80px;
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(135deg, var(--green), var(--cyan));
+    opacity: 0.06;
+    border-radius: 50%;
+}
+
+/* CARD BADGE */
+.card-badge{
+    background: linear-gradient(135deg, var(--indigo), var(--blue));
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 5px 14px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+#card-dreamteam .card-badge{
+    background: linear-gradient(135deg, var(--red), var(--orange));
+}
+
+.card-link{
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+#card-selecoes .card-link{ color: var(--green); }
+#card-dreamteam .card-link{ color: var(--red); }
+
+/* STRIP CAMPEÕES */
+.campeoes-strip{
+    background: linear-gradient(90deg, var(--indigo) 0%, #1e2e8a 50%, var(--violet) 100%);
+    padding: 28px 50px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    position: relative;
+    overflow: hidden;
+}
+
+.campeoes-strip::before{
+    content: '';
+    position: absolute;
+    right: -60px;
+    top: -60px;
+    width: 200px;
+    height: 200px;
+    background: var(--lime);
+    opacity: 0.06;
+    border-radius: 50%;
+}
+
+.strip-title{
+    font-family: 'Changa One', Arial, sans-serif;
+    color: var(--lime);
+    font-size: 1rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    border-right: 2px solid rgba(255,255,255,0.2);
+    padding-right: 40px;
+}
+
+.strip-items{
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.strip-item{
+    color: rgba(255,255,255,0.85);
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.strip-item span{
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.2);
+    color: var(--lime);
+    padding: 2px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+/* RESPONSIVO */
+@media(max-width:900px){
+    .hero-stats{ gap: 20px; }
+    .stat-divider{ display: none; }
+    .campeoes-strip{ padding: 20px; gap: 16px; }
+    .strip-title{ border-right: none; padding-right: 0; }
+    .strip-items{ gap: 12px; }
+    .features{ padding: 50px 20px; }
+}
