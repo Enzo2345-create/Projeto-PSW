@@ -1,11 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root{
-    --blue:#2A398D;
-    --green:#3CAC3B;
-    --red:#E61D25;
-    --light:#D1D4D1;
-    --dark:#474A4A;
-    --purple:#651FFF;
-    --cyan:#26D9D0;
+    --maroon:#741211;
+    --red:#D60000;
+    --orange:#FE3C00;
+    --red-light:#FF9E81;
+
+    --violet:#6101EB;
+    --pink:#B387FF;
+    --purple-dark:#8A2BE2;
+    --red-dark:#E71E62;
+
+    --indigo:#1A247D;
+    --blue:#304FFF;
+    --cyan:#62FED7;
+    --teal:#004C3F;
+
+    --green:#00C752;
+    --yellow:#B1EB01;
+    --lime:#ECFF43;
+
+    --black:#000;
+    --white:#fff;
 }
 
 * { margin:0; padding:0; box-sizing:border-box; }
@@ -16,17 +32,27 @@ body{
     color: #222;
 }
 
+h1, h2, h3, .logo, .login-logo {
+    font-family: 'Changa One', Arial, sans-serif;
+}
+
 /* HEADER */
 header{
-    background: var(--blue);
+    background: var(--indigo);
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 14px 50px;
+    border-bottom: 4px solid var(--blue);
 }
 
-.logo { font-size: 26px; font-weight: bold; letter-spacing: 2px; }
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: var(--lime);
+}
 
 nav a{
     color: white;
@@ -35,9 +61,14 @@ nav a{
     font-weight: bold;
     font-size: 14px;
     opacity: 0.9;
+    transition: .3s;
 }
 
-nav a:hover { opacity: 1; text-decoration: underline; }
+nav a:hover {
+    opacity: 1;
+    color: var(--lime);
+    text-decoration: none;
+}
 
 /* HERO */
 .hero{
@@ -47,7 +78,7 @@ nav a:hover { opacity: 1; text-decoration: underline; }
     justify-content: center;
     text-align: center;
     padding: 60px 20px;
-    background: linear-gradient(135deg, #2A398D 0%, #3b4fa8 50%, #4a3f9e 100%);
+    background: linear-gradient(135deg, var(--indigo) 0%, var(--violet) 60%, var(--blue) 100%);
     color: white;
 }
 
@@ -69,6 +100,7 @@ nav a:hover { opacity: 1; text-decoration: underline; }
     font-size: 3rem;
     margin-bottom: 16px;
     line-height: 1.2;
+    color: var(--lime);
 }
 
 .hero p{
@@ -101,7 +133,7 @@ nav a:hover { opacity: 1; text-decoration: underline; }
 
 .section-title h2{
     font-size: 2rem;
-    color: var(--blue);
+    color: var(--indigo);
 }
 
 .section-title p{
@@ -130,19 +162,20 @@ nav a:hover { opacity: 1; text-decoration: underline; }
     text-align: center;
     transition: .3s;
     border-top: 8px solid var(--green);
-    box-shadow: 0 2px 16px rgba(42,57,141,0.08);
+    box-shadow: 0 2px 16px rgba(26,36,125,0.08);
 }
 
-.card:last-child { border-top-color: var(--red); }
+#card-dreamteam { border-top-color: var(--red); }
+#card-selecoes  { border-top-color: var(--green); }
 
 .card:hover{
     transform: translateY(-8px);
-    box-shadow: 0 8px 30px rgba(42,57,141,0.15);
+    box-shadow: 0 8px 30px rgba(26,36,125,0.18);
 }
 
 .card h3{
     font-size: 1.5rem;
-    color: var(--blue);
+    color: var(--indigo);
     margin-bottom: 14px;
 }
 
@@ -154,11 +187,12 @@ nav a:hover { opacity: 1; text-decoration: underline; }
 
 /* FOOTER */
 footer{
-    background: var(--blue);
+    background: var(--indigo);
     color: rgba(255,255,255,0.75);
     text-align: center;
     padding: 20px;
     font-size: 14px;
+    border-top: 4px solid var(--blue);
 }
 
 /* RESPONSIVO */
@@ -168,8 +202,6 @@ footer{
     header { padding: 14px 20px; }
     .features { padding: 40px 20px; }
 }
-
-
 
 /* LOGIN */
 
@@ -188,14 +220,15 @@ footer{
     padding: 50px 40px;
     width: 100%;
     max-width: 400px;
-    box-shadow: 0 2px 24px rgba(42,57,141,0.10);
+    box-shadow: 0 2px 24px rgba(26,36,125,0.12);
     text-align: center;
+    border-top: 6px solid var(--blue);
 }
 
 .login-logo{
     font-size: 2.5rem;
     font-weight: bold;
-    color: var(--blue);
+    color: var(--indigo);
     letter-spacing: 3px;
     margin-bottom: 10px;
 }
@@ -225,6 +258,7 @@ footer{
     font-size: 15px;
     outline: none;
     transition: .3s;
+    font-family: 'Urbanist', sans-serif;
 }
 
 .login-form input:focus{
@@ -233,7 +267,7 @@ footer{
 
 .login-form button{
     padding: 13px;
-    background: var(--blue);
+    background: var(--indigo);
     color: white;
     border: none;
     border-radius: 8px;
@@ -241,6 +275,7 @@ footer{
     font-weight: bold;
     cursor: pointer;
     transition: .3s;
+    font-family: 'Urbanist', sans-serif;
 }
 
 .login-form button:hover{
@@ -254,15 +289,11 @@ footer{
 }
 
 .login-cadastro a{
-    color: var(--blue);
+    color: var(--indigo);
     font-weight: bold;
     text-decoration: none;
 }
 
 .login-cadastro a:hover{
     color: var(--red);
-}
-
-h1, h2, h3, .logo, .login-logo {
-    font-family: 'Changa One', Arial, sans-serif;
 }
