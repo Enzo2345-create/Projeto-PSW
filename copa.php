@@ -60,11 +60,11 @@ if(!$copa){ header('Location: selecoes.php'); exit; }
                 </div>
             </div>
 
-        </div>
+        </div> <br>
 
         <div class="copa-elenco">
 
-            <h2>Elenco Campeão</h2>
+            <h2>Elenco Campeão</h2> 
 
             <div class="elenco-grupo">
                 <div class="elenco-titulo">Goleiros</div>
