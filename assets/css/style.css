@@ -566,3 +566,182 @@ footer{
     background: var(--lime);
     color: var(--indigo);
 }
+
+
+
+/* HERO PEQUENO */
+.hero-small{
+    min-height: 30vh;
+    padding: 40px 20px;
+}
+
+/* GRID DE SELEÇÕES */
+.selecoes-grid-section{
+    padding: 60px 50px;
+    background: #f0f1f8;
+}
+
+.selecoes-grid{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.selecao-card{
+    background: white;
+    border-radius: 16px;
+    padding: 24px 30px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    text-decoration: none;
+    color: #222;
+    box-shadow: 0 2px 12px rgba(26,36,125,0.07);
+    border-left: 6px solid var(--indigo);
+    transition: .3s;
+}
+
+.selecao-card:hover{
+    transform: translateX(6px);
+    box-shadow: 0 6px 24px rgba(26,36,125,0.14);
+    border-left-color: var(--blue);
+}
+
+.selecao-ano{
+    font-family: 'Changa One', Arial, sans-serif;
+    font-size: 2rem;
+    color: var(--indigo);
+    min-width: 80px;
+}
+
+.selecao-info{
+    flex: 1;
+}
+
+.selecao-info h3{
+    font-size: 1.2rem;
+    color: var(--indigo);
+    margin-bottom: 4px;
+}
+
+.selecao-apelido{
+    font-size: 13px;
+    color: #888;
+    font-style: italic;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.selecao-meta{
+    display: flex;
+    gap: 20px;
+    font-size: 13px;
+    color: #555;
+}
+
+.selecao-arrow{
+    font-size: 1.4rem;
+    color: var(--blue);
+    font-weight: bold;
+}
+
+/* DETALHE DA COPA */
+.copa-detalhe{
+    padding: 60px 50px;
+    background: #f0f1f8;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.copa-resumo{
+    background: white;
+    border-radius: 20px;
+    padding: 40px;
+    margin-bottom: 40px;
+    box-shadow: 0 2px 16px rgba(26,36,125,0.08);
+}
+
+.copa-resumo-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 24px;
+}
+
+.resumo-item{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    border-left: 4px solid var(--blue);
+    padding-left: 14px;
+}
+
+.resumo-label{
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #999;
+}
+
+.resumo-valor{
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--indigo);
+}
+
+/* ELENCO */
+.copa-elenco{
+    background: white;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 2px 16px rgba(26,36,125,0.08);
+    margin-bottom: 40px;
+}
+
+.copa-elenco h2{
+    color: var(--indigo);
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+}
+
+.elenco-grupo{
+    margin-bottom: 24px;
+}
+
+.elenco-titulo{
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #999;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.elenco-jogadores{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.jogador-tag{
+    background: #f0f1f8;
+    color: var(--indigo);
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    border: 1px solid rgba(26,36,125,0.1);
+}
+
+.copa-nav{
+    text-align: center;
+}
+
+/* RESPONSIVO */
+@media(max-width:900px){
+    .selecoes-grid-section{ padding: 30px 16px; }
+    .copa-detalhe{ padding: 30px 16px; }
+    .selecao-card{ flex-wrap: wrap; gap: 12px; }
+    .selecao-ano{ font-size: 1.5rem; min-width: 60px; }
+}
