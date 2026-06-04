@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -14,11 +15,22 @@
 
 <header>
     <div class="logo">MFM</div>
+
     <nav>
         <a href="/PROJETO PSW/index.php">Home</a>
         <a href="/PROJETO PSW/selecoes.php">Seleções</a>
         <a href="/PROJETO PSW/dreamteam.php">Dream Team</a>
         <a href="/PROJETO PSW/votacao.php">Votação</a>
-        <a href="/PROJETO PSW/login.php">Login</a>
     </nav>
+
+    <div class="header-perfil">
+        <?php if(isset($_SESSION['usuario'])): ?>
+            <a href="/PROJETO PSW/painel.php" class="avatar">
+                <?= strtoupper(substr($_SESSION['usuario'], 0, 2)) ?>
+            </a>
+        <?php else: ?>
+            <a href="/PROJETO PSW/login.php" class="btn-login">Entrar</a>
+        <?php endif; ?>
+    </div>
+
 </header>
