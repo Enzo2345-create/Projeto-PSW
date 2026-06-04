@@ -26,6 +26,17 @@ if(!$copa){ header('Location: selecoes.php'); exit; }
 
         <div class="copa-resumo">
 
+            <div class="copa-fotos panel">
+                <div class="copa-foto-item">
+                    <span class="resumo-label">Poster Oficial</span>
+                    <img src="<?= $copa['poster'] ?>" alt="Poster <?= $copa['ano'] ?>" class="copa-img-poster">
+                </div>
+                <div class="copa-foto-item">
+                    <span class="resumo-label">Seleção Campeã</span>
+                    <img src="<?= $copa['foto_selecao'] ?>" alt="Seleção <?= $copa['pais'] ?>" class="copa-img-selecao">
+                </div>
+            </div>
+
             <div class="copa-resumo-grid">
                 <div class="resumo-item">
                     <span class="resumo-label">Sede</span>

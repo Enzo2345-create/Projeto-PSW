@@ -666,3 +666,42 @@ footer{
     .campo{ padding-top:150%; }
     .dt-sidebar{ max-height:400px; }
 }
+
+/* IMAGENS SELEÇÕES */
+.selecao-poster{
+    width: 60px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.copa-fotos{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+    align-items: start;
+}
+
+.copa-foto-item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.copa-img-poster{
+    width: 100%;
+    max-width: 280px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.copa-img-selecao{
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+@media(max-width:900px){
+    .copa-fotos{ grid-template-columns: 1fr; }
+}

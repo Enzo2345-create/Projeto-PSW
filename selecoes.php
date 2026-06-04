@@ -20,6 +20,12 @@
             $copas = json_decode(file_get_contents('data/selecoes.json'), true);
             foreach($copas as $copa): ?>
                 <a href="copa.php?ano=<?= $copa['ano'] ?>" class="selecao-card">
+                    <img
+                        src="<?= $copa['poster'] ?>"
+                        alt="Poster <?= $copa['ano'] ?>"
+                        class="selecao-poster"
+                        onerror="this.style.display='none'"
+                    >
                     <div class="selecao-ano"><?= $copa['ano'] ?></div>
                     <div class="selecao-info">
                         <h3><?= $copa['pais'] ?></h3>
