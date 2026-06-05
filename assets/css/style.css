@@ -23,7 +23,6 @@ h1, h2, h3, .logo, .login-logo, .stat-num, .strip-title, .selecao-ano {
     font-family: 'Changa One', Arial, sans-serif;
 }
 
-/* ── PANEL (caixa branca reutilizável) ── */
 .panel{
     background: white;
     border-radius: 20px;
@@ -32,7 +31,6 @@ h1, h2, h3, .logo, .login-logo, .stat-num, .strip-title, .selecao-ano {
     margin-bottom: 40px;
 }
 
-/* ── HEADER ── */
 header{
     background: var(--indigo);
     color: white;
@@ -95,7 +93,6 @@ nav a:hover{ opacity:1; color: var(--lime); }
     transition: .3s;
 }
 
-/* ── FOOTER ── */
 footer{
     background: var(--indigo);
     color: rgba(255,255,255,0.75);
@@ -105,7 +102,6 @@ footer{
     border-top: 4px solid var(--blue);
 }
 
-/* ── HERO ── */
 .hero{
     min-height: 55vh;
     display: flex;
@@ -173,7 +169,6 @@ footer{
 .stat-label{ font-size:13px; color:rgba(255,255,255,0.65); text-transform:uppercase; letter-spacing:1px; }
 .stat-divider{ width:1px; height:50px; background:rgba(255,255,255,0.2); }
 
-/* ── BOTÕES ── */
 .btn{
     background: var(--red);
     color: white;
@@ -196,7 +191,6 @@ footer{
 
 .btn-outline:hover{ background: var(--lime); color: var(--indigo); }
 
-/* ── FEATURES (HOME) ── */
 .features{
     background: #f0f1f8;
     padding: 80px 50px;
@@ -277,7 +271,6 @@ footer{
 #card-selecoes  .card-link{ color: var(--green); }
 #card-dreamteam .card-link{ color: var(--red); }
 
-/* ── STRIP CAMPEÕES ── */
 .campeoes-strip{
     background: linear-gradient(90deg, var(--indigo) 0%, #1e2e8a 50%, var(--violet) 100%);
     padding: 28px 50px;
@@ -667,7 +660,6 @@ footer{
     .dt-sidebar{ max-height:400px; }
 }
 
-/* IMAGENS SELEÇÕES */
 .selecao-poster{
     width: 60px;
     height: 80px;
@@ -691,17 +683,29 @@ footer{
 
 .copa-img-poster{
     width: 100%;
-    max-width: 280px;
+    height: 350px;
     border-radius: 12px;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .copa-img-selecao{
     width: 100%;
+    height: 350px;
     border-radius: 12px;
     object-fit: cover;
 }
 
+.copa-img-poster,
+.copa-img-selecao {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    border: 2px solid #fff;
+}
+
 @media(max-width:900px){
     .copa-fotos{ grid-template-columns: 1fr; }
+
+    .copa-img-poster,
+    .copa-img-selecao {
+        height:260px;
+    }
 }
