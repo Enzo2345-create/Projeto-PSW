@@ -60,7 +60,7 @@ if(!$copa){ header('Location: selecoes.php'); exit; }
                 </div>
             </div>
 
-        </div>
+        </div> <br>
 
         <div class="copa-elenco">
 
