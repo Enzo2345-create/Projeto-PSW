@@ -708,6 +708,10 @@ footer{
     .copa-img-selecao {
         height:260px;
     }
+
+    .elenco-jogadores{
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    }
 }
 
 /* FOTOS DE JOGADORES */

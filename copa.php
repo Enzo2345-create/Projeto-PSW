@@ -76,12 +76,15 @@ $grupos = [
             <?php foreach($grupos as $titulo => $lista): ?>
                 <div class="elenco-grupo">
                     <div class="elenco-titulo"><?= $titulo ?></div>
-                    <div class="elenco-jogadores" id="elenco-<?= strtolower($titulo) ?>">
+                    <div class="elenco-jogadores">
                         <?php foreach(explode(',', $lista) as $j):
                             $nome = trim($j); ?>
-                            <div class="jogador-card" data-nome="<?= htmlspecialchars($nome) ?>">
-                                <div class="jogador-foto-wrap"></div>
-                                <span class="jogador-nome-card"><?= $nome ?></span>
+                            <div class="jogador-card fifa-card" data-nome="<?= htmlspecialchars($nome) ?>">
+                                <div class="fifa-card-foto"></div>
+                                <div class="fifa-card-info">
+                                    <span class="fifa-card-nome"><?= $nome ?></span>
+                                    <span class="fifa-card-pos"><?= $titulo ?></span>
+                                </div>
                             </div>
                         <?php endforeach; ?>
                     </div>
@@ -99,11 +102,25 @@ $grupos = [
 </main>
 
 <script>
-document.querySelectorAll('.jogador-card').forEach(card => {
+document.querySelectorAll('.fifa-card').forEach(card => {
     const nome = card.dataset.nome;
-    const wrap = card.querySelector('.jogador-foto-wrap');
-    const foto = criarFotoJogador(nome, 56);
-    wrap.appendChild(foto);
+    const fotoDiv = card.querySelector('.fifa-card-foto');
+
+    fetch(`/PROJETO PSW/controllers/buscar_foto.php?nome=${encodeURIComponent(nome)}`)
+        .then(r => r.json())
+        .then(data => {
+            if(data.foto){
+                fotoDiv.style.backgroundImage = `url('${data.foto}')`;
+                fotoDiv.classList.add('tem-foto');
+            } else {
+                fotoDiv.classList.add('sem-foto');
+                fotoDiv.innerHTML = `<span>${nome.trim().split(' ').filter(p=>p.length>1).slice(0,2).map(p=>p[0].toUpperCase()).join('')}</span>`;
+            }
+        })
+        .catch(() => {
+            fotoDiv.classList.add('sem-foto');
+            fotoDiv.innerHTML = `<span>${nome.trim().split(' ').filter(p=>p.length>1).slice(0,2).map(p=>p[0].toUpperCase()).join('')}</span>`;
+        });
 });
 </script>
 
