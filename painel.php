@@ -41,18 +41,24 @@ if(!isset($_SESSION['usuario'])) {
 
         <div class="cards">
 
-            <a href="dreamteam.php" class="card" id="card-dreamteam">
-                <h3>Time dos Sonhos</h3>
+            <a href="selecoes.php" class="card" id="card-selecoes">
+                <div class="card-badge">Histórico</div>
+                <h3>Seleções Campeãs</h3>
                 <p>
-                    Monte seu time ideal utilizando jogadores históricos.
+                    Conheça a história completa de cada seleção
+                    campeã do mundo desde 1930.
                 </p>
+                <span class="card-link">Ver seleções →</span>
             </a>
 
-            <a href="votacao.php" class="card" id="card-selecoes">
-                <h3>Votação 2026</h3>
+            <a href="dreamteam.php" class="card" id="card-dreamteam">
+                <div class="card-badge">Interativo</div>
+                <h3>Time dos Sonhos</h3>
                 <p>
-                    Vote nos melhores jogadores e seleções da Copa 2026.
+                    Monte seu time ideal utilizando jogadores
+                    históricos das Copas do Mundo.
                 </p>
+                <span class="card-link">Montar time →</span>
             </a>
 
         </div>
