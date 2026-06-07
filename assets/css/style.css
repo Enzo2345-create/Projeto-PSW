@@ -709,3 +709,82 @@ footer{
         height:260px;
     }
 }
+
+/* FOTOS DE JOGADORES */
+.jogador-foto{
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jogador-placeholder{
+    background: linear-gradient(135deg, var(--indigo), var(--blue));
+    color: var(--lime);
+    font-family: 'Changa One', Arial, sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.jogador-com-foto img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.jogador-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    width: 80px;
+    text-align: center;
+}
+
+.jogador-foto-wrap{
+    width: 56px;
+    height: 56px;
+}
+
+.jogador-nome-card{
+    font-size: 11px;
+    color: var(--indigo);
+    font-weight: bold;
+    line-height: 1.3;
+    word-break: break-word;
+}
+
+.elenco-jogadores{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+
+/* FOTO NO CAMPO */
+.pos-foto-wrap{
+    margin-bottom: 2px;
+}
+
+.pos-foto{
+    width: 40px !important;
+    height: 40px !important;
+}
+
+/* JOGADOR ITEM COM FOTO */
+.jogador-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.jogador-item-foto{
+    flex-shrink: 0;
+}
+
+.jogador-item-info{
+    flex: 1;
+    min-width: 0;
+}

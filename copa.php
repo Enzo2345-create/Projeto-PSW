@@ -6,6 +6,13 @@ foreach($copas as $c){
     if($c['ano'] == $ano){ $copa = $c; break; }
 }
 if(!$copa){ header('Location: selecoes.php'); exit; }
+
+$grupos = [
+    'Goleiros'      => $copa['goleiros'],
+    'Defensores'    => $copa['defensores'],
+    'Meio-campistas'=> $copa['meios'],
+    'Atacantes'     => $copa['atacantes'],
+];
 ?>
 
 <?php include 'includes/header.php'; ?>
@@ -60,47 +67,26 @@ if(!$copa){ header('Location: selecoes.php'); exit; }
                 </div>
             </div>
 
-        </div> <br>
+        </div>
 
-        <div class="copa-elenco">
+        <div class="copa-elenco panel">
 
             <h2>Elenco Campeão</h2>
 
-            <div class="elenco-grupo">
-                <div class="elenco-titulo">Goleiros</div>
-                <div class="elenco-jogadores">
-                    <?php foreach(explode(',', $copa['goleiros']) as $j): ?>
-                        <span class="jogador-tag"><?= trim($j) ?></span>
-                    <?php endforeach; ?>
+            <?php foreach($grupos as $titulo => $lista): ?>
+                <div class="elenco-grupo">
+                    <div class="elenco-titulo"><?= $titulo ?></div>
+                    <div class="elenco-jogadores" id="elenco-<?= strtolower($titulo) ?>">
+                        <?php foreach(explode(',', $lista) as $j):
+                            $nome = trim($j); ?>
+                            <div class="jogador-card" data-nome="<?= htmlspecialchars($nome) ?>">
+                                <div class="jogador-foto-wrap"></div>
+                                <span class="jogador-nome-card"><?= $nome ?></span>
+                            </div>
+                        <?php endforeach; ?>
+                    </div>
                 </div>
-            </div>
-
-            <div class="elenco-grupo">
-                <div class="elenco-titulo">Defensores</div>
-                <div class="elenco-jogadores">
-                    <?php foreach(explode(',', $copa['defensores']) as $j): ?>
-                        <span class="jogador-tag"><?= trim($j) ?></span>
-                    <?php endforeach; ?>
-                </div>
-            </div>
-
-            <div class="elenco-grupo">
-                <div class="elenco-titulo">Meio-campistas</div>
-                <div class="elenco-jogadores">
-                    <?php foreach(explode(',', $copa['meios']) as $j): ?>
-                        <span class="jogador-tag"><?= trim($j) ?></span>
-                    <?php endforeach; ?>
-                </div>
-            </div>
-
-            <div class="elenco-grupo">
-                <div class="elenco-titulo">Atacantes</div>
-                <div class="elenco-jogadores">
-                    <?php foreach(explode(',', $copa['atacantes']) as $j): ?>
-                        <span class="jogador-tag"><?= trim($j) ?></span>
-                    <?php endforeach; ?>
-                </div>
-            </div>
+            <?php endforeach; ?>
 
         </div>
 
@@ -111,5 +97,14 @@ if(!$copa){ header('Location: selecoes.php'); exit; }
     </section>
 
 </main>
+
+<script>
+document.querySelectorAll('.jogador-card').forEach(card => {
+    const nome = card.dataset.nome;
+    const wrap = card.querySelector('.jogador-foto-wrap');
+    const foto = criarFotoJogador(nome, 56);
+    wrap.appendChild(foto);
+});
+</script>
 
 <?php include 'includes/footer.php'; ?>

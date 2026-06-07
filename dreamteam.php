@@ -44,7 +44,6 @@ $jogadores_json = json_encode($jogadores, JSON_UNESCAPED_UNICODE);
     <section class="dreamteam-section">
 
         <div class="dt-controles">
-
             <div class="dt-formacao">
                 <label>Formação:</label>
                 <select id="formacao" onchange="mudarFormacao()">
@@ -55,14 +54,11 @@ $jogadores_json = json_encode($jogadores, JSON_UNESCAPED_UNICODE);
                     <option value="4-2-3-1">4-2-3-1</option>
                 </select>
             </div>
-
             <button class="btn btn-limpar" onclick="limparTime()">Limpar Time</button>
-
         </div>
 
         <div class="dt-wrapper">
 
-            <!-- CAMPO -->
             <div class="campo" id="campo">
                 <div class="campo-bg">
                     <div class="campo-linha meio"></div>
@@ -73,7 +69,6 @@ $jogadores_json = json_encode($jogadores, JSON_UNESCAPED_UNICODE);
                 <div class="posicoes" id="posicoes"></div>
             </div>
 
-            <!-- LISTA DE JOGADORES -->
             <div class="dt-sidebar">
 
                 <div class="dt-filtros">
@@ -105,14 +100,6 @@ $jogadores_json = json_encode($jogadores, JSON_UNESCAPED_UNICODE);
 
 <script>
 const JOGADORES = <?= $jogadores_json ?>;
-
-const FORMACOES = {
-    '4-3-3':   ['GK','LD','ZAG','ZAG','LE','MC','MC','MC','PD','CA','PE'],
-    '4-4-2':   ['GK','LD','ZAG','ZAG','LE','MD','MC','MC','ME','CA','CA'],
-    '3-5-2':   ['GK','ZAG','ZAG','ZAG','AD','MC','MC','MC','AE','CA','CA'],
-    '5-3-2':   ['GK','LD','ZAG','ZAG','ZAG','LE','MC','MC','MC','CA','CA'],
-    '4-2-3-1': ['GK','LD','ZAG','ZAG','LE','VOL','VOL','MAE','MAD','MEI','CA'],
-};
 
 const POSICOES_LAYOUT = {
     '4-3-3': [
@@ -206,12 +193,21 @@ function renderCampo(){
 
         if(time[i]){
             div.classList.add('ocupada');
+
+            // Foto no campo
+            const fotoEl = criarFotoJogador(time[i].nome, 40);
+            fotoEl.classList.add('pos-foto');
+
             div.innerHTML = `
                 <div class="pos-jogador">
+                    <div class="pos-foto-wrap"></div>
                     <span class="pos-nome">${time[i].nome.split(' ').slice(-1)[0]}</span>
                     <span class="pos-label">${pos.label}</span>
                     <button class="pos-remover" onclick="removerJogador(${i})">×</button>
                 </div>`;
+
+            div.querySelector('.pos-foto-wrap').appendChild(fotoEl);
+
         } else {
             div.innerHTML = `<span class="pos-label">${pos.label}</span>`;
             div.addEventListener('dragover', e => e.preventDefault());
@@ -223,35 +219,47 @@ function renderCampo(){
 }
 
 function filtrarJogadores(){
-    const busca   = document.getElementById('busca').value.toLowerCase();
-    const pos     = document.getElementById('filtro-pos').value;
-    const copa    = document.getElementById('filtro-copa').value;
+    const busca    = document.getElementById('busca').value.toLowerCase();
+    const pos      = document.getElementById('filtro-pos').value;
+    const copa     = document.getElementById('filtro-copa').value;
     const ocupados = time.filter(Boolean).map(j => j.nome);
 
-    const lista = JOGADORES.filter(j => {
-        return (!busca || j.nome.toLowerCase().includes(busca))
-            && (!pos  || j.posicao === pos)
-            && (!copa || j.copa === copa)
-            && !ocupados.includes(j.nome);
-    });
+    const lista = JOGADORES.filter(j =>
+        (!busca || j.nome.toLowerCase().includes(busca))
+        && (!pos  || j.posicao === pos)
+        && (!copa || j.copa === copa)
+        && !ocupados.includes(j.nome)
+    );
 
     const container = document.getElementById('lista-jogadores');
     container.innerHTML = '';
+
+    if(lista.length === 0){
+        container.innerHTML = '<p class="dt-vazio">Nenhum jogador encontrado.</p>';
+        return;
+    }
 
     lista.forEach(j => {
         const div = document.createElement('div');
         div.className = 'jogador-item';
         div.draggable = true;
-        div.innerHTML = `
+
+        // Foto na lista
+        const fotoWrap = document.createElement('div');
+        fotoWrap.className = 'jogador-item-foto';
+        fotoWrap.appendChild(criarFotoJogador(j.nome, 44));
+
+        const info = document.createElement('div');
+        info.className = 'jogador-item-info';
+        info.innerHTML = `
             <div class="jogador-nome">${j.nome}</div>
             <div class="jogador-meta">${j.posicao} — ${j.copa}</div>`;
+
+        div.appendChild(fotoWrap);
+        div.appendChild(info);
         div.addEventListener('dragstart', () => { dragJogador = j; });
         container.appendChild(div);
     });
-
-    if(lista.length === 0){
-        container.innerHTML = '<p class="dt-vazio">Nenhum jogador encontrado.</p>';
-    }
 }
 
 function droparJogador(index){
