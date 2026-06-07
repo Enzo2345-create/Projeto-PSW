@@ -67,7 +67,7 @@ $grupos = [
                 </div>
             </div>
 
-        </div>
+        </div> <br>
 
         <div class="copa-elenco panel">
 
@@ -110,16 +110,18 @@ document.querySelectorAll('.fifa-card').forEach(card => {
         .then(r => r.json())
         .then(data => {
             if(data.foto){
-                fotoDiv.style.backgroundImage = `url('${data.foto}')`;
+                fotoDiv.innerHTML = `<img src="${data.foto}" alt="${nome}">`;
                 fotoDiv.classList.add('tem-foto');
             } else {
                 fotoDiv.classList.add('sem-foto');
-                fotoDiv.innerHTML = `<span>${nome.trim().split(' ').filter(p=>p.length>1).slice(0,2).map(p=>p[0].toUpperCase()).join('')}</span>`;
+                const ini = nome.trim().split(' ').filter(p=>p.length>1).slice(0,2).map(p=>p[0].toUpperCase()).join('');
+                fotoDiv.innerHTML = `<span>${ini}</span>`;
             }
         })
         .catch(() => {
             fotoDiv.classList.add('sem-foto');
-            fotoDiv.innerHTML = `<span>${nome.trim().split(' ').filter(p=>p.length>1).slice(0,2).map(p=>p[0].toUpperCase()).join('')}</span>`;
+            const ini = nome.trim().split(' ').filter(p=>p.length>1).slice(0,2).map(p=>p[0].toUpperCase()).join('');
+            fotoDiv.innerHTML = `<span>${ini}</span>`;
         });
 });
 </script>
