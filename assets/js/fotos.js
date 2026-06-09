@@ -6,14 +6,15 @@ function iniciais(nome){
         .join('');
 }
 
-function criarFotoJogador(nome, tamanho = 60){
+function criarFotoJogador(nome, nomeCompleto = null, tamanho = 60){
+    const nomeBusca = nomeCompleto || nome; // usa nome_completo para buscar, nome para exibir
     const wrapper = document.createElement('div');
     wrapper.className = 'jogador-foto jogador-placeholder';
     wrapper.style.width  = tamanho + 'px';
     wrapper.style.height = tamanho + 'px';
     wrapper.innerHTML = `<span>${iniciais(nome)}</span>`;
 
-    fetch(`/PROJETO PSW/controllers/buscar_foto.php?nome=${encodeURIComponent(nome)}`)
+    fetch(`/PROJETO PSW/controllers/buscar_foto.php?nome=${encodeURIComponent(nomeBusca)}`)
         .then(r => r.json())
         .then(data => {
             if(data.foto){
