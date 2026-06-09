@@ -11,13 +11,11 @@ if(!$nome){
 
 $cache_arquivo = '../data/fotos_cache.json';
 
-// Carrega cache existente
 $cache = [];
 if(file_exists($cache_arquivo)){
     $cache = json_decode(file_get_contents($cache_arquivo), true) ?? [];
 }
 
-// Se já está no cache retorna direto
 if(array_key_exists($nome, $cache)){
     echo json_encode(['foto' => $cache[$nome]]);
     exit;
@@ -39,28 +37,60 @@ function buscarCurl($url){
     return $response;
 }
 
-$foto = null;
+// Limpa o nome removendo informações extras (posição, país, ano)
+// Ex: "Ronaldo Nazário Fenômeno centroavante Brasil 2002" → "Ronaldo Nazário"
+function limparNomeParaWikipedia($nome){
+    $remover = [
+        // posições
+        'goleiro','zagueiro','lateral','volante','meia','atacante','centroavante',
+        'ponta','libero','marcador','meia-atacante','capitão','camisa',
+        // países
+        'Brasil','Argentina','Alemanha','Italia','Itália','França','Inglaterra',
+        'Espanha','Uruguai','Holanda','Hungria','Polônia','Croácia','Bulgária',
+        'Colômbia','Portugal','Tchecoslováquia','Suécia','Suíça',
+        // palavras extras
+        'goleiro','técnico','artilheiro','final','direito','esquerdo','jovem',
+        // anos (remove qualquer número de 4 dígitos)
+    ];
 
-// 1. Wikipedia EN
-$query = str_replace(' ', '_', $nome);
-$response = buscarCurl("https://en.wikipedia.org/api/rest_v1/page/summary/{$query}");
+    // Remove anos (4 dígitos)
+    $nome = preg_replace('/\b\d{4}\b/', '', $nome);
+
+    // Remove palavras da lista (case-insensitive)
+    foreach($remover as $palavra){
+        $nome = preg_replace('/\b' . preg_quote($palavra, '/') . '\b/iu', '', $nome);
+    }
+
+    // Remove espaços extras
+    $nome = trim(preg_replace('/\s+/', ' ', $nome));
+
+    return $nome;
+}
+
+$foto = null;
+$nomeWiki = limparNomeParaWikipedia($nome);
+$queryWiki = str_replace(' ', '_', $nomeWiki);
+$queryOriginal = str_replace(' ', '_', $nome);
+
+// 1. Wikipedia EN (nome limpo)
+$response = buscarCurl("https://en.wikipedia.org/api/rest_v1/page/summary/{$queryWiki}");
 if($response){
     $data = json_decode($response, true);
     $foto = $data['thumbnail']['source'] ?? null;
 }
 
-// 2. TheSportsDB
+// 2. TheSportsDB (nome original com contexto)
 if(!$foto){
-    $response2 = buscarCurl("https://www.thesportsdb.com/api/v1/json/3/searchplayers.php?p=" . urlencode($nome));
+    $response2 = buscarCurl("https://www.thesportsdb.com/api/v1/json/3/searchplayers.php?p=" . urlencode($nomeWiki));
     if($response2){
         $data2 = json_decode($response2, true);
         $foto = $data2['player'][0]['strThumb'] ?? null;
     }
 }
 
-// 3. Wikidata
+// 3. Wikidata (nome limpo)
 if(!$foto){
-    $sparql = urlencode("SELECT ?image WHERE { ?person wikibase:directClaim wdt:P18 . ?person rdfs:label \"{$nome}\"@en . ?person wdt:P18 ?image . } LIMIT 1");
+    $sparql = urlencode("SELECT ?image WHERE { ?person wikibase:directClaim wdt:P18 . ?person rdfs:label \"{$nomeWiki}\"@en . ?person wdt:P18 ?image . } LIMIT 1");
     $response3 = buscarCurl("https://query.wikidata.org/sparql?query={$sparql}&format=json");
     if($response3){
         $data3 = json_decode($response3, true);
@@ -68,16 +98,16 @@ if(!$foto){
     }
 }
 
-// 4. Wikipedia PT
+// 4. Wikipedia PT (nome limpo)
 if(!$foto){
-    $response4 = buscarCurl("https://pt.wikipedia.org/api/rest_v1/page/summary/{$query}");
+    $response4 = buscarCurl("https://pt.wikipedia.org/api/rest_v1/page/summary/{$queryWiki}");
     if($response4){
         $data4 = json_decode($response4, true);
         $foto = $data4['thumbnail']['source'] ?? null;
     }
 }
 
-// Salva no cache (mesmo se null, para não buscar de novo)
+// Salva no cache com o nome original como chave
 $cache[$nome] = $foto;
 file_put_contents(
     $cache_arquivo,

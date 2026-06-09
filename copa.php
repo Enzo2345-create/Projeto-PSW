@@ -59,17 +59,17 @@ $grupos = [
                 </div>
                 <div class="resumo-item">
                     <span class="resumo-label">Artilheiro</span>
-                    <span class="resumo-valor"><?= $copa['artilheiro'] ?></span>
+                    <span class="resumo-valor"><?= $copa['artilheiro']['nome'] ?></span>
                 </div>
                 <div class="resumo-item">
                     <span class="resumo-label">Técnico</span>
-                    <span class="resumo-valor"><?= $copa['tecnico'] ?></span>
+                    <span class="resumo-valor"><?= $copa['tecnico']['nome'] ?></span>
                 </div>
             </div>
 
         </div> <br>
 
-        <div class="copa-elenco panel">
+       <div class="copa-elenco panel">
 
             <h2>Elenco Campeão</h2>
 
@@ -77,12 +77,13 @@ $grupos = [
                 <div class="elenco-grupo">
                     <div class="elenco-titulo"><?= $titulo ?></div>
                     <div class="elenco-jogadores">
-                        <?php foreach(explode(',', $lista) as $j):
-                            $nome = trim($j); ?>
-                            <div class="jogador-card fifa-card" data-nome="<?= htmlspecialchars($nome) ?>">
+                        <?php foreach($lista as $j): ?>
+                            <div class="jogador-card fifa-card" 
+                                data-nome="<?= htmlspecialchars($j['nome']) ?>"
+                                data-nome-completo="<?= htmlspecialchars($j['nome_completo']) ?>">
                                 <div class="fifa-card-foto"></div>
                                 <div class="fifa-card-info">
-                                    <span class="fifa-card-nome"><?= $nome ?></span>
+                                    <span class="fifa-card-nome"><?= $j['nome'] ?></span>
                                     <span class="fifa-card-pos"><?= $titulo ?></span>
                                 </div>
                             </div>
@@ -90,7 +91,6 @@ $grupos = [
                     </div>
                 </div>
             <?php endforeach; ?>
-
         </div>
 
         <div class="copa-nav">
@@ -104,9 +104,10 @@ $grupos = [
 <script>
 document.querySelectorAll('.fifa-card').forEach(card => {
     const nome = card.dataset.nome;
+    const nomeCompleto = card.dataset.nomeCompleto || nome;
     const fotoDiv = card.querySelector('.fifa-card-foto');
 
-    fetch(`/PROJETO PSW/controllers/buscar_foto.php?nome=${encodeURIComponent(nome)}`)
+    fetch(`/PROJETO PSW/controllers/buscar_foto.php?nome=${encodeURIComponent(nomeCompleto)}`)
         .then(r => r.json())
         .then(data => {
             if(data.foto){
