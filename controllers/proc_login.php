@@ -1,16 +1,25 @@
-<?php 
-    session_start();
-    function login($usuario, $senha) {
-        if(isset($usuario) && isset($senha)) {
-            if($usuario == 'welison' && $senha == '1234') {
-                $_SESSION['usuario'] = $usuario;
-                $_SESSION['logado'] = true;
-                header('Location: ../painel.php');
-                exit;
-            }else{
-            header('Location: ../login.php');
-            exit;}
+<?php
+
+session_start();
+
+$arquivo = '../data/users.json';
+
+$usuario = $_POST['usuario'];
+$senha   = $_POST['senha'];
+
+if(file_exists($arquivo)){
+    $conteudo = file_get_contents($arquivo);
+    $usuarios = json_decode($conteudo, true) ?? [];
+
+    foreach($usuarios as $u){
+        if($u['usuario'] === $usuario && password_verify($senha, $u['senha'])){
+            $_SESSION['usuario'] = $usuario;
+            $_SESSION['logado']  = true;
+            header('Location: ../painel.php');
+            exit;
         }
     }
-    login($_POST['usuário'], $_POST['senha']);
-?> 
+}
+
+header('Location: ../login.php?erro=1');
+exit;
