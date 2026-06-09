@@ -469,7 +469,7 @@ footer{
 .campo{
     position: relative;
     width: 100%;
-    padding-top: 130%;
+    padding-top: 70%;
     background: linear-gradient(180deg, #1a6b2f 0%, #1e7a35 50%, #1a6b2f 100%);
     border-radius: 16px;
     overflow: hidden;
