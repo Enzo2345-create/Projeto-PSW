@@ -57,40 +57,8 @@ nav a{
     transition: .3s;
 }
 
-nav a:hover{ opacity:1; color: var(--lime); }
-
-.header-perfil{ display: flex; align-items: center; }
-
-.avatar{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background: linear-gradient(135deg, var(--blue), var(--violet));
-    color: var(--lime);
-    font-size: 14px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    border: 2px solid var(--lime);
-    transition: .3s;
-    letter-spacing: 1px;
-}
-
-.avatar:hover, .btn-login:hover{
-    background: var(--lime);
-    color: var(--indigo);
-}
-
-.btn-login{
-    color: var(--lime);
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 14px;
-    border: 2px solid var(--lime);
-    padding: 6px 18px;
-    border-radius: 20px;
-    transition: .3s;
+nav a:hover{
+    color:#26D9D0;
 }
 
 footer{
