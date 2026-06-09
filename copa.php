@@ -6,6 +6,13 @@ foreach($copas as $c){
     if($c['ano'] == $ano){ $copa = $c; break; }
 }
 if(!$copa){ header('Location: selecoes.php'); exit; }
+
+$grupos = [
+    'Goleiros'      => $copa['goleiros'],
+    'Defensores'    => $copa['defensores'],
+    'Meio-campistas'=> $copa['meios'],
+    'Atacantes'     => $copa['atacantes'],
+];
 ?>
 
 <?php include 'includes/header.php'; ?>
@@ -62,45 +69,27 @@ if(!$copa){ header('Location: selecoes.php'); exit; }
 
         </div> <br>
 
-        <div class="copa-elenco">
+        <div class="copa-elenco panel">
 
-            <h2>Elenco Campeão</h2> 
+            <h2>Elenco Campeão</h2>
 
-            <div class="elenco-grupo">
-                <div class="elenco-titulo">Goleiros</div>
-                <div class="elenco-jogadores">
-                    <?php foreach(explode(',', $copa['goleiros']) as $j): ?>
-                        <span class="jogador-tag"><?= trim($j) ?></span>
-                    <?php endforeach; ?>
+            <?php foreach($grupos as $titulo => $lista): ?>
+                <div class="elenco-grupo">
+                    <div class="elenco-titulo"><?= $titulo ?></div>
+                    <div class="elenco-jogadores">
+                        <?php foreach(explode(',', $lista) as $j):
+                            $nome = trim($j); ?>
+                            <div class="jogador-card fifa-card" data-nome="<?= htmlspecialchars($nome) ?>">
+                                <div class="fifa-card-foto"></div>
+                                <div class="fifa-card-info">
+                                    <span class="fifa-card-nome"><?= $nome ?></span>
+                                    <span class="fifa-card-pos"><?= $titulo ?></span>
+                                </div>
+                            </div>
+                        <?php endforeach; ?>
+                    </div>
                 </div>
-            </div>
-
-            <div class="elenco-grupo">
-                <div class="elenco-titulo">Defensores</div>
-                <div class="elenco-jogadores">
-                    <?php foreach(explode(',', $copa['defensores']) as $j): ?>
-                        <span class="jogador-tag"><?= trim($j) ?></span>
-                    <?php endforeach; ?>
-                </div>
-            </div>
-
-            <div class="elenco-grupo">
-                <div class="elenco-titulo">Meio-campistas</div>
-                <div class="elenco-jogadores">
-                    <?php foreach(explode(',', $copa['meios']) as $j): ?>
-                        <span class="jogador-tag"><?= trim($j) ?></span>
-                    <?php endforeach; ?>
-                </div>
-            </div>
-
-            <div class="elenco-grupo">
-                <div class="elenco-titulo">Atacantes</div>
-                <div class="elenco-jogadores">
-                    <?php foreach(explode(',', $copa['atacantes']) as $j): ?>
-                        <span class="jogador-tag"><?= trim($j) ?></span>
-                    <?php endforeach; ?>
-                </div>
-            </div>
+            <?php endforeach; ?>
 
         </div>
 
@@ -111,5 +100,30 @@ if(!$copa){ header('Location: selecoes.php'); exit; }
     </section>
 
 </main>
+
+<script>
+document.querySelectorAll('.fifa-card').forEach(card => {
+    const nome = card.dataset.nome;
+    const fotoDiv = card.querySelector('.fifa-card-foto');
+
+    fetch(`/PROJETO PSW/controllers/buscar_foto.php?nome=${encodeURIComponent(nome)}`)
+        .then(r => r.json())
+        .then(data => {
+            if(data.foto){
+                fotoDiv.innerHTML = `<img src="${data.foto}" alt="${nome}">`;
+                fotoDiv.classList.add('tem-foto');
+            } else {
+                fotoDiv.classList.add('sem-foto');
+                const ini = nome.trim().split(' ').filter(p=>p.length>1).slice(0,2).map(p=>p[0].toUpperCase()).join('');
+                fotoDiv.innerHTML = `<span>${ini}</span>`;
+            }
+        })
+        .catch(() => {
+            fotoDiv.classList.add('sem-foto');
+            const ini = nome.trim().split(' ').filter(p=>p.length>1).slice(0,2).map(p=>p[0].toUpperCase()).join('');
+            fotoDiv.innerHTML = `<span>${ini}</span>`;
+        });
+});
+</script>
 
 <?php include 'includes/footer.php'; ?>
