@@ -1,757 +1,2850 @@
 [
-  {
-    "ano": 1930,
-    "poster": "assets/imagens/posters/copa 1930.jpeg",
-    "foto_selecao": "assets/imagens/selecoes/uruguai 1930.jpeg",
-    "pais": "Uruguai",
-    "apelido": "La Celeste Olímpica",
-    "sede": "Uruguai",
-    "vice": "Argentina",
-    "placar": "4x2",
-    "artilheiro": { "nome": "Guillermo Stábile", "nome_completo": "Guillermo Stábile", "pais": "Argentina", "ano_copa": 1930 },
-    "tecnico": { "nome": "Alberto Suppici", "nome_completo": "Alberto Suppici", "pais": "Uruguai", "ano_copa": 1930 },
-    "goleiros": [
-      { "nome": "Enrique Ballesteros", "nome_completo": "Enrique Ballesteros", "pais": "Uruguai", "ano_copa": 1930 },
-      { "nome": "Mazali", "nome_completo": "Andrés Mazali", "pais": "Uruguai", "ano_copa": 1930 }
-    ],
-    "defensores": [
-      { "nome": "Ernesto Mascheroni", "nome_completo": "Ernesto Mascheroni", "pais": "Uruguai", "ano_copa": 1930 },
-      { "nome": "José Nasazzi", "nome_completo": "José Nasazzi", "pais": "Uruguai", "ano_copa": 1930 }
-    ],
-    "meios": [
-      { "nome": "José Leandro Andrade", "nome_completo": "José Leandro Andrade", "pais": "Uruguai", "ano_copa": 1930 },
-      { "nome": "Lorenzo Fernández", "nome_completo": "Lorenzo Fernández", "pais": "Uruguai", "ano_copa": 1930 },
-      { "nome": "Álvaro Gestido", "nome_completo": "Álvaro Gestido", "pais": "Uruguai", "ano_copa": 1930 },
-      { "nome": "Héctor Scarone", "nome_completo": "Héctor Scarone", "pais": "Uruguai", "ano_copa": 1930 },
-      { "nome": "Carlos Riolfo", "nome_completo": "Carlos Riolfo", "pais": "Uruguai", "ano_copa": 1930 }
-    ],
-    "atacantes": [
-      { "nome": "Pablo Dorado", "nome_completo": "Pablo Dorado", "pais": "Uruguai", "ano_copa": 1930 },
-      { "nome": "Pedro Cea", "nome_completo": "Pedro Cea", "pais": "Uruguai", "ano_copa": 1930 },
-      { "nome": "Santos Iriarte", "nome_completo": "Santos Iriarte", "pais": "Uruguai", "ano_copa": 1930 },
-      { "nome": "Santos Urdinarán", "nome_completo": "Santos Urdinarán", "pais": "Uruguai", "ano_copa": 1930 },
-      { "nome": "Héctor Castro", "nome_completo": "Héctor Castro", "pais": "Uruguai", "ano_copa": 1930 }
-    ]
-  },
-  {
-    "ano": 1934,
-    "poster": "assets/imagens/posters/copa 1934.jpeg",
-    "foto_selecao": "assets/imagens/selecoes/itália 1934.jpeg",
-    "pais": "Itália",
-    "apelido": "Azzurra de Pozzo",
-    "sede": "Itália",
-    "vice": "Tchecoslováquia",
-    "placar": "2x1",
-    "artilheiro": { "nome": "Oldřich Nejedlý", "nome_completo": "Oldřich Nejedlý", "pais": "Tchecoslováquia", "ano_copa": 1934 },
-    "tecnico": { "nome": "Vittorio Pozzo", "nome_completo": "Vittorio Pozzo", "pais": "Itália", "ano_copa": 1934 },
-    "goleiros": [
-      { "nome": "Gianpiero Combi", "nome_completo": "Gianpiero Combi", "pais": "Itália", "ano_copa": 1934 }
-    ],
-    "defensores": [
-      { "nome": "Eraldo Monzeglio", "nome_completo": "Eraldo Monzeglio", "pais": "Itália", "ano_copa": 1934 },
-      { "nome": "Luigi Allemandi", "nome_completo": "Luigi Allemandi", "pais": "Itália", "ano_copa": 1934 },
-      { "nome": "Attilio Ferraris", "nome_completo": "Attilio Ferraris", "pais": "Itália", "ano_copa": 1934 },
-      { "nome": "Luigi Bertolini", "nome_completo": "Luigi Bertolini", "pais": "Itália", "ano_copa": 1934 }
-    ],
-    "meios": [
-      { "nome": "Giovanni Ferrari", "nome_completo": "Giovanni Ferrari", "pais": "Itália", "ano_copa": 1934 },
-      { "nome": "Raimundo Orsi", "nome_completo": "Raimundo Orsi", "pais": "Itália", "ano_copa": 1934 },
-      { "nome": "Luis Monti", "nome_completo": "Luis Monti", "pais": "Itália", "ano_copa": 1934 }
-    ],
-    "atacantes": [
-      { "nome": "Angelo Schiavio", "nome_completo": "Angelo Schiavio", "pais": "Itália", "ano_copa": 1934 },
-      { "nome": "Giuseppe Meazza", "nome_completo": "Giuseppe Meazza", "pais": "Itália", "ano_copa": 1934 },
-      { "nome": "Enrique Guaita", "nome_completo": "Enrique Guaita", "pais": "Itália", "ano_copa": 1934 }
-    ]
-  },
-  {
-    "ano": 1938,
-    "poster": "assets/imagens/posters/copa 1938.jpeg",
-    "foto_selecao": "assets/imagens/selecoes/italia 1938.jpeg",
-    "pais": "Itália",
-    "apelido": "Azzurra Bicampeã",
-    "sede": "França",
-    "vice": "Hungria",
-    "placar": "4x2",
-    "artilheiro": { "nome": "Leônidas da Silva", "nome_completo": "Leônidas da Silva", "pais": "Brasil", "ano_copa": 1938 },
-    "tecnico": { "nome": "Vittorio Pozzo", "nome_completo": "Vittorio Pozzo", "pais": "Itália", "ano_copa": 1938 },
-    "goleiros": [
-      { "nome": "Aldo Olivieri", "nome_completo": "Aldo Olivieri", "pais": "Itália", "ano_copa": 1938 },
-      { "nome": "Guido Masetti", "nome_completo": "Guido Masetti", "pais": "Itália", "ano_copa": 1938 },
-      { "nome": "Carlo Ceresoli", "nome_completo": "Carlo Ceresoli", "pais": "Itália", "ano_copa": 1938 }
-    ],
-    "defensores": [
-      { "nome": "Alfredo Foni", "nome_completo": "Alfredo Foni", "pais": "Itália", "ano_copa": 1938 },
-      { "nome": "Pietro Rava", "nome_completo": "Pietro Rava", "pais": "Itália", "ano_copa": 1938 },
-      { "nome": "Eraldo Monzeglio", "nome_completo": "Eraldo Monzeglio", "pais": "Itália", "ano_copa": 1938 }
-    ],
-    "meios": [
-      { "nome": "Miguel Andreolo", "nome_completo": "Miguel Andreolo", "pais": "Itália", "ano_copa": 1938 },
-      { "nome": "Ugo Locatelli", "nome_completo": "Ugo Locatelli", "pais": "Itália", "ano_copa": 1938 },
-      { "nome": "Mario Genta", "nome_completo": "Mario Genta", "pais": "Itália", "ano_copa": 1938 },
-      { "nome": "Pietro Serantoni", "nome_completo": "Pietro Serantoni", "pais": "Itália", "ano_copa": 1938 },
-      { "nome": "Mario Perazzolo", "nome_completo": "Mario Perazzolo", "pais": "Itália", "ano_copa": 1938 }
-    ],
-    "atacantes": [
-      { "nome": "Amedeo Biavati", "nome_completo": "Amedeo Biavati", "pais": "Itália", "ano_copa": 1938 },
-      { "nome": "Silvio Piola", "nome_completo": "Silvio Piola", "pais": "Itália", "ano_copa": 1938 },
-      { "nome": "Giuseppe Meazza", "nome_completo": "Giuseppe Meazza", "pais": "Itália", "ano_copa": 1938 },
-      { "nome": "Gino Colaussi", "nome_completo": "Gino Colaussi", "pais": "Itália", "ano_copa": 1938 },
-      { "nome": "Giovanni Ferrari", "nome_completo": "Giovanni Ferrari", "pais": "Itália", "ano_copa": 1938 }
-    ]
-  },
-  {
-    "ano": 1950,
-    "poster": "assets/imagens/posters/copa 1950.jpg",
-    "foto_selecao": "assets/imagens/selecoes/uruguai 1950.jpeg",
-    "pais": "Uruguai",
-    "apelido": "Os Heróis do Maracanaço",
-    "sede": "Brasil",
-    "vice": "Brasil",
-    "placar": "2x1",
-    "artilheiro": { "nome": "Ademir de Menezes", "nome_completo": "Ademir de Menezes", "pais": "Brasil", "ano_copa": 1950 },
-    "tecnico": { "nome": "Juan López", "nome_completo": "Juan López", "pais": "Uruguai", "ano_copa": 1950 },
-    "goleiros": [
-      { "nome": "Roque Máspoli", "nome_completo": "Roque Máspoli", "pais": "Uruguai", "ano_copa": 1950 },
-      { "nome": "Aníbal Paz", "nome_completo": "Aníbal Paz", "pais": "Uruguai", "ano_copa": 1950 }
-    ],
-    "defensores": [
-      { "nome": "Matías González", "nome_completo": "Matías González", "pais": "Uruguai", "ano_copa": 1950 },
-      { "nome": "Eusebio Tejera", "nome_completo": "Eusebio Tejera", "pais": "Uruguai", "ano_copa": 1950 },
-      { "nome": "Juan Carlos González", "nome_completo": "Juan Carlos González", "pais": "Uruguai", "ano_copa": 1950 },
-      { "nome": "Víctor Rodríguez Andrade", "nome_completo": "Víctor Rodríguez Andrade", "pais": "Uruguai", "ano_copa": 1950 }
-    ],
-    "meios": [
-      { "nome": "Obdulio Varela", "nome_completo": "Obdulio Varela", "pais": "Uruguai", "ano_copa": 1950 },
-      { "nome": "Schubert Gambetta", "nome_completo": "Schubert Gambetta", "pais": "Uruguai", "ano_copa": 1950 },
-      { "nome": "William Martínez", "nome_completo": "William Martínez", "pais": "Uruguai", "ano_copa": 1950 },
-      { "nome": "Rodolfo Pini", "nome_completo": "Rodolfo Pini", "pais": "Uruguai", "ano_copa": 1950 },
-      { "nome": "Julio César Britos", "nome_completo": "Julio César Britos", "pais": "Uruguai", "ano_copa": 1950 },
-      { "nome": "Washington Ortuño", "nome_completo": "Washington Ortuño", "pais": "Uruguai", "ano_copa": 1950 }
-    ],
-    "atacantes": [
-      { "nome": "Alcides Ghiggia", "nome_completo": "Alcides Ghiggia", "pais": "Uruguai", "ano_copa": 1950 },
-      { "nome": "Juan Alberto Schiaffino", "nome_completo": "Juan Alberto Schiaffino", "pais": "Uruguai", "ano_copa": 1950 },
-      { "nome": "Óscar Míguez", "nome_completo": "Óscar Míguez", "pais": "Uruguai", "ano_copa": 1950 },
-      { "nome": "Julio Pérez", "nome_completo": "Julio Pérez", "pais": "Uruguai", "ano_copa": 1950 },
-      { "nome": "Rubén Morán", "nome_completo": "Rubén Morán", "pais": "Uruguai", "ano_copa": 1950 }
-    ]
-  },
-  {
-    "ano": 1954,
-    "poster": "assets/imagens/posters/copa 1954.jpg",
-    "foto_selecao": "assets/imagens/selecoes/alemanha 1954.jpeg",
-    "pais": "Alemanha Ocidental",
-    "apelido": "Heróis de Berna",
-    "sede": "Suíça",
-    "vice": "Hungria",
-    "placar": "3x2",
-    "artilheiro": { "nome": "Sándor Kocsis", "nome_completo": "Sándor Kocsis", "pais": "Hungria", "ano_copa": 1954 },
-    "tecnico": { "nome": "Sepp Herberger", "nome_completo": "Sepp Herberger", "pais": "Alemanha Ocidental", "ano_copa": 1954 },
-    "goleiros": [
-      { "nome": "Toni Turek", "nome_completo": "Toni Turek", "pais": "Alemanha Ocidental", "ano_copa": 1954 },
-      { "nome": "Heinz Kubsch", "nome_completo": "Heinz Kubsch", "pais": "Alemanha Ocidental", "ano_copa": 1954 },
-      { "nome": "Heinrich Kwiatkowski", "nome_completo": "Heinrich Kwiatkowski", "pais": "Alemanha Ocidental", "ano_copa": 1954 }
-    ],
-    "defensores": [
-      { "nome": "Werner Kohlmeyer", "nome_completo": "Werner Kohlmeyer", "pais": "Alemanha Ocidental", "ano_copa": 1954 },
-      { "nome": "Josef Posipal", "nome_completo": "Josef Posipal", "pais": "Alemanha Ocidental", "ano_copa": 1954 },
-      { "nome": "Karl Mai", "nome_completo": "Karl Mai", "pais": "Alemanha Ocidental", "ano_copa": 1954 },
-      { "nome": "Werner Liebrich", "nome_completo": "Werner Liebrich", "pais": "Alemanha Ocidental", "ano_copa": 1954 },
-      { "nome": "Hans Bauer", "nome_completo": "Hans Bauer", "pais": "Alemanha Ocidental", "ano_copa": 1954 }
-    ],
-    "meios": [
-      { "nome": "Horst Eckel", "nome_completo": "Horst Eckel", "pais": "Alemanha Ocidental", "ano_copa": 1954 },
-      { "nome": "Fritz Walter", "nome_completo": "Fritz Walter", "pais": "Alemanha Ocidental", "ano_copa": 1954 },
-      { "nome": "Ottmar Walter", "nome_completo": "Ottmar Walter", "pais": "Alemanha Ocidental", "ano_copa": 1954 },
-      { "nome": "Alfred Pfaff", "nome_completo": "Alfred Pfaff", "pais": "Alemanha Ocidental", "ano_copa": 1954 },
-      { "nome": "Bernhard Klodt", "nome_completo": "Bernhard Klodt", "pais": "Alemanha Ocidental", "ano_copa": 1954 }
-    ],
-    "atacantes": [
-      { "nome": "Helmut Rahn", "nome_completo": "Helmut Rahn", "pais": "Alemanha Ocidental", "ano_copa": 1954 },
-      { "nome": "Max Morlock", "nome_completo": "Max Morlock", "pais": "Alemanha Ocidental", "ano_copa": 1954 },
-      { "nome": "Hans Schäfer", "nome_completo": "Hans Schäfer", "pais": "Alemanha Ocidental", "ano_copa": 1954 },
-      { "nome": "Richard Herrmann", "nome_completo": "Richard Herrmann", "pais": "Alemanha Ocidental", "ano_copa": 1954 }
-    ]
-  },
-  {
-    "ano": 1958,
-    "poster": "assets/imagens/posters/copa 1958.jpg",
-    "foto_selecao": "assets/imagens/selecoes/brasil 1958.jpeg",
-    "pais": "Brasil",
-    "apelido": "Escrete de Ouro",
-    "sede": "Suécia",
-    "vice": "Suécia",
-    "placar": "5x2",
-    "artilheiro": { "nome": "Just Fontaine", "nome_completo": "Just Fontaine", "pais": "França", "ano_copa": 1958 },
-    "tecnico": { "nome": "Vicente Feola", "nome_completo": "Vicente Feola", "pais": "Brasil", "ano_copa": 1958 },
-    "goleiros": [
-      { "nome": "Gilmar", "nome_completo": "Gilmar dos Santos Neves", "pais": "Brasil", "ano_copa": 1958 },
-      { "nome": "Castilho", "nome_completo": "Carlos José Castilho", "pais": "Brasil", "ano_copa": 1958 }
-    ],
-    "defensores": [
-      { "nome": "Bellini", "nome_completo": "Hílderaldo Luís Bellini", "pais": "Brasil", "ano_copa": 1958 },
-      { "nome": "Nilton Santos", "nome_completo": "Nilton Santos", "pais": "Brasil", "ano_copa": 1958 },
-      { "nome": "Djalma Santos", "nome_completo": "Djalma Santos", "pais": "Brasil", "ano_copa": 1958 },
-      { "nome": "Zózimo", "nome_completo": "Zózimo Alves Calazans", "pais": "Brasil", "ano_copa": 1958 }
-    ],
-    "meios": [
-      { "nome": "Didi", "nome_completo": "Valdir Pereira Didi", "pais": "Brasil", "ano_copa": 1958 },
-      { "nome": "Zito", "nome_completo": "José Ely de Miranda Zito", "pais": "Brasil", "ano_copa": 1958 },
-      { "nome": "Dino Sani", "nome_completo": "Dino Sani", "pais": "Brasil", "ano_copa": 1958 }
-    ],
-    "atacantes": [
-      { "nome": "Pelé", "nome_completo": "Edson Arantes do Nascimento Pelé", "pais": "Brasil", "ano_copa": 1958 },
-      { "nome": "Garrincha", "nome_completo": "Manuel Francisco dos Santos Garrincha", "pais": "Brasil", "ano_copa": 1958 },
-      { "nome": "Zagallo", "nome_completo": "Mário Jorge Lobo Zagallo", "pais": "Brasil", "ano_copa": 1958 },
-      { "nome": "Vavá", "nome_completo": "Edvaldo Izídio Neto Vavá", "pais": "Brasil", "ano_copa": 1958 },
-      { "nome": "José Altafini", "nome_completo": "José João Altafini", "pais": "Brasil", "ano_copa": 1958 }
-    ]
-  },
-  {
-    "ano": 1962,
-    "poster": "assets/imagens/posters/copa 1962.jpg",
-    "foto_selecao": "assets/imagens/selecoes/brasil 1962.jpeg",
-    "pais": "Brasil",
-    "apelido": "Bicampeã do Mundo",
-    "sede": "Chile",
-    "vice": "Tchecoslováquia",
-    "placar": "3x1",
-    "artilheiro": { "nome": "Flórián Albert", "nome_completo": "Flórián Albert", "pais": "Hungria", "ano_copa": 1962 },
-    "tecnico": { "nome": "Aymoré Moreira", "nome_completo": "Aymoré Moreira", "pais": "Brasil", "ano_copa": 1962 },
-    "goleiros": [
-      { "nome": "Gilmar", "nome_completo": "Gilmar dos Santos Neves", "pais": "Brasil", "ano_copa": 1962 },
-      { "nome": "Manga", "nome_completo": "Ildásio Dias Costa Manga", "pais": "Brasil", "ano_copa": 1962 }
-    ],
-    "defensores": [
-      { "nome": "Mauro Ramos", "nome_completo": "Mauro Ramos de Oliveira", "pais": "Brasil", "ano_copa": 1962 },
-      { "nome": "Djalma Santos", "nome_completo": "Djalma Santos", "pais": "Brasil", "ano_copa": 1962 },
-      { "nome": "Nilton Santos", "nome_completo": "Nilton Santos", "pais": "Brasil", "ano_copa": 1962 },
-      { "nome": "Zózimo", "nome_completo": "Zózimo Alves Calazans", "pais": "Brasil", "ano_copa": 1962 }
-    ],
-    "meios": [
-      { "nome": "Zito", "nome_completo": "José Ely de Miranda Zito", "pais": "Brasil", "ano_copa": 1962 },
-      { "nome": "Didi", "nome_completo": "Valdir Pereira Didi", "pais": "Brasil", "ano_copa": 1962 },
-      { "nome": "Mengálvio", "nome_completo": "Mengálvio Figueiredo", "pais": "Brasil", "ano_copa": 1962 }
-    ],
-    "atacantes": [
-      { "nome": "Garrincha", "nome_completo": "Manuel Francisco dos Santos Garrincha", "pais": "Brasil", "ano_copa": 1962 },
-      { "nome": "Amarildo", "nome_completo": "Amarildo Tavares da Silveira", "pais": "Brasil", "ano_copa": 1962 },
-      { "nome": "Vavá", "nome_completo": "Edvaldo Izídio Neto Vavá", "pais": "Brasil", "ano_copa": 1962 },
-      { "nome": "Pelé", "nome_completo": "Edson Arantes do Nascimento Pelé", "pais": "Brasil", "ano_copa": 1962 },
-      { "nome": "Coutinho", "nome_completo": "José Augusto Coutinho", "pais": "Brasil", "ano_copa": 1962 }
-    ]
-  },
-  {
-    "ano": 1966,
-    "poster": "assets/imagens/posters/copa 1966.jpg",
-    "foto_selecao": "assets/imagens/selecoes/inglaterra 1966.jpeg",
-    "pais": "Inglaterra",
-    "apelido": "Three Lions",
-    "sede": "Inglaterra",
-    "vice": "Alemanha Ocidental",
-    "placar": "4x2",
-    "artilheiro": { "nome": "Eusébio", "nome_completo": "Eusébio da Silva Ferreira", "pais": "Portugal", "ano_copa": 1966 },
-    "tecnico": { "nome": "Alf Ramsey", "nome_completo": "Sir Alf Ramsey", "pais": "Inglaterra", "ano_copa": 1966 },
-    "goleiros": [
-      { "nome": "Gordon Banks", "nome_completo": "Gordon Banks", "pais": "Inglaterra", "ano_copa": 1966 },
-      { "nome": "Peter Bonetti", "nome_completo": "Peter Bonetti", "pais": "Inglaterra", "ano_copa": 1966 }
-    ],
-    "defensores": [
-      { "nome": "Bobby Moore", "nome_completo": "Bobby Moore", "pais": "Inglaterra", "ano_copa": 1966 },
-      { "nome": "Jack Charlton", "nome_completo": "Jack Charlton", "pais": "Inglaterra", "ano_copa": 1966 },
-      { "nome": "George Cohen", "nome_completo": "George Cohen", "pais": "Inglaterra", "ano_copa": 1966 },
-      { "nome": "Ray Wilson", "nome_completo": "Ray Wilson", "pais": "Inglaterra", "ano_copa": 1966 },
-      { "nome": "Norman Hunter", "nome_completo": "Norman Hunter", "pais": "Inglaterra", "ano_copa": 1966 }
-    ],
-    "meios": [
-      { "nome": "Bobby Charlton", "nome_completo": "Bobby Charlton", "pais": "Inglaterra", "ano_copa": 1966 },
-      { "nome": "Nobby Stiles", "nome_completo": "Nobby Stiles", "pais": "Inglaterra", "ano_copa": 1966 },
-      { "nome": "Alan Ball", "nome_completo": "Alan Ball", "pais": "Inglaterra", "ano_copa": 1966 },
-      { "nome": "Martin Peters", "nome_completo": "Martin Peters", "pais": "Inglaterra", "ano_copa": 1966 }
-    ],
-    "atacantes": [
-      { "nome": "Geoff Hurst", "nome_completo": "Geoff Hurst", "pais": "Inglaterra", "ano_copa": 1966 },
-      { "nome": "Roger Hunt", "nome_completo": "Roger Hunt", "pais": "Inglaterra", "ano_copa": 1966 },
-      { "nome": "Jimmy Greaves", "nome_completo": "Jimmy Greaves", "pais": "Inglaterra", "ano_copa": 1966 }
-    ]
-  },
-  {
-    "ano": 1970,
-    "poster": "assets/imagens/posters/copa 1970.jpg",
-    "foto_selecao": "assets/imagens/selecoes/brasil 1970.jpeg",
-    "pais": "Brasil",
-    "apelido": "Seleção do Tri",
-    "sede": "México",
-    "vice": "Itália",
-    "placar": "4x1",
-    "artilheiro": { "nome": "Gerd Müller", "nome_completo": "Gerd Müller", "pais": "Alemanha Ocidental", "ano_copa": 1970 },
-    "tecnico": { "nome": "Mário Zagallo", "nome_completo": "Mário Jorge Lobo Zagallo", "pais": "Brasil", "ano_copa": 1970 },
-    "goleiros": [
-      { "nome": "Félix", "nome_completo": "Félix Miéli Venerando", "pais": "Brasil", "ano_copa": 1970 },
-      { "nome": "Leão", "nome_completo": "Émerson Leão", "pais": "Brasil", "ano_copa": 1970 }
-    ],
-    "defensores": [
-      { "nome": "Carlos Alberto Torres", "nome_completo": "Carlos Alberto Torres", "pais": "Brasil", "ano_copa": 1970 },
-      { "nome": "Brito", "nome_completo": "Wilson Orlando Pereira Brito", "pais": "Brasil", "ano_copa": 1970 },
-      { "nome": "Piazza", "nome_completo": "Wilson da Silva Piazza", "pais": "Brasil", "ano_copa": 1970 },
-      { "nome": "Everaldo", "nome_completo": "Everaldo Marques da Silva", "pais": "Brasil", "ano_copa": 1970 },
-      { "nome": "Marco Antônio", "nome_completo": "Marco Antônio Feliciano", "pais": "Brasil", "ano_copa": 1970 }
-    ],
-    "meios": [
-      { "nome": "Clodoaldo", "nome_completo": "Clodoaldo Tavares de Santana", "pais": "Brasil", "ano_copa": 1970 },
-      { "nome": "Gérson", "nome_completo": "Gérson de Oliveira Nunes", "pais": "Brasil", "ano_copa": 1970 },
-      { "nome": "Paulo César Caju", "nome_completo": "Paulo César Lima Caju", "pais": "Brasil", "ano_copa": 1970 }
-    ],
-    "atacantes": [
-      { "nome": "Pelé", "nome_completo": "Edson Arantes do Nascimento Pelé", "pais": "Brasil", "ano_copa": 1970 },
-      { "nome": "Jairzinho", "nome_completo": "Jair Ventura Filho Jairzinho", "pais": "Brasil", "ano_copa": 1970 },
-      { "nome": "Tostão", "nome_completo": "Eduardo Gonçalves de Andrade Tostão", "pais": "Brasil", "ano_copa": 1970 },
-      { "nome": "Rivelino", "nome_completo": "Roberto Rivelino", "pais": "Brasil", "ano_copa": 1970 },
-      { "nome": "Dadá Maravilha", "nome_completo": "Dario José dos Santos Dadá Maravilha", "pais": "Brasil", "ano_copa": 1970 }
-    ]
-  },
-  {
-    "ano": 1974,
-    "poster": "assets/imagens/posters/copa 1974.jpg",
-    "foto_selecao": "assets/imagens/selecoes/alemanha 1974.jpeg",
-    "pais": "Alemanha Ocidental",
-    "apelido": "Die Mannschaft Campeã",
-    "sede": "Alemanha Ocidental",
-    "vice": "Holanda",
-    "placar": "2x1",
-    "artilheiro": { "nome": "Grzegorz Lato", "nome_completo": "Grzegorz Lato", "pais": "Polônia", "ano_copa": 1974 },
-    "tecnico": { "nome": "Helmut Schön", "nome_completo": "Helmut Schön", "pais": "Alemanha Ocidental", "ano_copa": 1974 },
-    "goleiros": [
-      { "nome": "Sepp Maier", "nome_completo": "Sepp Maier", "pais": "Alemanha Ocidental", "ano_copa": 1974 }
-    ],
-    "defensores": [
-      { "nome": "Franz Beckenbauer", "nome_completo": "Franz Beckenbauer", "pais": "Alemanha Ocidental", "ano_copa": 1974 },
-      { "nome": "Berti Vogts", "nome_completo": "Berti Vogts", "pais": "Alemanha Ocidental", "ano_copa": 1974 },
-      { "nome": "Paul Breitner", "nome_completo": "Paul Breitner", "pais": "Alemanha Ocidental", "ano_copa": 1974 },
-      { "nome": "Hans-Georg Schwarzenbeck", "nome_completo": "Hans-Georg Schwarzenbeck", "pais": "Alemanha Ocidental", "ano_copa": 1974 }
-    ],
-    "meios": [
-      { "nome": "Wolfgang Overath", "nome_completo": "Wolfgang Overath", "pais": "Alemanha Ocidental", "ano_copa": 1974 },
-      { "nome": "Uli Hoeneß", "nome_completo": "Uli Hoeneß", "pais": "Alemanha Ocidental", "ano_copa": 1974 },
-      { "nome": "Rainer Bonhof", "nome_completo": "Rainer Bonhof", "pais": "Alemanha Ocidental", "ano_copa": 1974 },
-      { "nome": "Günter Netzer", "nome_completo": "Günter Netzer", "pais": "Alemanha Ocidental", "ano_copa": 1974 }
-    ],
-    "atacantes": [
-      { "nome": "Gerd Müller", "nome_completo": "Gerd Müller", "pais": "Alemanha Ocidental", "ano_copa": 1974 },
-      { "nome": "Jupp Heynckes", "nome_completo": "Jupp Heynckes", "pais": "Alemanha Ocidental", "ano_copa": 1974 },
-      { "nome": "Bernd Hölzenbein", "nome_completo": "Bernd Hölzenbein", "pais": "Alemanha Ocidental", "ano_copa": 1974 }
-    ]
-  },
-  {
-    "ano": 1978,
-    "poster": "assets/imagens/posters/copa 1978.jpg",
-    "foto_selecao": "assets/imagens/selecoes/argentina 1978.jpeg",
-    "pais": "Argentina",
-    "apelido": "La Albiceleste de Menotti",
-    "sede": "Argentina",
-    "vice": "Holanda",
-    "placar": "3x1",
-    "artilheiro": { "nome": "Mario Kempes", "nome_completo": "Mario Kempes", "pais": "Argentina", "ano_copa": 1978 },
-    "tecnico": { "nome": "César Luis Menotti", "nome_completo": "César Luis Menotti", "pais": "Argentina", "ano_copa": 1978 },
-    "goleiros": [
-      { "nome": "Ubaldo Fillol", "nome_completo": "Ubaldo Fillol", "pais": "Argentina", "ano_copa": 1978 },
-      { "nome": "Ricardo La Volpe", "nome_completo": "Ricardo La Volpe", "pais": "Argentina", "ano_copa": 1978 }
-    ],
-    "defensores": [
-      { "nome": "Daniel Passarella", "nome_completo": "Daniel Passarella", "pais": "Argentina", "ano_copa": 1978 },
-      { "nome": "Jorge Olguín", "nome_completo": "Jorge Olguín", "pais": "Argentina", "ano_copa": 1978 },
-      { "nome": "Alberto Tarantini", "nome_completo": "Alberto Tarantini", "pais": "Argentina", "ano_copa": 1978 },
-      { "nome": "Luis Galván", "nome_completo": "Luis Galván", "pais": "Argentina", "ano_copa": 1978 }
-    ],
-    "meios": [
-      { "nome": "Osvaldo Ardiles", "nome_completo": "Osvaldo Ardiles", "pais": "Argentina", "ano_copa": 1978 },
-      { "nome": "Américo Gallego", "nome_completo": "Américo Gallego", "pais": "Argentina", "ano_copa": 1978 },
-      { "nome": "Ricardo Villa", "nome_completo": "Ricardo Villa", "pais": "Argentina", "ano_copa": 1978 }
-    ],
-    "atacantes": [
-      { "nome": "Mario Kempes", "nome_completo": "Mario Kempes", "pais": "Argentina", "ano_copa": 1978 },
-      { "nome": "Daniel Bertoni", "nome_completo": "Daniel Bertoni", "pais": "Argentina", "ano_copa": 1978 },
-      { "nome": "Leopoldo Luque", "nome_completo": "Leopoldo Luque", "pais": "Argentina", "ano_copa": 1978 }
-    ]
-  },
-  {
-    "ano": 1982,
-    "poster": "assets/imagens/posters/copa 1982.jpg",
-    "foto_selecao": "assets/imagens/selecoes/itália 1982.jpeg",
-    "pais": "Itália",
-    "apelido": "Azzurra de Rossi",
-    "sede": "Espanha",
-    "vice": "Alemanha Ocidental",
-    "placar": "3x1",
-    "artilheiro": { "nome": "Paolo Rossi", "nome_completo": "Paolo Rossi", "pais": "Itália", "ano_copa": 1982 },
-    "tecnico": { "nome": "Enzo Bearzot", "nome_completo": "Enzo Bearzot", "pais": "Itália", "ano_copa": 1982 },
-    "goleiros": [
-      { "nome": "Dino Zoff", "nome_completo": "Dino Zoff", "pais": "Itália", "ano_copa": 1982 },
-      { "nome": "Ivano Bordon", "nome_completo": "Ivano Bordon", "pais": "Itália", "ano_copa": 1982 }
-    ],
-    "defensores": [
-      { "nome": "Giuseppe Bergomi", "nome_completo": "Giuseppe Bergomi", "pais": "Itália", "ano_copa": 1982 },
-      { "nome": "Claudio Gentile", "nome_completo": "Claudio Gentile", "pais": "Itália", "ano_copa": 1982 },
-      { "nome": "Gaetano Scirea", "nome_completo": "Gaetano Scirea", "pais": "Itália", "ano_copa": 1982 },
-      { "nome": "Antonio Cabrini", "nome_completo": "Antonio Cabrini", "pais": "Itália", "ano_copa": 1982 }
-    ],
-    "meios": [
-      { "nome": "Marco Tardelli", "nome_completo": "Marco Tardelli", "pais": "Itália", "ano_copa": 1982 },
-      { "nome": "Bruno Conti", "nome_completo": "Bruno Conti", "pais": "Itália", "ano_copa": 1982 },
-      { "nome": "Giancarlo Antognoni", "nome_completo": "Giancarlo Antognoni", "pais": "Itália", "ano_copa": 1982 },
-      { "nome": "Gabriele Oriali", "nome_completo": "Gabriele Oriali", "pais": "Itália", "ano_copa": 1982 }
-    ],
-    "atacantes": [
-      { "nome": "Paolo Rossi", "nome_completo": "Paolo Rossi", "pais": "Itália", "ano_copa": 1982 },
-      { "nome": "Alessandro Altobelli", "nome_completo": "Alessandro Altobelli", "pais": "Itália", "ano_copa": 1982 },
-      { "nome": "Francesco Graziani", "nome_completo": "Francesco Graziani", "pais": "Itália", "ano_copa": 1982 }
-    ]
-  },
-  {
-    "ano": 1986,
-    "poster": "assets/imagens/posters/copa 1986.jpg",
-    "foto_selecao": "assets/imagens/selecoes/argentina 1986.jpeg",
-    "pais": "Argentina",
-    "apelido": "Argentina de Maradona",
-    "sede": "México",
-    "vice": "Alemanha Ocidental",
-    "placar": "3x2",
-    "artilheiro": { "nome": "Gary Lineker", "nome_completo": "Gary Lineker", "pais": "Inglaterra", "ano_copa": 1986 },
-    "tecnico": { "nome": "Carlos Bilardo", "nome_completo": "Carlos Bilardo", "pais": "Argentina", "ano_copa": 1986 },
-    "goleiros": [
-      { "nome": "Nery Pumpido", "nome_completo": "Nery Pumpido", "pais": "Argentina", "ano_copa": 1986 },
-      { "nome": "Luis Islas", "nome_completo": "Luis Islas", "pais": "Argentina", "ano_copa": 1986 }
-    ],
-    "defensores": [
-      { "nome": "José Luis Brown", "nome_completo": "José Luis Brown", "pais": "Argentina", "ano_copa": 1986 },
-      { "nome": "Oscar Ruggeri", "nome_completo": "Oscar Ruggeri", "pais": "Argentina", "ano_copa": 1986 },
-      { "nome": "Néstor Clausen", "nome_completo": "Néstor Clausen", "pais": "Argentina", "ano_copa": 1986 },
-      { "nome": "Julio Olarticoechea", "nome_completo": "Julio Olarticoechea", "pais": "Argentina", "ano_copa": 1986 }
-    ],
-    "meios": [
-      { "nome": "Diego Maradona", "nome_completo": "Diego Armando Maradona", "pais": "Argentina", "ano_copa": 1986 },
-      { "nome": "Jorge Burruchaga", "nome_completo": "Jorge Burruchaga", "pais": "Argentina", "ano_copa": 1986 },
-      { "nome": "Sergio Batista", "nome_completo": "Sergio Batista", "pais": "Argentina", "ano_copa": 1986 },
-      { "nome": "Héctor Enrique", "nome_completo": "Héctor Enrique", "pais": "Argentina", "ano_copa": 1986 }
-    ],
-    "atacantes": [
-      { "nome": "Jorge Valdano", "nome_completo": "Jorge Valdano", "pais": "Argentina", "ano_copa": 1986 },
-      { "nome": "Pedro Pasculli", "nome_completo": "Pedro Pasculli", "pais": "Argentina", "ano_copa": 1986 },
-      { "nome": "Claudio Borghi", "nome_completo": "Claudio Borghi", "pais": "Argentina", "ano_copa": 1986 }
-    ]
-  },
-  {
-    "ano": 1990,
-    "poster": "assets/imagens/posters/copa 1990.jpg",
-    "foto_selecao": "assets/imagens/selecoes/alemanha 1990.jpeg",
-    "pais": "Alemanha",
-    "apelido": "Alemanha de Beckenbauer",
-    "sede": "Itália",
-    "vice": "Argentina",
-    "placar": "1x0",
-    "artilheiro": { "nome": "Salvatore Schillaci", "nome_completo": "Salvatore Schillaci", "pais": "Itália", "ano_copa": 1990 },
-    "tecnico": { "nome": "Franz Beckenbauer", "nome_completo": "Franz Beckenbauer", "pais": "Alemanha", "ano_copa": 1990 },
-    "goleiros": [
-      { "nome": "Bodo Illgner", "nome_completo": "Bodo Illgner", "pais": "Alemanha", "ano_copa": 1990 },
-      { "nome": "Andreas Köpke", "nome_completo": "Andreas Köpke", "pais": "Alemanha", "ano_copa": 1990 }
-    ],
-    "defensores": [
-      { "nome": "Andreas Brehme", "nome_completo": "Andreas Brehme", "pais": "Alemanha", "ano_copa": 1990 },
-      { "nome": "Jürgen Kohler", "nome_completo": "Jürgen Kohler", "pais": "Alemanha", "ano_copa": 1990 },
-      { "nome": "Guido Buchwald", "nome_completo": "Guido Buchwald", "pais": "Alemanha", "ano_copa": 1990 },
-      { "nome": "Thomas Berthold", "nome_completo": "Thomas Berthold", "pais": "Alemanha", "ano_copa": 1990 }
-    ],
-    "meios": [
-      { "nome": "Lothar Matthäus", "nome_completo": "Lothar Matthäus", "pais": "Alemanha", "ano_copa": 1990 },
-      { "nome": "Pierre Littbarski", "nome_completo": "Pierre Littbarski", "pais": "Alemanha", "ano_copa": 1990 },
-      { "nome": "Thomas Häßler", "nome_completo": "Thomas Häßler", "pais": "Alemanha", "ano_copa": 1990 }
-    ],
-    "atacantes": [
-      { "nome": "Rudi Völler", "nome_completo": "Rudi Völler", "pais": "Alemanha", "ano_copa": 1990 },
-      { "nome": "Jürgen Klinsmann", "nome_completo": "Jürgen Klinsmann", "pais": "Alemanha", "ano_copa": 1990 },
-      { "nome": "Karl-Heinz Riedle", "nome_completo": "Karl-Heinz Riedle", "pais": "Alemanha", "ano_copa": 1990 }
-    ]
-  },
-  {
-    "ano": 1994,
-    "poster": "assets/imagens/posters/copa 1994.jpg",
-    "foto_selecao": "assets/imagens/selecoes/brasil 1994.jpeg",
-    "pais": "Brasil",
-    "apelido": "Seleção do Tetra",
-    "sede": "Estados Unidos",
-    "vice": "Itália",
-    "placar": "0x0 (3x2 nos pênaltis)",
-    "artilheiro": { "nome": "Hristo Stoichkov", "nome_completo": "Hristo Stoichkov", "pais": "Bulgária", "ano_copa": 1994 },
-    "tecnico": { "nome": "Carlos Alberto Parreira", "nome_completo": "Carlos Alberto Parreira", "pais": "Brasil", "ano_copa": 1994 },
-    "goleiros": [
-      { "nome": "Cláudio Taffarel", "nome_completo": "Cláudio André Mergen Taffarel", "pais": "Brasil", "ano_copa": 1994 },
-      { "nome": "Zetti", "nome_completo": "Zetti", "pais": "Brasil", "ano_copa": 1994 }
-    ],
-    "defensores": [
-      { "nome": "Aldair", "nome_completo": "Aldair Nascimento dos Santos", "pais": "Brasil", "ano_copa": 1994 },
-      { "nome": "Marcio Santos", "nome_completo": "Márcio Santos", "pais": "Brasil", "ano_copa": 1994 },
-      { "nome": "Cafu", "nome_completo": "Marcos Evangelista de Morais Cafu", "pais": "Brasil", "ano_copa": 1994 },
-      { "nome": "Branco", "nome_completo": "Cláudio Ibrahim Vaz Leal Branco", "pais": "Brasil", "ano_copa": 1994 },
-      { "nome": "Jorginho", "nome_completo": "Jorge de Amorim Campos Jorginho", "pais": "Brasil", "ano_copa": 1994 }
-    ],
-    "meios": [
-      { "nome": "Dunga", "nome_completo": "Carlos Caetano Bledorn Verri Dunga", "pais": "Brasil", "ano_copa": 1994 },
-      { "nome": "Mauro Silva", "nome_completo": "Mauro Silva", "pais": "Brasil", "ano_copa": 1994 },
-      { "nome": "Mazinho", "nome_completo": "Mazinho", "pais": "Brasil", "ano_copa": 1994 },
-      { "nome": "Zinho", "nome_completo": "Zinho", "pais": "Brasil", "ano_copa": 1994 },
-      { "nome": "Leonardo", "nome_completo": "Leonardo Nascimento de Araújo", "pais": "Brasil", "ano_copa": 1994 }
-    ],
-    "atacantes": [
-      { "nome": "Romário", "nome_completo": "Romário de Souza Faria", "pais": "Brasil", "ano_copa": 1994 },
-      { "nome": "Bebeto", "nome_completo": "José Roberto Gama de Oliveira Bebeto", "pais": "Brasil", "ano_copa": 1994 },
-      { "nome": "Viola", "nome_completo": "Antônio Carlos Bicalho Guimarães Viola", "pais": "Brasil", "ano_copa": 1994 },
-      { "nome": "Müller", "nome_completo": "Luís Henrique Conquistador Müller", "pais": "Brasil", "ano_copa": 1994 },
-      { "nome": "Ronaldo", "nome_completo": "Ronaldo Luís Nazário de Lima", "pais": "Brasil", "ano_copa": 1994 }
-    ]
-  },
-  {
-    "ano": 1998,
-    "poster": "assets/imagens/posters/copa 1998.jpeg",
-    "foto_selecao": "assets/imagens/selecoes/frança 1998.jpeg",
-    "pais": "França",
-    "apelido": "Les Bleus",
-    "sede": "França",
-    "vice": "Brasil",
-    "placar": "3x0",
-    "artilheiro": { "nome": "Davor Šuker", "nome_completo": "Davor Šuker", "pais": "Croácia", "ano_copa": 1998 },
-    "tecnico": { "nome": "Aimé Jacquet", "nome_completo": "Aimé Jacquet", "pais": "França", "ano_copa": 1998 },
-    "goleiros": [
-      { "nome": "Fabien Barthez", "nome_completo": "Fabien Barthez", "pais": "França", "ano_copa": 1998 },
-      { "nome": "Bernard Lama", "nome_completo": "Bernard Lama", "pais": "França", "ano_copa": 1998 }
-    ],
-    "defensores": [
-      { "nome": "Lilian Thuram", "nome_completo": "Lilian Thuram", "pais": "França", "ano_copa": 1998 },
-      { "nome": "Marcel Desailly", "nome_completo": "Marcel Desailly", "pais": "França", "ano_copa": 1998 },
-      { "nome": "Bixente Lizarazu", "nome_completo": "Bixente Lizarazu", "pais": "França", "ano_copa": 1998 },
-      { "nome": "Laurent Blanc", "nome_completo": "Laurent Blanc", "pais": "França", "ano_copa": 1998 }
-    ],
-    "meios": [
-      { "nome": "Zinedine Zidane", "nome_completo": "Zinedine Yazid Zidane", "pais": "França", "ano_copa": 1998 },
-      { "nome": "Didier Deschamps", "nome_completo": "Didier Deschamps", "pais": "França", "ano_copa": 1998 },
-      { "nome": "Emmanuel Petit", "nome_completo": "Emmanuel Petit", "pais": "França", "ano_copa": 1998 },
-      { "nome": "Patrick Vieira", "nome_completo": "Patrick Vieira", "pais": "França", "ano_copa": 1998 },
-      { "nome": "Youri Djorkaeff", "nome_completo": "Youri Djorkaeff", "pais": "França", "ano_copa": 1998 }
-    ],
-    "atacantes": [
-      { "nome": "Thierry Henry", "nome_completo": "Thierry Henry", "pais": "França", "ano_copa": 1998 },
-      { "nome": "David Trezeguet", "nome_completo": "David Trezeguet", "pais": "França", "ano_copa": 1998 },
-      { "nome": "Christophe Dugarry", "nome_completo": "Christophe Dugarry", "pais": "França", "ano_copa": 1998 }
-    ]
-  },
-  {
-    "ano": 2002,
-    "poster": "assets/imagens/posters/copa 2002.jpg",
-    "foto_selecao": "assets/imagens/selecoes/brasil 2002.jpeg",
-    "pais": "Brasil",
-    "apelido": "Brasil Fenomenal",
-    "sede": "Coreia do Sul e Japão",
-    "vice": "Alemanha",
-    "placar": "2x0",
-    "artilheiro": { "nome": "Ronaldo Fenômeno", "nome_completo": "Ronaldo Luís Nazário de Lima", "pais": "Brasil", "ano_copa": 2002 },
-    "tecnico": { "nome": "Luiz Felipe Scolari", "nome_completo": "Luiz Felipe Scolari", "pais": "Brasil", "ano_copa": 2002 },
-    "goleiros": [
-      { "nome": "Marcos", "nome_completo": "Marcos Roberto Silveira Reis", "pais": "Brasil", "ano_copa": 2002 },
-      { "nome": "Dida", "nome_completo": "Nelson de Jesus Silva Dida", "pais": "Brasil", "ano_copa": 2002 },
-      { "nome": "Rogério Ceni", "nome_completo": "Rogério Ceni", "pais": "Brasil", "ano_copa": 2002 }
-    ],
-    "defensores": [
-      { "nome": "Cafu", "nome_completo": "Marcos Evangelista de Morais Cafu", "pais": "Brasil", "ano_copa": 2002 },
-      { "nome": "Roberto Carlos", "nome_completo": "Roberto Carlos da Silva", "pais": "Brasil", "ano_copa": 2002 },
-      { "nome": "Lúcio", "nome_completo": "Lúcio", "pais": "Brasil", "ano_copa": 2002 },
-      { "nome": "Roque Júnior", "nome_completo": "Roque Júnior", "pais": "Brasil", "ano_copa": 2002 },
-      { "nome": "Edmílson", "nome_completo": "Edmílson", "pais": "Brasil", "ano_copa": 2002 }
-    ],
-    "meios": [
-      { "nome": "Gilberto Silva", "nome_completo": "Gilberto Aparecido da Silva", "pais": "Brasil", "ano_copa": 2002 },
-      { "nome": "Kléberson", "nome_completo": "José Kléberson Pereira", "pais": "Brasil", "ano_copa": 2002 },
-      { "nome": "Juninho Paulista", "nome_completo": "Amoroso Juninho Paulista", "pais": "Brasil", "ano_copa": 2002 },
-      { "nome": "Rivaldo", "nome_completo": "Rivaldo Vítor Borba Ferreira", "pais": "Brasil", "ano_copa": 2002 }
-    ],
-    "atacantes": [
-      { "nome": "Ronaldo Fenômeno", "nome_completo": "Ronaldo Luís Nazário de Lima", "pais": "Brasil", "ano_copa": 2002 },
-      { "nome": "Ronaldinho Gaúcho", "nome_completo": "Ronaldo de Assis Moreira Ronaldinho Gaúcho", "pais": "Brasil", "ano_copa": 2002 },
-      { "nome": "Denílson", "nome_completo": "Denílson de Oliveira Araújo", "pais": "Brasil", "ano_copa": 2002 },
-      { "nome": "Luizão", "nome_completo": "Luiz Henrique da Silva Luizão", "pais": "Brasil", "ano_copa": 2002 }
-    ]
-  },
-  {
-    "ano": 2006,
-    "poster": "assets/imagens/posters/copa 2006.jpeg",
-    "foto_selecao": "assets/imagens/selecoes/itália 2006.jpeg",
-    "pais": "Itália",
-    "apelido": "Azzurra",
-    "sede": "Alemanha",
-    "vice": "França",
-    "placar": "1x1 (5x3 nos pênaltis)",
-    "artilheiro": { "nome": "Miroslav Klose", "nome_completo": "Miroslav Klose", "pais": "Alemanha", "ano_copa": 2006 },
-    "tecnico": { "nome": "Marcello Lippi", "nome_completo": "Marcello Lippi", "pais": "Itália", "ano_copa": 2006 },
-    "goleiros": [
-      { "nome": "Gianluigi Buffon", "nome_completo": "Gianluigi Buffon", "pais": "Itália", "ano_copa": 2006 },
-      { "nome": "Angelo Peruzzi", "nome_completo": "Angelo Peruzzi", "pais": "Itália", "ano_copa": 2006 }
-    ],
-    "defensores": [
-      { "nome": "Fabio Cannavaro", "nome_completo": "Fabio Cannavaro", "pais": "Itália", "ano_copa": 2006 },
-      { "nome": "Alessandro Nesta", "nome_completo": "Alessandro Nesta", "pais": "Itália", "ano_copa": 2006 },
-      { "nome": "Marco Materazzi", "nome_completo": "Marco Materazzi", "pais": "Itália", "ano_copa": 2006 },
-      { "nome": "Fabio Grosso", "nome_completo": "Fabio Grosso", "pais": "Itália", "ano_copa": 2006 },
-      { "nome": "Gianluca Zambrotta", "nome_completo": "Gianluca Zambrotta", "pais": "Itália", "ano_copa": 2006 }
-    ],
-    "meios": [
-      { "nome": "Andrea Pirlo", "nome_completo": "Andrea Pirlo", "pais": "Itália", "ano_copa": 2006 },
-      { "nome": "Gennaro Gattuso", "nome_completo": "Gennaro Gattuso", "pais": "Itália", "ano_copa": 2006 },
-      { "nome": "Daniele De Rossi", "nome_completo": "Daniele De Rossi", "pais": "Itália", "ano_copa": 2006 },
-      { "nome": "Mauro Camoranesi", "nome_completo": "Mauro Camoranesi", "pais": "Itália", "ano_copa": 2006 }
-    ],
-    "atacantes": [
-      { "nome": "Francesco Totti", "nome_completo": "Francesco Totti", "pais": "Itália", "ano_copa": 2006 },
-      { "nome": "Luca Toni", "nome_completo": "Luca Toni", "pais": "Itália", "ano_copa": 2006 },
-      { "nome": "Alessandro Del Piero", "nome_completo": "Alessandro Del Piero", "pais": "Itália", "ano_copa": 2006 },
-      { "nome": "Alberto Gilardino", "nome_completo": "Alberto Gilardino", "pais": "Itália", "ano_copa": 2006 }
-    ]
-  },
-  {
-    "ano": 2010,
-    "poster": "assets/imagens/posters/copa 2010.jpg",
-    "foto_selecao": "assets/imagens/selecoes/espanha 2010.jpeg",
-    "pais": "Espanha",
-    "apelido": "La Roja do Tiki-Taka",
-    "sede": "África do Sul",
-    "vice": "Holanda",
-    "placar": "1x0",
-    "artilheiro": { "nome": "Thomas Müller", "nome_completo": "Thomas Müller", "pais": "Alemanha", "ano_copa": 2010 },
-    "tecnico": { "nome": "Vicente del Bosque", "nome_completo": "Vicente del Bosque", "pais": "Espanha", "ano_copa": 2010 },
-    "goleiros": [
-      { "nome": "Iker Casillas", "nome_completo": "Iker Casillas", "pais": "Espanha", "ano_copa": 2010 },
-      { "nome": "Pepe Reina", "nome_completo": "Pepe Reina", "pais": "Espanha", "ano_copa": 2010 }
-    ],
-    "defensores": [
-      { "nome": "Carles Puyol", "nome_completo": "Carles Puyol", "pais": "Espanha", "ano_copa": 2010 },
-      { "nome": "Gerard Piqué", "nome_completo": "Gerard Piqué", "pais": "Espanha", "ano_copa": 2010 },
-      { "nome": "Sergio Ramos", "nome_completo": "Sergio Ramos", "pais": "Espanha", "ano_copa": 2010 },
-      { "nome": "Joan Capdevila", "nome_completo": "Joan Capdevila", "pais": "Espanha", "ano_copa": 2010 }
-    ],
-    "meios": [
-      { "nome": "Xavi Hernández", "nome_completo": "Xavier Hernández Creus Xavi", "pais": "Espanha", "ano_copa": 2010 },
-      { "nome": "Andrés Iniesta", "nome_completo": "Andrés Iniesta", "pais": "Espanha", "ano_copa": 2010 },
-      { "nome": "Sergio Busquets", "nome_completo": "Sergio Busquets", "pais": "Espanha", "ano_copa": 2010 },
-      { "nome": "Xabi Alonso", "nome_completo": "Xabi Alonso", "pais": "Espanha", "ano_copa": 2010 },
-      { "nome": "David Silva", "nome_completo": "David Josué Jiménez Silva", "pais": "Espanha", "ano_copa": 2010 },
-      { "nome": "Cesc Fàbregas", "nome_completo": "Cesc Fàbregas", "pais": "Espanha", "ano_copa": 2010 }
-    ],
-    "atacantes": [
-      { "nome": "David Villa", "nome_completo": "David Villa", "pais": "Espanha", "ano_copa": 2010 },
-      { "nome": "Fernando Torres", "nome_completo": "Fernando Torres", "pais": "Espanha", "ano_copa": 2010 },
-      { "nome": "Pedro Rodríguez", "nome_completo": "Pedro Rodríguez Ledesma", "pais": "Espanha", "ano_copa": 2010 }
-    ]
-  },
-  {
-    "ano": 2014,
-    "poster": "assets/imagens/posters/copa 2014.webp",
-    "foto_selecao": "assets/imagens/selecoes/alemanha 2014.jpeg",
-    "pais": "Alemanha",
-    "apelido": "Die Mannschaft de Löw",
-    "sede": "Brasil",
-    "vice": "Argentina",
-    "placar": "1x0",
-    "artilheiro": { "nome": "James Rodríguez", "nome_completo": "James David Rodríguez Rubio", "pais": "Colômbia", "ano_copa": 2014 },
-    "tecnico": { "nome": "Joachim Löw", "nome_completo": "Joachim Löw", "pais": "Alemanha", "ano_copa": 2014 },
-    "goleiros": [
-      { "nome": "Manuel Neuer", "nome_completo": "Manuel Neuer", "pais": "Alemanha", "ano_copa": 2014 },
-      { "nome": "Roman Weidenfeller", "nome_completo": "Roman Weidenfeller", "pais": "Alemanha", "ano_copa": 2014 }
-    ],
-    "defensores": [
-      { "nome": "Philipp Lahm", "nome_completo": "Philipp Lahm", "pais": "Alemanha", "ano_copa": 2014 },
-      { "nome": "Mats Hummels", "nome_completo": "Mats Hummels", "pais": "Alemanha", "ano_copa": 2014 },
-      { "nome": "Jérôme Boateng", "nome_completo": "Jérôme Boateng", "pais": "Alemanha", "ano_copa": 2014 },
-      { "nome": "Per Mertesacker", "nome_completo": "Per Mertesacker", "pais": "Alemanha", "ano_copa": 2014 }
-    ],
-    "meios": [
-      { "nome": "Toni Kroos", "nome_completo": "Toni Kroos", "pais": "Alemanha", "ano_copa": 2014 },
-      { "nome": "Bastian Schweinsteiger", "nome_completo": "Bastian Schweinsteiger", "pais": "Alemanha", "ano_copa": 2014 },
-      { "nome": "Sami Khedira", "nome_completo": "Sami Khedira", "pais": "Alemanha", "ano_copa": 2014 },
-      { "nome": "Mesut Özil", "nome_completo": "Mesut Özil", "pais": "Alemanha", "ano_copa": 2014 }
-    ],
-    "atacantes": [
-      { "nome": "Thomas Müller", "nome_completo": "Thomas Müller", "pais": "Alemanha", "ano_copa": 2014 },
-      { "nome": "Miroslav Klose", "nome_completo": "Miroslav Klose", "pais": "Alemanha", "ano_copa": 2014 },
-      { "nome": "Mario Götze", "nome_completo": "Mario Götze", "pais": "Alemanha", "ano_copa": 2014 },
-      { "nome": "André Schürrle", "nome_completo": "André Schürrle", "pais": "Alemanha", "ano_copa": 2014 },
-      { "nome": "Lukas Podolski", "nome_completo": "Lukas Podolski", "pais": "Alemanha", "ano_copa": 2014 }
-    ]
-  },
-  {
-    "ano": 2018,
-    "poster": "assets/imagens/posters/copa 2018.jpg",
-    "foto_selecao": "assets/imagens/selecoes/frança 2018.jpeg",
-    "pais": "França",
-    "apelido": "Les Bleus de Deschamps",
-    "sede": "Rússia",
-    "vice": "Croácia",
-    "placar": "4x2",
-    "artilheiro": { "nome": "Harry Kane", "nome_completo": "Harry Kane", "pais": "Inglaterra", "ano_copa": 2018 },
-    "tecnico": { "nome": "Didier Deschamps", "nome_completo": "Didier Deschamps", "pais": "França", "ano_copa": 2018 },
-    "goleiros": [
-      { "nome": "Hugo Lloris", "nome_completo": "Hugo Lloris", "pais": "França", "ano_copa": 2018 },
-      { "nome": "Steve Mandanda", "nome_completo": "Steve Mandanda", "pais": "França", "ano_copa": 2018 }
-    ],
-    "defensores": [
-      { "nome": "Raphaël Varane", "nome_completo": "Raphaël Varane", "pais": "França", "ano_copa": 2018 },
-      { "nome": "Samuel Umtiti", "nome_completo": "Samuel Umtiti", "pais": "França", "ano_copa": 2018 },
-      { "nome": "Benjamin Pavard", "nome_completo": "Benjamin Pavard", "pais": "França", "ano_copa": 2018 },
-      { "nome": "Lucas Hernández", "nome_completo": "Lucas Hernández", "pais": "França", "ano_copa": 2018 }
-    ],
-    "meios": [
-      { "nome": "N'Golo Kanté", "nome_completo": "N'Golo Kanté", "pais": "França", "ano_copa": 2018 },
-      { "nome": "Paul Pogba", "nome_completo": "Paul Pogba", "pais": "França", "ano_copa": 2018 },
-      { "nome": "Blaise Matuidi", "nome_completo": "Blaise Matuidi", "pais": "França", "ano_copa": 2018 }
-    ],
-    "atacantes": [
-      { "nome": "Kylian Mbappé", "nome_completo": "Kylian Mbappé", "pais": "França", "ano_copa": 2018 },
-      { "nome": "Antoine Griezmann", "nome_completo": "Antoine Griezmann", "pais": "França", "ano_copa": 2018 },
-      { "nome": "Olivier Giroud", "nome_completo": "Olivier Giroud", "pais": "França", "ano_copa": 2018 },
-      { "nome": "Ousmane Dembélé", "nome_completo": "Ousmane Dembélé", "pais": "França", "ano_copa": 2018 }
-    ]
-  },
-  {
-    "ano": 2022,
-    "poster": "assets/imagens/posters/copa 2022.webp",
-    "foto_selecao": "assets/imagens/selecoes/argentina 2022.jpeg",
-    "pais": "Argentina",
-    "apelido": "La Scaloneta",
-    "sede": "Catar",
-    "vice": "França",
-    "placar": "3x3 (4x2 nos pênaltis)",
-    "artilheiro": { "nome": "Kylian Mbappé", "nome_completo": "Kylian Mbappé", "pais": "França", "ano_copa": 2022 },
-    "tecnico": { "nome": "Lionel Scaloni", "nome_completo": "Lionel Scaloni", "pais": "Argentina", "ano_copa": 2022 },
-    "goleiros": [
-      { "nome": "Emiliano Martínez", "nome_completo": "Emiliano Martínez", "pais": "Argentina", "ano_copa": 2022 },
-      { "nome": "Franco Armani", "nome_completo": "Franco Armani", "pais": "Argentina", "ano_copa": 2022 }
-    ],
-    "defensores": [
-      { "nome": "Cristian Romero", "nome_completo": "Cristian Romero", "pais": "Argentina", "ano_copa": 2022 },
-      { "nome": "Nicolás Otamendi", "nome_completo": "Nicolás Otamendi", "pais": "Argentina", "ano_copa": 2022 },
-      { "nome": "Nahuel Molina", "nome_completo": "Nahuel Molina", "pais": "Argentina", "ano_copa": 2022 },
-      { "nome": "Nicolás Tagliafico", "nome_completo": "Nicolás Tagliafico", "pais": "Argentina", "ano_copa": 2022 },
-      { "nome": "Lisandro Martínez", "nome_completo": "Lisandro Martínez", "pais": "Argentina", "ano_copa": 2022 }
-    ],
-    "meios": [
-      { "nome": "Rodrigo De Paul", "nome_completo": "Rodrigo De Paul", "pais": "Argentina", "ano_copa": 2022 },
-      { "nome": "Enzo Fernández", "nome_completo": "Enzo Fernández", "pais": "Argentina", "ano_copa": 2022 },
-      { "nome": "Alexis Mac Allister", "nome_completo": "Alexis Mac Allister", "pais": "Argentina", "ano_copa": 2022 },
-      { "nome": "Leandro Paredes", "nome_completo": "Leandro Paredes", "pais": "Argentina", "ano_copa": 2022 }
-    ],
-    "atacantes": [
-      { "nome": "Lionel Messi", "nome_completo": "Lionel Andrés Messi", "pais": "Argentina", "ano_copa": 2022 },
-      { "nome": "Julián Álvarez", "nome_completo": "Julián Álvarez", "pais": "Argentina", "ano_copa": 2022 },
-      { "nome": "Ángel Di María", "nome_completo": "Ángel Fabián Di María", "pais": "Argentina", "ano_copa": 2022 },
-      { "nome": "Lautaro Martínez", "nome_completo": "Lautaro Martínez", "pais": "Argentina", "ano_copa": 2022 },
-      { "nome": "Paulo Dybala", "nome_completo": "Paulo Dybala", "pais": "Argentina", "ano_copa": 2022 }
-    ]
-  }
+    {
+        "ano": 1930,
+        "poster": "assets\/imagens\/posters\/copa 1930.jpeg",
+        "foto_selecao": "assets\/imagens\/selecoes\/uruguai 1930.jpeg",
+        "pais": "Uruguai",
+        "apelido": "La Celeste Olímpica",
+        "sede": "Uruguai",
+        "vice": "Argentina",
+        "placar": "4x2",
+        "artilheiro": {
+            "nome": "Guillermo Stábile",
+            "nome_completo": "Guillermo Stábile",
+            "pais": "Argentina",
+            "ano_copa": 1930
+        },
+        "tecnico": {
+            "nome": "Alberto Suppici",
+            "nome_completo": "Alberto Suppici",
+            "pais": "Uruguai",
+            "ano_copa": 1930
+        },
+        "goleiros": [
+            {
+                "nome": "Enrique Ballesteros",
+                "nome_completo": "Enrique Ballesteros",
+                "pais": "Uruguai",
+                "ano_copa": 1930,
+                "foto": "assets\/imagens\/jogadores\/1930\/enrique_ballesteros.jpg"
+            },
+            {
+                "nome": "Mazali",
+                "nome_completo": "Andrés Mazali",
+                "pais": "Uruguai",
+                "ano_copa": 1930,
+                "foto": "assets\/imagens\/jogadores\/1930\/andr_es_mazali.jpg"
+            }
+        ],
+        "defensores": [
+            {
+                "nome": "Ernesto Mascheroni",
+                "nome_completo": "Ernesto Mascheroni",
+                "pais": "Uruguai",
+                "ano_copa": 1930,
+                "foto": "assets\/imagens\/jogadores\/1930\/ernesto_mascheroni.jpg"
+            },
+            {
+                "nome": "José Nasazzi",
+                "nome_completo": "José Nasazzi",
+                "pais": "Uruguai",
+                "ano_copa": 1930,
+                "foto": "assets\/imagens\/jogadores\/1930\/jos_e_nasazzi.jpg"
+            }
+        ],
+        "meios": [
+            {
+                "nome": "José Leandro Andrade",
+                "nome_completo": "José Leandro Andrade",
+                "pais": "Uruguai",
+                "ano_copa": 1930,
+                "foto": "assets\/imagens\/jogadores\/1930\/jos_e_leandro_andrade.jpg"
+            },
+            {
+                "nome": "Lorenzo Fernández",
+                "nome_completo": "Lorenzo Fernández",
+                "pais": "Uruguai",
+                "ano_copa": 1930,
+                "foto": "assets\/imagens\/jogadores\/1930\/lorenzo_fern_andez.jpg"
+            },
+            {
+                "nome": "Álvaro Gestido",
+                "nome_completo": "Álvaro Gestido",
+                "pais": "Uruguai",
+                "ano_copa": 1930,
+                "foto": "assets\/imagens\/jogadores\/1930\/alvaro_gestido.jpg"
+            },
+            {
+                "nome": "Héctor Scarone",
+                "nome_completo": "Héctor Scarone",
+                "pais": "Uruguai",
+                "ano_copa": 1930,
+                "foto": "assets\/imagens\/jogadores\/1930\/h_ector_scarone.jpg"
+            },
+            {
+                "nome": "Carlos Riolfo",
+                "nome_completo": "Carlos Riolfo",
+                "pais": "Uruguai",
+                "ano_copa": 1930,
+                "foto": "assets\/imagens\/jogadores\/1930\/carlos_riolfo.jpg"
+            }
+        ],
+        "atacantes": [
+            {
+                "nome": "Pablo Dorado",
+                "nome_completo": "Pablo Dorado",
+                "pais": "Uruguai",
+                "ano_copa": 1930,
+                "foto": "assets\/imagens\/jogadores\/1930\/pablo_dorado.jpg"
+            },
+            {
+                "nome": "Pedro Cea",
+                "nome_completo": "Pedro Cea",
+                "pais": "Uruguai",
+                "ano_copa": 1930,
+                "foto": "assets\/imagens\/jogadores\/1930\/pedro_cea.jpg"
+            },
+            {
+                "nome": "Santos Iriarte",
+                "nome_completo": "Santos Iriarte",
+                "pais": "Uruguai",
+                "ano_copa": 1930,
+                "foto": "assets\/imagens\/jogadores\/1930\/santos_iriarte.jpg"
+            },
+            {
+                "nome": "Santos Urdinarán",
+                "nome_completo": "Santos Urdinarán",
+                "pais": "Uruguai",
+                "ano_copa": 1930,
+                "foto": "assets\/imagens\/jogadores\/1930\/santos_urdinar_an.jpg"
+            },
+            {
+                "nome": "Héctor Castro",
+                "nome_completo": "Héctor Castro",
+                "pais": "Uruguai",
+                "ano_copa": 1930,
+                "foto": "assets\/imagens\/jogadores\/1930\/h_ector_castro.jpg"
+            }
+        ],
+        "selecoes": null
+    },
+    {
+        "ano": 1934,
+        "poster": "assets\/imagens\/posters\/copa 1934.jpeg",
+        "foto_selecao": "assets\/imagens\/selecoes\/itália 1934.jpeg",
+        "pais": "Itália",
+        "apelido": "Azzurra de Pozzo",
+        "sede": "Itália",
+        "vice": "Tchecoslováquia",
+        "placar": "2x1",
+        "artilheiro": {
+            "nome": "Oldřich Nejedlý",
+            "nome_completo": "Oldřich Nejedlý",
+            "pais": "Tchecoslováquia",
+            "ano_copa": 1934
+        },
+        "tecnico": {
+            "nome": "Vittorio Pozzo",
+            "nome_completo": "Vittorio Pozzo",
+            "pais": "Itália",
+            "ano_copa": 1934
+        },
+        "goleiros": [
+            {
+                "nome": "Gianpiero Combi",
+                "nome_completo": "Gianpiero Combi",
+                "pais": "Itália",
+                "ano_copa": 1934,
+                "foto": "assets\/imagens\/jogadores\/1934\/gianpiero_combi.jpg"
+            }
+        ],
+        "defensores": [
+            {
+                "nome": "Eraldo Monzeglio",
+                "nome_completo": "Eraldo Monzeglio",
+                "pais": "Itália",
+                "ano_copa": 1934,
+                "foto": "assets\/imagens\/jogadores\/1934\/eraldo_monzeglio.jpg"
+            },
+            {
+                "nome": "Luigi Allemandi",
+                "nome_completo": "Luigi Allemandi",
+                "pais": "Itália",
+                "ano_copa": 1934,
+                "foto": "assets\/imagens\/jogadores\/1934\/luigi_allemandi.jpg"
+            },
+            {
+                "nome": "Attilio Ferraris",
+                "nome_completo": "Attilio Ferraris",
+                "pais": "Itália",
+                "ano_copa": 1934,
+                "foto": "assets\/imagens\/jogadores\/1934\/attilio_ferraris.jpg"
+            },
+            {
+                "nome": "Luigi Bertolini",
+                "nome_completo": "Luigi Bertolini",
+                "pais": "Itália",
+                "ano_copa": 1934,
+                "foto": "assets\/imagens\/jogadores\/1934\/luigi_bertolini.jpg"
+            }
+        ],
+        "meios": [
+            {
+                "nome": "Giovanni Ferrari",
+                "nome_completo": "Giovanni Ferrari",
+                "pais": "Itália",
+                "ano_copa": 1934,
+                "foto": "assets\/imagens\/jogadores\/1934\/giovanni_ferrari.jpg"
+            },
+            {
+                "nome": "Raimundo Orsi",
+                "nome_completo": "Raimundo Orsi",
+                "pais": "Itália",
+                "ano_copa": 1934,
+                "foto": "assets\/imagens\/jogadores\/1934\/raimundo_orsi.jpg"
+            },
+            {
+                "nome": "Luis Monti",
+                "nome_completo": "Luis Monti",
+                "pais": "Itália",
+                "ano_copa": 1934,
+                "foto": "assets\/imagens\/jogadores\/1934\/luis_monti.jpg"
+            }
+        ],
+        "atacantes": [
+            {
+                "nome": "Angelo Schiavio",
+                "nome_completo": "Angelo Schiavio",
+                "pais": "Itália",
+                "ano_copa": 1934,
+                "foto": "assets\/imagens\/jogadores\/1934\/angelo_schiavio.jpg"
+            },
+            {
+                "nome": "Giuseppe Meazza",
+                "nome_completo": "Giuseppe Meazza",
+                "pais": "Itália",
+                "ano_copa": 1934,
+                "foto": "assets\/imagens\/jogadores\/1934\/giuseppe_meazza.jpg"
+            },
+            {
+                "nome": "Enrique Guaita",
+                "nome_completo": "Enrique Guaita",
+                "pais": "Itália",
+                "ano_copa": 1934,
+                "foto": "assets\/imagens\/jogadores\/1934\/enrique_guaita.jpg"
+            }
+        ],
+        "selecoes": null
+    },
+    {
+        "ano": 1938,
+        "poster": "assets\/imagens\/posters\/copa 1938.jpeg",
+        "foto_selecao": "assets\/imagens\/selecoes\/italia 1938.jpeg",
+        "pais": "Itália",
+        "apelido": "Azzurra Bicampeã",
+        "sede": "França",
+        "vice": "Hungria",
+        "placar": "4x2",
+        "artilheiro": {
+            "nome": "Leônidas da Silva",
+            "nome_completo": "Leônidas da Silva",
+            "pais": "Brasil",
+            "ano_copa": 1938
+        },
+        "tecnico": {
+            "nome": "Vittorio Pozzo",
+            "nome_completo": "Vittorio Pozzo",
+            "pais": "Itália",
+            "ano_copa": 1938
+        },
+        "goleiros": [
+            {
+                "nome": "Aldo Olivieri",
+                "nome_completo": "Aldo Olivieri",
+                "pais": "Itália",
+                "ano_copa": 1938,
+                "foto": "assets\/imagens\/jogadores\/1938\/aldo_olivieri.jpg"
+            },
+            {
+                "nome": "Guido Masetti",
+                "nome_completo": "Guido Masetti",
+                "pais": "Itália",
+                "ano_copa": 1938,
+                "foto": "assets\/imagens\/jogadores\/1938\/guido_masetti.jpg"
+            },
+            {
+                "nome": "Carlo Ceresoli",
+                "nome_completo": "Carlo Ceresoli",
+                "pais": "Itália",
+                "ano_copa": 1938,
+                "foto": "assets\/imagens\/jogadores\/1938\/carlo_ceresoli.jpg"
+            }
+        ],
+        "defensores": [
+            {
+                "nome": "Alfredo Foni",
+                "nome_completo": "Alfredo Foni",
+                "pais": "Itália",
+                "ano_copa": 1938,
+                "foto": "assets\/imagens\/jogadores\/1938\/alfredo_foni.jpg"
+            },
+            {
+                "nome": "Pietro Rava",
+                "nome_completo": "Pietro Rava",
+                "pais": "Itália",
+                "ano_copa": 1938,
+                "foto": "assets\/imagens\/jogadores\/1938\/pietro_rava.jpg"
+            },
+            {
+                "nome": "Eraldo Monzeglio",
+                "nome_completo": "Eraldo Monzeglio",
+                "pais": "Itália",
+                "ano_copa": 1938,
+                "foto": "assets\/imagens\/jogadores\/1938\/eraldo_monzeglio.jpg"
+            }
+        ],
+        "meios": [
+            {
+                "nome": "Miguel Andreolo",
+                "nome_completo": "Miguel Andreolo",
+                "pais": "Itália",
+                "ano_copa": 1938,
+                "foto": "assets\/imagens\/jogadores\/1938\/miguel_andreolo.jpg"
+            },
+            {
+                "nome": "Ugo Locatelli",
+                "nome_completo": "Ugo Locatelli",
+                "pais": "Itália",
+                "ano_copa": 1938,
+                "foto": "assets\/imagens\/jogadores\/1938\/ugo_locatelli.jpg"
+            },
+            {
+                "nome": "Mario Genta",
+                "nome_completo": "Mario Genta",
+                "pais": "Itália",
+                "ano_copa": 1938,
+                "foto": "assets\/imagens\/jogadores\/1938\/mario_genta.jpg"
+            },
+            {
+                "nome": "Pietro Serantoni",
+                "nome_completo": "Pietro Serantoni",
+                "pais": "Itália",
+                "ano_copa": 1938,
+                "foto": "assets\/imagens\/jogadores\/1938\/pietro_serantoni.jpg"
+            },
+            {
+                "nome": "Mario Perazzolo",
+                "nome_completo": "Mario Perazzolo",
+                "pais": "Itália",
+                "ano_copa": 1938,
+                "foto": "assets\/imagens\/jogadores\/1938\/mario_perazzolo.jpg"
+            }
+        ],
+        "atacantes": [
+            {
+                "nome": "Amedeo Biavati",
+                "nome_completo": "Amedeo Biavati",
+                "pais": "Itália",
+                "ano_copa": 1938,
+                "foto": "assets\/imagens\/jogadores\/1938\/amedeo_biavati.jpg"
+            },
+            {
+                "nome": "Silvio Piola",
+                "nome_completo": "Silvio Piola",
+                "pais": "Itália",
+                "ano_copa": 1938,
+                "foto": "assets\/imagens\/jogadores\/1938\/silvio_piola.jpg"
+            },
+            {
+                "nome": "Giuseppe Meazza",
+                "nome_completo": "Giuseppe Meazza",
+                "pais": "Itália",
+                "ano_copa": 1938,
+                "foto": "assets\/imagens\/jogadores\/1938\/giuseppe_meazza.jpg"
+            },
+            {
+                "nome": "Gino Colaussi",
+                "nome_completo": "Gino Colaussi",
+                "pais": "Itália",
+                "ano_copa": 1938,
+                "foto": "assets\/imagens\/jogadores\/1938\/gino_colaussi.jpg"
+            },
+            {
+                "nome": "Giovanni Ferrari",
+                "nome_completo": "Giovanni Ferrari",
+                "pais": "Itália",
+                "ano_copa": 1938,
+                "foto": "assets\/imagens\/jogadores\/1938\/giovanni_ferrari.jpg"
+            }
+        ],
+        "selecoes": null
+    },
+    {
+        "ano": 1950,
+        "poster": "assets\/imagens\/posters\/copa 1950.jpg",
+        "foto_selecao": "assets\/imagens\/selecoes\/uruguai 1950.jpeg",
+        "pais": "Uruguai",
+        "apelido": "Os Heróis do Maracanaço",
+        "sede": "Brasil",
+        "vice": "Brasil",
+        "placar": "2x1",
+        "artilheiro": {
+            "nome": "Ademir de Menezes",
+            "nome_completo": "Ademir de Menezes",
+            "pais": "Brasil",
+            "ano_copa": 1950
+        },
+        "tecnico": {
+            "nome": "Juan López",
+            "nome_completo": "Juan López",
+            "pais": "Uruguai",
+            "ano_copa": 1950
+        },
+        "goleiros": [
+            {
+                "nome": "Roque Máspoli",
+                "nome_completo": "Roque Máspoli",
+                "pais": "Uruguai",
+                "ano_copa": 1950,
+                "foto": "assets\/imagens\/jogadores\/1950\/roque_m_aspoli.jpg"
+            },
+            {
+                "nome": "Aníbal Paz",
+                "nome_completo": "Aníbal Paz",
+                "pais": "Uruguai",
+                "ano_copa": 1950,
+                "foto": "assets\/imagens\/jogadores\/1950\/an_ibal_paz.jpg"
+            }
+        ],
+        "defensores": [
+            {
+                "nome": "Matías González",
+                "nome_completo": "Matías González",
+                "pais": "Uruguai",
+                "ano_copa": 1950,
+                "foto": "assets\/imagens\/jogadores\/1950\/mat_ias_gonz_alez.jpg"
+            },
+            {
+                "nome": "Eusebio Tejera",
+                "nome_completo": "Eusebio Tejera",
+                "pais": "Uruguai",
+                "ano_copa": 1950,
+                "foto": "assets\/imagens\/jogadores\/1950\/eusebio_tejera.jpg"
+            },
+            {
+                "nome": "Juan Carlos González",
+                "nome_completo": "Juan Carlos González",
+                "pais": "Uruguai",
+                "ano_copa": 1950,
+                "foto": "assets\/imagens\/jogadores\/1950\/juan_carlos_gonz_alez.jpg"
+            },
+            {
+                "nome": "Víctor Rodríguez Andrade",
+                "nome_completo": "Víctor Rodríguez Andrade",
+                "pais": "Uruguai",
+                "ano_copa": 1950,
+                "foto": "assets\/imagens\/jogadores\/1950\/v_ictor_rodr_iguez_andrade.jpg"
+            }
+        ],
+        "meios": [
+            {
+                "nome": "Obdulio Varela",
+                "nome_completo": "Obdulio Varela",
+                "pais": "Uruguai",
+                "ano_copa": 1950,
+                "foto": "assets\/imagens\/jogadores\/1950\/obdulio_varela.jpg"
+            },
+            {
+                "nome": "Schubert Gambetta",
+                "nome_completo": "Schubert Gambetta",
+                "pais": "Uruguai",
+                "ano_copa": 1950,
+                "foto": "assets\/imagens\/jogadores\/1950\/schubert_gambetta.jpg"
+            },
+            {
+                "nome": "William Martínez",
+                "nome_completo": "William Martínez",
+                "pais": "Uruguai",
+                "ano_copa": 1950,
+                "foto": "assets\/imagens\/jogadores\/1950\/william_mart_inez.jpg"
+            },
+            {
+                "nome": "Rodolfo Pini",
+                "nome_completo": "Rodolfo Pini",
+                "pais": "Uruguai",
+                "ano_copa": 1950
+            },
+            {
+                "nome": "Julio César Britos",
+                "nome_completo": "Julio César Britos",
+                "pais": "Uruguai",
+                "ano_copa": 1950
+            },
+            {
+                "nome": "Washington Ortuño",
+                "nome_completo": "Washington Ortuño",
+                "pais": "Uruguai",
+                "ano_copa": 1950
+            }
+        ],
+        "atacantes": [
+            {
+                "nome": "Alcides Ghiggia",
+                "nome_completo": "Alcides Ghiggia",
+                "pais": "Uruguai",
+                "ano_copa": 1950,
+                "foto": "assets\/imagens\/jogadores\/1950\/alcides_ghiggia.jpg"
+            },
+            {
+                "nome": "Juan Alberto Schiaffino",
+                "nome_completo": "Juan Alberto Schiaffino",
+                "pais": "Uruguai",
+                "ano_copa": 1950,
+                "foto": "assets\/imagens\/jogadores\/1950\/juan_alberto_schiaffino.jpg"
+            },
+            {
+                "nome": "Óscar Míguez",
+                "nome_completo": "Óscar Míguez",
+                "pais": "Uruguai",
+                "ano_copa": 1950,
+                "foto": "assets\/imagens\/jogadores\/1950\/oscar_m_iguez.jpg"
+            },
+            {
+                "nome": "Julio Pérez",
+                "nome_completo": "Julio Pérez",
+                "pais": "Uruguai",
+                "ano_copa": 1950,
+                "foto": "assets\/imagens\/jogadores\/1950\/julio_p_erez.jpg"
+            },
+            {
+                "nome": "Rubén Morán",
+                "nome_completo": "Rubén Morán",
+                "pais": "Uruguai",
+                "ano_copa": 1950,
+                "foto": "assets\/imagens\/jogadores\/1950\/rub_en_mor_an.jpg"
+            }
+        ],
+        "selecoes": null
+    },
+    {
+        "ano": 1954,
+        "poster": "assets\/imagens\/posters\/copa 1954.jpg",
+        "foto_selecao": "assets\/imagens\/selecoes\/alemanha 1954.jpeg",
+        "pais": "Alemanha Ocidental",
+        "apelido": "Heróis de Berna",
+        "sede": "Suíça",
+        "vice": "Hungria",
+        "placar": "3x2",
+        "artilheiro": {
+            "nome": "Sándor Kocsis",
+            "nome_completo": "Sándor Kocsis",
+            "pais": "Hungria",
+            "ano_copa": 1954
+        },
+        "tecnico": {
+            "nome": "Sepp Herberger",
+            "nome_completo": "Sepp Herberger",
+            "pais": "Alemanha Ocidental",
+            "ano_copa": 1954
+        },
+        "goleiros": [
+            {
+                "nome": "Toni Turek",
+                "nome_completo": "Toni Turek",
+                "pais": "Alemanha Ocidental",
+                "ano_copa": 1954
+            },
+            {
+                "nome": "Heinz Kubsch",
+                "nome_completo": "Heinz Kubsch",
+                "pais": "Alemanha Ocidental",
+                "ano_copa": 1954
+            },
+            {
+                "nome": "Heinrich Kwiatkowski",
+                "nome_completo": "Heinrich Kwiatkowski",
+                "pais": "Alemanha Ocidental",
+                "ano_copa": 1954
+            }
+        ],
+        "defensores": [
+            {
+                "nome": "Werner Kohlmeyer",
+                "nome_completo": "Werner Kohlmeyer",
+                "pais": "Alemanha Ocidental",
+                "ano_copa": 1954,
+                "foto": "assets\/imagens\/jogadores\/1954\/werner_kohlmeyer.jpg"
+            },
+            {
+                "nome": "Josef Posipal",
+                "nome_completo": "Josef Posipal",
+                "pais": "Alemanha Ocidental",
+                "ano_copa": 1954,
+                "foto": "assets\/imagens\/jogadores\/1954\/josef_posipal.jpg"
+            },
+            {
+                "nome": "Karl Mai",
+                "nome_completo": "Karl Mai",
+                "pais": "Alemanha Ocidental",
+                "ano_copa": 1954,
+                "foto": "assets\/imagens\/jogadores\/1954\/karl_mai.jpg"
+            },
+            {
+                "nome": "Werner Liebrich",
+                "nome_completo": "Werner Liebrich",
+                "pais": "Alemanha Ocidental",
+                "ano_copa": 1954,
+                "foto": "assets\/imagens\/jogadores\/1954\/werner_liebrich.jpg"
+            },
+            {
+                "nome": "Hans Bauer",
+                "nome_completo": "Hans Bauer",
+                "pais": "Alemanha Ocidental",
+                "ano_copa": 1954
+            }
+        ],
+        "meios": [
+            {
+                "nome": "Horst Eckel",
+                "nome_completo": "Horst Eckel",
+                "pais": "Alemanha Ocidental",
+                "ano_copa": 1954,
+                "foto": "assets\/imagens\/jogadores\/1954\/horst_eckel.jpg"
+            },
+            {
+                "nome": "Fritz Walter",
+                "nome_completo": "Fritz Walter",
+                "pais": "Alemanha Ocidental",
+                "ano_copa": 1954,
+                "foto": "assets\/imagens\/jogadores\/1954\/fritz_walter.jpg"
+            },
+            {
+                "nome": "Ottmar Walter",
+                "nome_completo": "Ottmar Walter",
+                "pais": "Alemanha Ocidental",
+                "ano_copa": 1954,
+                "foto": "assets\/imagens\/jogadores\/1954\/ottmar_walter.jpg"
+            },
+            {
+                "nome": "Alfred Pfaff",
+                "nome_completo": "Alfred Pfaff",
+                "pais": "Alemanha Ocidental",
+                "ano_copa": 1954
+            },
+            {
+                "nome": "Bernhard Klodt",
+                "nome_completo": "Bernhard Klodt",
+                "pais": "Alemanha Ocidental",
+                "ano_copa": 1954
+            }
+        ],
+        "atacantes": [
+            {
+                "nome": "Helmut Rahn",
+                "nome_completo": "Helmut Rahn",
+                "pais": "Alemanha Ocidental",
+                "ano_copa": 1954,
+                "foto": "assets\/imagens\/jogadores\/1954\/helmut_rahn.jpg"
+            },
+            {
+                "nome": "Max Morlock",
+                "nome_completo": "Max Morlock",
+                "pais": "Alemanha Ocidental",
+                "ano_copa": 1954,
+                "foto": "assets\/imagens\/jogadores\/1954\/max_morlock.jpg"
+            },
+            {
+                "nome": "Hans Schäfer",
+                "nome_completo": "Hans Schäfer",
+                "pais": "Alemanha Ocidental",
+                "ano_copa": 1954,
+                "foto": "assets\/imagens\/jogadores\/1954\/hans_sch_afer.jpg"
+            },
+            {
+                "nome": "Richard Herrmann",
+                "nome_completo": "Richard Herrmann",
+                "pais": "Alemanha Ocidental",
+                "ano_copa": 1954
+            }
+        ],
+        "selecoes": null
+    },
+    {
+        "ano": 1958,
+        "poster": "assets\/imagens\/posters\/copa 1958.jpg",
+        "foto_selecao": "assets\/imagens\/selecoes\/brasil 1958.jpeg",
+        "pais": "Brasil",
+        "apelido": "Escrete de Ouro",
+        "sede": "Suécia",
+        "vice": "Suécia",
+        "placar": "5x2",
+        "artilheiro": {
+            "nome": "Just Fontaine",
+            "nome_completo": "Just Fontaine",
+            "pais": "França",
+            "ano_copa": 1958
+        },
+        "tecnico": {
+            "nome": "Vicente Feola",
+            "nome_completo": "Vicente Feola",
+            "pais": "Brasil",
+            "ano_copa": 1958
+        },
+        "goleiros": [
+            {
+                "nome": "Gilmar",
+                "nome_completo": "Gilmar dos Santos Neves",
+                "pais": "Brasil",
+                "ano_copa": 1958,
+                "foto": "assets\/imagens\/jogadores\/1958\/gilmar_dos_santos_neves.jpg"
+            },
+            {
+                "nome": "Castilho",
+                "nome_completo": "Carlos José Castilho",
+                "pais": "Brasil",
+                "ano_copa": 1958,
+                "foto": "assets\/imagens\/jogadores\/1958\/carlos_jos_e_castilho.jpg"
+            }
+        ],
+        "defensores": [
+            {
+                "nome": "Bellini",
+                "nome_completo": "Hílderaldo Luís Bellini",
+                "pais": "Brasil",
+                "ano_copa": 1958
+            },
+            {
+                "nome": "Nilton Santos",
+                "nome_completo": "Nilton Santos",
+                "pais": "Brasil",
+                "ano_copa": 1958,
+                "foto": "assets\/imagens\/jogadores\/1958\/nilton_santos.jpg"
+            },
+            {
+                "nome": "Djalma Santos",
+                "nome_completo": "Djalma Santos",
+                "pais": "Brasil",
+                "ano_copa": 1958,
+                "foto": "assets\/imagens\/jogadores\/1958\/djalma_santos.jpg"
+            },
+            {
+                "nome": "Zózimo",
+                "nome_completo": "Zózimo Alves Calazans",
+                "pais": "Brasil",
+                "ano_copa": 1958,
+                "foto": "assets\/imagens\/jogadores\/1958\/z_ozimo_alves_calazans.jpg"
+            }
+        ],
+        "meios": [
+            {
+                "nome": "Didi",
+                "nome_completo": "Valdir Pereira Didi",
+                "pais": "Brasil",
+                "ano_copa": 1958
+            },
+            {
+                "nome": "Zito",
+                "nome_completo": "José Ely de Miranda Zito",
+                "pais": "Brasil",
+                "ano_copa": 1958
+            },
+            {
+                "nome": "Dino Sani",
+                "nome_completo": "Dino Sani",
+                "pais": "Brasil",
+                "ano_copa": 1958
+            }
+        ],
+        "atacantes": [
+            {
+                "nome": "Pelé",
+                "nome_completo": "Edson Arantes do Nascimento Pelé",
+                "pais": "Brasil",
+                "ano_copa": 1958,
+                "foto": "assets\/imagens\/jogadores\/1958\/edson_arantes_do_nascimento_pel_e.jpg"
+            },
+            {
+                "nome": "Garrincha",
+                "nome_completo": "Manuel Francisco dos Santos Garrincha",
+                "pais": "Brasil",
+                "ano_copa": 1958,
+                "foto": "assets\/imagens\/jogadores\/1958\/manuel_francisco_dos_santos_garrincha.jpg"
+            },
+            {
+                "nome": "Zagallo",
+                "nome_completo": "Mário Jorge Lobo Zagallo",
+                "pais": "Brasil",
+                "ano_copa": 1958
+            },
+            {
+                "nome": "Vavá",
+                "nome_completo": "Edvaldo Izídio Neto Vavá",
+                "pais": "Brasil",
+                "ano_copa": 1958
+            },
+            {
+                "nome": "José Altafini",
+                "nome_completo": "José João Altafini",
+                "pais": "Brasil",
+                "ano_copa": 1958,
+                "foto": "assets\/imagens\/jogadores\/1958\/jos_e_jo_ao_altafini.jpg"
+            }
+        ],
+        "selecoes": null
+    },
+    {
+        "ano": 1962,
+        "poster": "assets\/imagens\/posters\/copa 1962.jpg",
+        "foto_selecao": "assets\/imagens\/selecoes\/brasil 1962.jpeg",
+        "pais": "Brasil",
+        "apelido": "Bicampeã do Mundo",
+        "sede": "Chile",
+        "vice": "Tchecoslováquia",
+        "placar": "3x1",
+        "artilheiro": {
+            "nome": "Flórián Albert",
+            "nome_completo": "Flórián Albert",
+            "pais": "Hungria",
+            "ano_copa": 1962
+        },
+        "tecnico": {
+            "nome": "Aymoré Moreira",
+            "nome_completo": "Aymoré Moreira",
+            "pais": "Brasil",
+            "ano_copa": 1962
+        },
+        "goleiros": [
+            {
+                "nome": "Gilmar",
+                "nome_completo": "Gilmar dos Santos Neves",
+                "pais": "Brasil",
+                "ano_copa": 1962,
+                "foto": "assets\/imagens\/jogadores\/1962\/gilmar_dos_santos_neves.jpg"
+            },
+            {
+                "nome": "Manga",
+                "nome_completo": "Ildásio Dias Costa Manga",
+                "pais": "Brasil",
+                "ano_copa": 1962
+            }
+        ],
+        "defensores": [
+            {
+                "nome": "Mauro Ramos",
+                "nome_completo": "Mauro Ramos de Oliveira",
+                "pais": "Brasil",
+                "ano_copa": 1962,
+                "foto": "assets\/imagens\/jogadores\/1962\/mauro_ramos_de_oliveira.jpg"
+            },
+            {
+                "nome": "Djalma Santos",
+                "nome_completo": "Djalma Santos",
+                "pais": "Brasil",
+                "ano_copa": 1962,
+                "foto": "assets\/imagens\/jogadores\/1962\/djalma_santos.jpg"
+            },
+            {
+                "nome": "Nilton Santos",
+                "nome_completo": "Nilton Santos",
+                "pais": "Brasil",
+                "ano_copa": 1962,
+                "foto": "assets\/imagens\/jogadores\/1962\/nilton_santos.jpg"
+            },
+            {
+                "nome": "Zózimo",
+                "nome_completo": "Zózimo Alves Calazans",
+                "pais": "Brasil",
+                "ano_copa": 1962,
+                "foto": "assets\/imagens\/jogadores\/1962\/z_ozimo_alves_calazans.jpg"
+            }
+        ],
+        "meios": [
+            {
+                "nome": "Zito",
+                "nome_completo": "José Ely de Miranda Zito",
+                "pais": "Brasil",
+                "ano_copa": 1962
+            },
+            {
+                "nome": "Didi",
+                "nome_completo": "Valdir Pereira Didi",
+                "pais": "Brasil",
+                "ano_copa": 1962,
+                "foto": "assets\/imagens\/jogadores\/1962\/valdir_pereira_didi.jpg"
+            },
+            {
+                "nome": "Mengálvio",
+                "nome_completo": "Mengálvio Figueiredo",
+                "pais": "Brasil",
+                "ano_copa": 1962
+            }
+        ],
+        "atacantes": [
+            {
+                "nome": "Garrincha",
+                "nome_completo": "Manuel Francisco dos Santos Garrincha",
+                "pais": "Brasil",
+                "ano_copa": 1962,
+                "foto": "assets\/imagens\/jogadores\/1962\/manuel_francisco_dos_santos_garrincha.jpg"
+            },
+            {
+                "nome": "Amarildo",
+                "nome_completo": "Amarildo Tavares da Silveira",
+                "pais": "Brasil",
+                "ano_copa": 1962,
+                "foto": "assets\/imagens\/jogadores\/1962\/amarildo_tavares_da_silveira.jpg"
+            },
+            {
+                "nome": "Vavá",
+                "nome_completo": "Edvaldo Izídio Neto Vavá",
+                "pais": "Brasil",
+                "ano_copa": 1962,
+                "foto": "assets\/imagens\/jogadores\/1962\/edvaldo_iz_idio_neto_vav_a.jpg"
+            },
+            {
+                "nome": "Pelé",
+                "nome_completo": "Edson Arantes do Nascimento Pelé",
+                "pais": "Brasil",
+                "ano_copa": 1962,
+                "foto": "assets\/imagens\/jogadores\/1962\/edson_arantes_do_nascimento_pel_e.jpg"
+            },
+            {
+                "nome": "Coutinho",
+                "nome_completo": "José Augusto Coutinho",
+                "pais": "Brasil",
+                "ano_copa": 1962
+            }
+        ],
+        "selecoes": null
+    },
+    {
+        "ano": 1966,
+        "poster": "assets\/imagens\/posters\/copa 1966.jpg",
+        "foto_selecao": "assets\/imagens\/selecoes\/inglaterra 1966.jpeg",
+        "pais": "Inglaterra",
+        "apelido": "Three Lions",
+        "sede": "Inglaterra",
+        "vice": "Alemanha Ocidental",
+        "placar": "4x2",
+        "artilheiro": {
+            "nome": "Eusébio",
+            "nome_completo": "Eusébio da Silva Ferreira",
+            "pais": "Portugal",
+            "ano_copa": 1966
+        },
+        "tecnico": {
+            "nome": "Alf Ramsey",
+            "nome_completo": "Sir Alf Ramsey",
+            "pais": "Inglaterra",
+            "ano_copa": 1966
+        },
+        "goleiros": [
+            {
+                "nome": "Gordon Banks",
+                "nome_completo": "Gordon Banks",
+                "pais": "Inglaterra",
+                "ano_copa": 1966,
+                "foto": "assets\/imagens\/jogadores\/1966\/gordon_banks.jpg"
+            },
+            {
+                "nome": "Peter Bonetti",
+                "nome_completo": "Peter Bonetti",
+                "pais": "Inglaterra",
+                "ano_copa": 1966,
+                "foto": "assets\/imagens\/jogadores\/1966\/peter_bonetti.jpg"
+            }
+        ],
+        "defensores": [
+            {
+                "nome": "Bobby Moore",
+                "nome_completo": "Bobby Moore",
+                "pais": "Inglaterra",
+                "ano_copa": 1966,
+                "foto": "assets\/imagens\/jogadores\/1966\/bobby_moore.jpg"
+            },
+            {
+                "nome": "Jack Charlton",
+                "nome_completo": "Jack Charlton",
+                "pais": "Inglaterra",
+                "ano_copa": 1966,
+                "foto": "assets\/imagens\/jogadores\/1966\/jack_charlton.jpg"
+            },
+            {
+                "nome": "George Cohen",
+                "nome_completo": "George Cohen",
+                "pais": "Inglaterra",
+                "ano_copa": 1966,
+                "foto": "assets\/imagens\/jogadores\/1966\/george_cohen.jpg"
+            },
+            {
+                "nome": "Ray Wilson",
+                "nome_completo": "Ray Wilson",
+                "pais": "Inglaterra",
+                "ano_copa": 1966,
+                "foto": "assets\/imagens\/jogadores\/1966\/ray_wilson.jpg"
+            },
+            {
+                "nome": "Norman Hunter",
+                "nome_completo": "Norman Hunter",
+                "pais": "Inglaterra",
+                "ano_copa": 1966,
+                "foto": "assets\/imagens\/jogadores\/1966\/norman_hunter.jpg"
+            }
+        ],
+        "meios": [
+            {
+                "nome": "Bobby Charlton",
+                "nome_completo": "Bobby Charlton",
+                "pais": "Inglaterra",
+                "ano_copa": 1966,
+                "foto": "assets\/imagens\/jogadores\/1966\/bobby_charlton.jpg"
+            },
+            {
+                "nome": "Nobby Stiles",
+                "nome_completo": "Nobby Stiles",
+                "pais": "Inglaterra",
+                "ano_copa": 1966,
+                "foto": "assets\/imagens\/jogadores\/1966\/nobby_stiles.jpg"
+            },
+            {
+                "nome": "Alan Ball",
+                "nome_completo": "Alan Ball",
+                "pais": "Inglaterra",
+                "ano_copa": 1966,
+                "foto": "assets\/imagens\/jogadores\/1966\/alan_ball.jpg"
+            },
+            {
+                "nome": "Martin Peters",
+                "nome_completo": "Martin Peters",
+                "pais": "Inglaterra",
+                "ano_copa": 1966,
+                "foto": "assets\/imagens\/jogadores\/1966\/martin_peters.jpg"
+            }
+        ],
+        "atacantes": [
+            {
+                "nome": "Geoff Hurst",
+                "nome_completo": "Geoff Hurst",
+                "pais": "Inglaterra",
+                "ano_copa": 1966,
+                "foto": "assets\/imagens\/jogadores\/1966\/geoff_hurst.jpg"
+            },
+            {
+                "nome": "Roger Hunt",
+                "nome_completo": "Roger Hunt",
+                "pais": "Inglaterra",
+                "ano_copa": 1966,
+                "foto": "assets\/imagens\/jogadores\/1966\/roger_hunt.jpg"
+            },
+            {
+                "nome": "Jimmy Greaves",
+                "nome_completo": "Jimmy Greaves",
+                "pais": "Inglaterra",
+                "ano_copa": 1966,
+                "foto": "assets\/imagens\/jogadores\/1966\/jimmy_greaves.jpg"
+            }
+        ],
+        "selecoes": null
+    },
+    {
+        "ano": 1970,
+        "poster": "assets\/imagens\/posters\/copa 1970.jpg",
+        "foto_selecao": "assets\/imagens\/selecoes\/brasil 1970.jpeg",
+        "pais": "Brasil",
+        "apelido": "Seleção do Tri",
+        "sede": "México",
+        "vice": "Itália",
+        "placar": "4x1",
+        "artilheiro": {
+            "nome": "Gerd Müller",
+            "nome_completo": "Gerd Müller",
+            "pais": "Alemanha Ocidental",
+            "ano_copa": 1970
+        },
+        "tecnico": {
+            "nome": "Mário Zagallo",
+            "nome_completo": "Mário Jorge Lobo Zagallo",
+            "pais": "Brasil",
+            "ano_copa": 1970
+        },
+        "goleiros": [
+            {
+                "nome": "Félix",
+                "nome_completo": "Félix Miéli Venerando",
+                "pais": "Brasil",
+                "ano_copa": 1970,
+                "foto": "assets\/imagens\/jogadores\/1970\/f_elix_mi_eli_venerando.jpg"
+            },
+            {
+                "nome": "Leão",
+                "nome_completo": "Émerson Leão",
+                "pais": "Brasil",
+                "ano_copa": 1970,
+                "foto": "assets\/imagens\/jogadores\/1970\/emerson_le_ao.jpg"
+            }
+        ],
+        "defensores": [
+            {
+                "nome": "Carlos Alberto Torres",
+                "nome_completo": "Carlos Alberto Torres",
+                "pais": "Brasil",
+                "ano_copa": 1970,
+                "foto": "assets\/imagens\/jogadores\/1970\/carlos_alberto_torres.jpg"
+            },
+            {
+                "nome": "Brito",
+                "nome_completo": "Wilson Orlando Pereira Brito",
+                "pais": "Brasil",
+                "ano_copa": 1970
+            },
+            {
+                "nome": "Piazza",
+                "nome_completo": "Wilson da Silva Piazza",
+                "pais": "Brasil",
+                "ano_copa": 1970,
+                "foto": "assets\/imagens\/jogadores\/1970\/wilson_da_silva_piazza.jpg"
+            },
+            {
+                "nome": "Everaldo",
+                "nome_completo": "Everaldo Marques da Silva",
+                "pais": "Brasil",
+                "ano_copa": 1970,
+                "foto": "assets\/imagens\/jogadores\/1970\/everaldo_marques_da_silva.jpg"
+            },
+            {
+                "nome": "Marco Antônio",
+                "nome_completo": "Marco Antônio Feliciano",
+                "pais": "Brasil",
+                "ano_copa": 1970,
+                "foto": "assets\/imagens\/jogadores\/1970\/marco_ant_onio_feliciano.jpg"
+            }
+        ],
+        "meios": [
+            {
+                "nome": "Clodoaldo",
+                "nome_completo": "Clodoaldo Tavares de Santana",
+                "pais": "Brasil",
+                "ano_copa": 1970,
+                "foto": "assets\/imagens\/jogadores\/1970\/clodoaldo_tavares_de_santana.jpg"
+            },
+            {
+                "nome": "Gérson",
+                "nome_completo": "Gérson de Oliveira Nunes",
+                "pais": "Brasil",
+                "ano_copa": 1970,
+                "foto": "assets\/imagens\/jogadores\/1970\/g_erson_de_oliveira_nunes.jpg"
+            },
+            {
+                "nome": "Paulo César Caju",
+                "nome_completo": "Paulo César Lima Caju",
+                "pais": "Brasil",
+                "ano_copa": 1970,
+                "foto": "assets\/imagens\/jogadores\/1970\/paulo_c_esar_lima_caju.jpg"
+            }
+        ],
+        "atacantes": [
+            {
+                "nome": "Pelé",
+                "nome_completo": "Edson Arantes do Nascimento Pelé",
+                "pais": "Brasil",
+                "ano_copa": 1970,
+                "foto": "assets\/imagens\/jogadores\/1970\/edson_arantes_do_nascimento_pel_e.jpg"
+            },
+            {
+                "nome": "Jairzinho",
+                "nome_completo": "Jair Ventura Filho Jairzinho",
+                "pais": "Brasil",
+                "ano_copa": 1970,
+                "foto": "assets\/imagens\/jogadores\/1970\/jair_ventura_filho_jairzinho.jpg"
+            },
+            {
+                "nome": "Tostão",
+                "nome_completo": "Eduardo Gonçalves de Andrade Tostão",
+                "pais": "Brasil",
+                "ano_copa": 1970,
+                "foto": "assets\/imagens\/jogadores\/1970\/eduardo_goncalves_de_andrade_tost_ao.jpg"
+            },
+            {
+                "nome": "Rivelino",
+                "nome_completo": "Roberto Rivelino",
+                "pais": "Brasil",
+                "ano_copa": 1970,
+                "foto": "assets\/imagens\/jogadores\/1970\/roberto_rivelino.jpg"
+            },
+            {
+                "nome": "Dadá Maravilha",
+                "nome_completo": "Dario José dos Santos Dadá Maravilha",
+                "pais": "Brasil",
+                "ano_copa": 1970
+            }
+        ],
+        "selecoes": null
+    },
+    {
+        "ano": 1974,
+        "poster": "assets\/imagens\/posters\/copa 1974.jpg",
+        "foto_selecao": "assets\/imagens\/selecoes\/alemanha 1974.jpeg",
+        "pais": "Alemanha Ocidental",
+        "apelido": "Die Mannschaft Campeã",
+        "sede": "Alemanha Ocidental",
+        "vice": "Holanda",
+        "placar": "2x1",
+        "artilheiro": {
+            "nome": "Grzegorz Lato",
+            "nome_completo": "Grzegorz Lato",
+            "pais": "Polônia",
+            "ano_copa": 1974
+        },
+        "tecnico": {
+            "nome": "Helmut Schön",
+            "nome_completo": "Helmut Schön",
+            "pais": "Alemanha Ocidental",
+            "ano_copa": 1974
+        },
+        "goleiros": [
+            {
+                "nome": "Sepp Maier",
+                "nome_completo": "Sepp Maier",
+                "pais": "Alemanha Ocidental",
+                "ano_copa": 1974,
+                "foto": "assets\/imagens\/jogadores\/1974\/sepp_maier.jpg"
+            }
+        ],
+        "defensores": [
+            {
+                "nome": "Franz Beckenbauer",
+                "nome_completo": "Franz Beckenbauer",
+                "pais": "Alemanha Ocidental",
+                "ano_copa": 1974,
+                "foto": "assets\/imagens\/jogadores\/1974\/franz_beckenbauer.jpg"
+            },
+            {
+                "nome": "Berti Vogts",
+                "nome_completo": "Berti Vogts",
+                "pais": "Alemanha Ocidental",
+                "ano_copa": 1974,
+                "foto": "assets\/imagens\/jogadores\/1974\/berti_vogts.jpg"
+            },
+            {
+                "nome": "Paul Breitner",
+                "nome_completo": "Paul Breitner",
+                "pais": "Alemanha Ocidental",
+                "ano_copa": 1974,
+                "foto": "assets\/imagens\/jogadores\/1974\/paul_breitner.jpg"
+            },
+            {
+                "nome": "Hans-Georg Schwarzenbeck",
+                "nome_completo": "Hans-Georg Schwarzenbeck",
+                "pais": "Alemanha Ocidental",
+                "ano_copa": 1974,
+                "foto": "assets\/imagens\/jogadores\/1974\/hans_georg_schwarzenbeck.jpg"
+            }
+        ],
+        "meios": [
+            {
+                "nome": "Wolfgang Overath",
+                "nome_completo": "Wolfgang Overath",
+                "pais": "Alemanha Ocidental",
+                "ano_copa": 1974,
+                "foto": "assets\/imagens\/jogadores\/1974\/wolfgang_overath.jpg"
+            },
+            {
+                "nome": "Uli Hoeneß",
+                "nome_completo": "Uli Hoeneß",
+                "pais": "Alemanha Ocidental",
+                "ano_copa": 1974,
+                "foto": "assets\/imagens\/jogadores\/1974\/uli_hoeness.jpg"
+            },
+            {
+                "nome": "Rainer Bonhof",
+                "nome_completo": "Rainer Bonhof",
+                "pais": "Alemanha Ocidental",
+                "ano_copa": 1974,
+                "foto": "assets\/imagens\/jogadores\/1974\/rainer_bonhof.jpg"
+            },
+            {
+                "nome": "Günter Netzer",
+                "nome_completo": "Günter Netzer",
+                "pais": "Alemanha Ocidental",
+                "ano_copa": 1974,
+                "foto": "assets\/imagens\/jogadores\/1974\/g_unter_netzer.jpg"
+            }
+        ],
+        "atacantes": [
+            {
+                "nome": "Gerd Müller",
+                "nome_completo": "Gerd Müller",
+                "pais": "Alemanha Ocidental",
+                "ano_copa": 1974,
+                "foto": "assets\/imagens\/jogadores\/1974\/gerd_m_uller.jpg"
+            },
+            {
+                "nome": "Jupp Heynckes",
+                "nome_completo": "Jupp Heynckes",
+                "pais": "Alemanha Ocidental",
+                "ano_copa": 1974,
+                "foto": "assets\/imagens\/jogadores\/1974\/jupp_heynckes.jpg"
+            },
+            {
+                "nome": "Bernd Hölzenbein",
+                "nome_completo": "Bernd Hölzenbein",
+                "pais": "Alemanha Ocidental",
+                "ano_copa": 1974,
+                "foto": "assets\/imagens\/jogadores\/1974\/bernd_h_olzenbein.jpg"
+            }
+        ],
+        "selecoes": null
+    },
+    {
+        "ano": 1978,
+        "poster": "assets\/imagens\/posters\/copa 1978.jpg",
+        "foto_selecao": "assets\/imagens\/selecoes\/argentina 1978.jpeg",
+        "pais": "Argentina",
+        "apelido": "La Albiceleste de Menotti",
+        "sede": "Argentina",
+        "vice": "Holanda",
+        "placar": "3x1",
+        "artilheiro": {
+            "nome": "Mario Kempes",
+            "nome_completo": "Mario Kempes",
+            "pais": "Argentina",
+            "ano_copa": 1978
+        },
+        "tecnico": {
+            "nome": "César Luis Menotti",
+            "nome_completo": "César Luis Menotti",
+            "pais": "Argentina",
+            "ano_copa": 1978
+        },
+        "goleiros": [
+            {
+                "nome": "Ubaldo Fillol",
+                "nome_completo": "Ubaldo Fillol",
+                "pais": "Argentina",
+                "ano_copa": 1978,
+                "foto": "assets\/imagens\/jogadores\/1978\/ubaldo_fillol.jpg"
+            },
+            {
+                "nome": "Ricardo La Volpe",
+                "nome_completo": "Ricardo La Volpe",
+                "pais": "Argentina",
+                "ano_copa": 1978,
+                "foto": "assets\/imagens\/jogadores\/1978\/ricardo_la_volpe.jpg"
+            }
+        ],
+        "defensores": [
+            {
+                "nome": "Daniel Passarella",
+                "nome_completo": "Daniel Passarella",
+                "pais": "Argentina",
+                "ano_copa": 1978,
+                "foto": "assets\/imagens\/jogadores\/1978\/daniel_passarella.jpg"
+            },
+            {
+                "nome": "Jorge Olguín",
+                "nome_completo": "Jorge Olguín",
+                "pais": "Argentina",
+                "ano_copa": 1978,
+                "foto": "assets\/imagens\/jogadores\/1978\/jorge_olgu_in.jpg"
+            },
+            {
+                "nome": "Alberto Tarantini",
+                "nome_completo": "Alberto Tarantini",
+                "pais": "Argentina",
+                "ano_copa": 1978,
+                "foto": "assets\/imagens\/jogadores\/1978\/alberto_tarantini.jpg"
+            },
+            {
+                "nome": "Luis Galván",
+                "nome_completo": "Luis Galván",
+                "pais": "Argentina",
+                "ano_copa": 1978,
+                "foto": "assets\/imagens\/jogadores\/1978\/luis_galv_an.jpg"
+            }
+        ],
+        "meios": [
+            {
+                "nome": "Osvaldo Ardiles",
+                "nome_completo": "Osvaldo Ardiles",
+                "pais": "Argentina",
+                "ano_copa": 1978,
+                "foto": "assets\/imagens\/jogadores\/1978\/osvaldo_ardiles.jpg"
+            },
+            {
+                "nome": "Américo Gallego",
+                "nome_completo": "Américo Gallego",
+                "pais": "Argentina",
+                "ano_copa": 1978,
+                "foto": "assets\/imagens\/jogadores\/1978\/am_erico_gallego.jpg"
+            },
+            {
+                "nome": "Ricardo Villa",
+                "nome_completo": "Ricardo Villa",
+                "pais": "Argentina",
+                "ano_copa": 1978,
+                "foto": "assets\/imagens\/jogadores\/1978\/ricardo_villa.jpg"
+            }
+        ],
+        "atacantes": [
+            {
+                "nome": "Mario Kempes",
+                "nome_completo": "Mario Kempes",
+                "pais": "Argentina",
+                "ano_copa": 1978,
+                "foto": "assets\/imagens\/jogadores\/1978\/mario_kempes.jpg"
+            },
+            {
+                "nome": "Daniel Bertoni",
+                "nome_completo": "Daniel Bertoni",
+                "pais": "Argentina",
+                "ano_copa": 1978,
+                "foto": "assets\/imagens\/jogadores\/1978\/daniel_bertoni.jpg"
+            },
+            {
+                "nome": "Leopoldo Luque",
+                "nome_completo": "Leopoldo Luque",
+                "pais": "Argentina",
+                "ano_copa": 1978,
+                "foto": "assets\/imagens\/jogadores\/1978\/leopoldo_luque.jpg"
+            }
+        ],
+        "selecoes": null
+    },
+    {
+        "ano": 1982,
+        "poster": "assets\/imagens\/posters\/copa 1982.jpg",
+        "foto_selecao": "assets\/imagens\/selecoes\/itália 1982.jpeg",
+        "pais": "Itália",
+        "apelido": "Azzurra de Rossi",
+        "sede": "Espanha",
+        "vice": "Alemanha Ocidental",
+        "placar": "3x1",
+        "artilheiro": {
+            "nome": "Paolo Rossi",
+            "nome_completo": "Paolo Rossi",
+            "pais": "Itália",
+            "ano_copa": 1982
+        },
+        "tecnico": {
+            "nome": "Enzo Bearzot",
+            "nome_completo": "Enzo Bearzot",
+            "pais": "Itália",
+            "ano_copa": 1982
+        },
+        "goleiros": [
+            {
+                "nome": "Dino Zoff",
+                "nome_completo": "Dino Zoff",
+                "pais": "Itália",
+                "ano_copa": 1982,
+                "foto": "assets\/imagens\/jogadores\/1982\/dino_zoff.jpg"
+            },
+            {
+                "nome": "Ivano Bordon",
+                "nome_completo": "Ivano Bordon",
+                "pais": "Itália",
+                "ano_copa": 1982,
+                "foto": "assets\/imagens\/jogadores\/1982\/ivano_bordon.jpg"
+            }
+        ],
+        "defensores": [
+            {
+                "nome": "Giuseppe Bergomi",
+                "nome_completo": "Giuseppe Bergomi",
+                "pais": "Itália",
+                "ano_copa": 1982,
+                "foto": "assets\/imagens\/jogadores\/1982\/giuseppe_bergomi.jpg"
+            },
+            {
+                "nome": "Claudio Gentile",
+                "nome_completo": "Claudio Gentile",
+                "pais": "Itália",
+                "ano_copa": 1982,
+                "foto": "assets\/imagens\/jogadores\/1982\/claudio_gentile.jpg"
+            },
+            {
+                "nome": "Gaetano Scirea",
+                "nome_completo": "Gaetano Scirea",
+                "pais": "Itália",
+                "ano_copa": 1982,
+                "foto": "assets\/imagens\/jogadores\/1982\/gaetano_scirea.jpg"
+            },
+            {
+                "nome": "Antonio Cabrini",
+                "nome_completo": "Antonio Cabrini",
+                "pais": "Itália",
+                "ano_copa": 1982,
+                "foto": "assets\/imagens\/jogadores\/1982\/antonio_cabrini.jpg"
+            }
+        ],
+        "meios": [
+            {
+                "nome": "Marco Tardelli",
+                "nome_completo": "Marco Tardelli",
+                "pais": "Itália",
+                "ano_copa": 1982,
+                "foto": "assets\/imagens\/jogadores\/1982\/marco_tardelli.jpg"
+            },
+            {
+                "nome": "Bruno Conti",
+                "nome_completo": "Bruno Conti",
+                "pais": "Itália",
+                "ano_copa": 1982,
+                "foto": "assets\/imagens\/jogadores\/1982\/bruno_conti.jpg"
+            },
+            {
+                "nome": "Giancarlo Antognoni",
+                "nome_completo": "Giancarlo Antognoni",
+                "pais": "Itália",
+                "ano_copa": 1982,
+                "foto": "assets\/imagens\/jogadores\/1982\/giancarlo_antognoni.jpg"
+            },
+            {
+                "nome": "Gabriele Oriali",
+                "nome_completo": "Gabriele Oriali",
+                "pais": "Itália",
+                "ano_copa": 1982,
+                "foto": "assets\/imagens\/jogadores\/1982\/gabriele_oriali.jpg"
+            }
+        ],
+        "atacantes": [
+            {
+                "nome": "Paolo Rossi",
+                "nome_completo": "Paolo Rossi",
+                "pais": "Itália",
+                "ano_copa": 1982,
+                "foto": "assets\/imagens\/jogadores\/1982\/paolo_rossi.jpg"
+            },
+            {
+                "nome": "Alessandro Altobelli",
+                "nome_completo": "Alessandro Altobelli",
+                "pais": "Itália",
+                "ano_copa": 1982,
+                "foto": "assets\/imagens\/jogadores\/1982\/alessandro_altobelli.jpg"
+            },
+            {
+                "nome": "Francesco Graziani",
+                "nome_completo": "Francesco Graziani",
+                "pais": "Itália",
+                "ano_copa": 1982,
+                "foto": "assets\/imagens\/jogadores\/1982\/francesco_graziani.jpg"
+            }
+        ],
+        "selecoes": null
+    },
+    {
+        "ano": 1986,
+        "poster": "assets\/imagens\/posters\/copa 1986.jpg",
+        "foto_selecao": "assets\/imagens\/selecoes\/argentina 1986.jpeg",
+        "pais": "Argentina",
+        "apelido": "Argentina de Maradona",
+        "sede": "México",
+        "vice": "Alemanha Ocidental",
+        "placar": "3x2",
+        "artilheiro": {
+            "nome": "Gary Lineker",
+            "nome_completo": "Gary Lineker",
+            "pais": "Inglaterra",
+            "ano_copa": 1986
+        },
+        "tecnico": {
+            "nome": "Carlos Bilardo",
+            "nome_completo": "Carlos Bilardo",
+            "pais": "Argentina",
+            "ano_copa": 1986
+        },
+        "goleiros": [
+            {
+                "nome": "Nery Pumpido",
+                "nome_completo": "Nery Pumpido",
+                "pais": "Argentina",
+                "ano_copa": 1986,
+                "foto": "assets\/imagens\/jogadores\/1986\/nery_pumpido.jpg"
+            },
+            {
+                "nome": "Luis Islas",
+                "nome_completo": "Luis Islas",
+                "pais": "Argentina",
+                "ano_copa": 1986,
+                "foto": "assets\/imagens\/jogadores\/1986\/luis_islas.jpg"
+            }
+        ],
+        "defensores": [
+            {
+                "nome": "José Luis Brown",
+                "nome_completo": "José Luis Brown",
+                "pais": "Argentina",
+                "ano_copa": 1986,
+                "foto": "assets\/imagens\/jogadores\/1986\/jos_e_luis_brown.jpg"
+            },
+            {
+                "nome": "Oscar Ruggeri",
+                "nome_completo": "Oscar Ruggeri",
+                "pais": "Argentina",
+                "ano_copa": 1986,
+                "foto": "assets\/imagens\/jogadores\/1986\/oscar_ruggeri.jpg"
+            },
+            {
+                "nome": "Néstor Clausen",
+                "nome_completo": "Néstor Clausen",
+                "pais": "Argentina",
+                "ano_copa": 1986,
+                "foto": "assets\/imagens\/jogadores\/1986\/n_estor_clausen.jpg"
+            },
+            {
+                "nome": "Julio Olarticoechea",
+                "nome_completo": "Julio Olarticoechea",
+                "pais": "Argentina",
+                "ano_copa": 1986,
+                "foto": "assets\/imagens\/jogadores\/1986\/julio_olarticoechea.jpg"
+            }
+        ],
+        "meios": [
+            {
+                "nome": "Diego Maradona",
+                "nome_completo": "Diego Armando Maradona",
+                "pais": "Argentina",
+                "ano_copa": 1986,
+                "foto": "assets\/imagens\/jogadores\/1986\/diego_armando_maradona.jpg"
+            },
+            {
+                "nome": "Jorge Burruchaga",
+                "nome_completo": "Jorge Burruchaga",
+                "pais": "Argentina",
+                "ano_copa": 1986
+            },
+            {
+                "nome": "Sergio Batista",
+                "nome_completo": "Sergio Batista",
+                "pais": "Argentina",
+                "ano_copa": 1986,
+                "foto": "assets\/imagens\/jogadores\/1986\/sergio_batista.jpg"
+            },
+            {
+                "nome": "Héctor Enrique",
+                "nome_completo": "Héctor Enrique",
+                "pais": "Argentina",
+                "ano_copa": 1986,
+                "foto": "assets\/imagens\/jogadores\/1986\/h_ector_enrique.jpg"
+            }
+        ],
+        "atacantes": [
+            {
+                "nome": "Jorge Valdano",
+                "nome_completo": "Jorge Valdano",
+                "pais": "Argentina",
+                "ano_copa": 1986,
+                "foto": "assets\/imagens\/jogadores\/1986\/jorge_valdano.jpg"
+            },
+            {
+                "nome": "Pedro Pasculli",
+                "nome_completo": "Pedro Pasculli",
+                "pais": "Argentina",
+                "ano_copa": 1986,
+                "foto": "assets\/imagens\/jogadores\/1986\/pedro_pasculli.jpg"
+            },
+            {
+                "nome": "Claudio Borghi",
+                "nome_completo": "Claudio Borghi",
+                "pais": "Argentina",
+                "ano_copa": 1986,
+                "foto": "assets\/imagens\/jogadores\/1986\/claudio_borghi.jpg"
+            }
+        ],
+        "selecoes": null
+    },
+    {
+        "ano": 1990,
+        "poster": "assets\/imagens\/posters\/copa 1990.jpg",
+        "foto_selecao": "assets\/imagens\/selecoes\/alemanha 1990.jpeg",
+        "pais": "Alemanha",
+        "apelido": "Alemanha de Beckenbauer",
+        "sede": "Itália",
+        "vice": "Argentina",
+        "placar": "1x0",
+        "artilheiro": {
+            "nome": "Salvatore Schillaci",
+            "nome_completo": "Salvatore Schillaci",
+            "pais": "Itália",
+            "ano_copa": 1990
+        },
+        "tecnico": {
+            "nome": "Franz Beckenbauer",
+            "nome_completo": "Franz Beckenbauer",
+            "pais": "Alemanha",
+            "ano_copa": 1990
+        },
+        "goleiros": [
+            {
+                "nome": "Bodo Illgner",
+                "nome_completo": "Bodo Illgner",
+                "pais": "Alemanha",
+                "ano_copa": 1990,
+                "foto": "assets\/imagens\/jogadores\/1990\/bodo_illgner.jpg"
+            },
+            {
+                "nome": "Andreas Köpke",
+                "nome_completo": "Andreas Köpke",
+                "pais": "Alemanha",
+                "ano_copa": 1990,
+                "foto": "assets\/imagens\/jogadores\/1990\/andreas_k_opke.jpg"
+            }
+        ],
+        "defensores": [
+            {
+                "nome": "Andreas Brehme",
+                "nome_completo": "Andreas Brehme",
+                "pais": "Alemanha",
+                "ano_copa": 1990,
+                "foto": "assets\/imagens\/jogadores\/1990\/andreas_brehme.jpg"
+            },
+            {
+                "nome": "Jürgen Kohler",
+                "nome_completo": "Jürgen Kohler",
+                "pais": "Alemanha",
+                "ano_copa": 1990,
+                "foto": "assets\/imagens\/jogadores\/1990\/j_urgen_kohler.jpg"
+            },
+            {
+                "nome": "Guido Buchwald",
+                "nome_completo": "Guido Buchwald",
+                "pais": "Alemanha",
+                "ano_copa": 1990,
+                "foto": "assets\/imagens\/jogadores\/1990\/guido_buchwald.jpg"
+            },
+            {
+                "nome": "Thomas Berthold",
+                "nome_completo": "Thomas Berthold",
+                "pais": "Alemanha",
+                "ano_copa": 1990,
+                "foto": "assets\/imagens\/jogadores\/1990\/thomas_berthold.jpg"
+            }
+        ],
+        "meios": [
+            {
+                "nome": "Lothar Matthäus",
+                "nome_completo": "Lothar Matthäus",
+                "pais": "Alemanha",
+                "ano_copa": 1990,
+                "foto": "assets\/imagens\/jogadores\/1990\/lothar_matth_aus.jpg"
+            },
+            {
+                "nome": "Pierre Littbarski",
+                "nome_completo": "Pierre Littbarski",
+                "pais": "Alemanha",
+                "ano_copa": 1990
+            },
+            {
+                "nome": "Thomas Häßler",
+                "nome_completo": "Thomas Häßler",
+                "pais": "Alemanha",
+                "ano_copa": 1990
+            }
+        ],
+        "atacantes": [
+            {
+                "nome": "Rudi Völler",
+                "nome_completo": "Rudi Völler",
+                "pais": "Alemanha",
+                "ano_copa": 1990,
+                "foto": "assets\/imagens\/jogadores\/1990\/rudi_v_oller.jpg"
+            },
+            {
+                "nome": "Jürgen Klinsmann",
+                "nome_completo": "Jürgen Klinsmann",
+                "pais": "Alemanha",
+                "ano_copa": 1990,
+                "foto": "assets\/imagens\/jogadores\/1990\/j_urgen_klinsmann.jpg"
+            },
+            {
+                "nome": "Karl-Heinz Riedle",
+                "nome_completo": "Karl-Heinz Riedle",
+                "pais": "Alemanha",
+                "ano_copa": 1990,
+                "foto": "assets\/imagens\/jogadores\/1990\/karl_heinz_riedle.jpg"
+            }
+        ],
+        "selecoes": null
+    },
+    {
+        "ano": 1994,
+        "poster": "assets\/imagens\/posters\/copa 1994.jpg",
+        "foto_selecao": "assets\/imagens\/selecoes\/brasil 1994.jpeg",
+        "pais": "Brasil",
+        "apelido": "Seleção do Tetra",
+        "sede": "Estados Unidos",
+        "vice": "Itália",
+        "placar": "0x0 (3x2 nos pênaltis)",
+        "artilheiro": {
+            "nome": "Hristo Stoichkov",
+            "nome_completo": "Hristo Stoichkov",
+            "pais": "Bulgária",
+            "ano_copa": 1994
+        },
+        "tecnico": {
+            "nome": "Carlos Alberto Parreira",
+            "nome_completo": "Carlos Alberto Parreira",
+            "pais": "Brasil",
+            "ano_copa": 1994
+        },
+        "goleiros": [
+            {
+                "nome": "Cláudio Taffarel",
+                "nome_completo": "Cláudio André Mergen Taffarel",
+                "pais": "Brasil",
+                "ano_copa": 1994
+            },
+            {
+                "nome": "Zetti",
+                "nome_completo": "Zetti",
+                "pais": "Brasil",
+                "ano_copa": 1994,
+                "foto": "assets\/imagens\/jogadores\/1994\/zetti.jpg"
+            }
+        ],
+        "defensores": [
+            {
+                "nome": "Aldair",
+                "nome_completo": "Aldair Nascimento dos Santos",
+                "pais": "Brasil",
+                "ano_copa": 1994,
+                "foto": "assets\/imagens\/jogadores\/1994\/aldair_nascimento_dos_santos.jpg"
+            },
+            {
+                "nome": "Marcio Santos",
+                "nome_completo": "Márcio Santos",
+                "pais": "Brasil",
+                "ano_copa": 1994,
+                "foto": "assets\/imagens\/jogadores\/1994\/m_arcio_santos.jpg"
+            },
+            {
+                "nome": "Cafu",
+                "nome_completo": "Marcos Evangelista de Morais Cafu",
+                "pais": "Brasil",
+                "ano_copa": 1994,
+                "foto": "assets\/imagens\/jogadores\/1994\/marcos_evangelista_de_morais_cafu.jpg"
+            },
+            {
+                "nome": "Branco",
+                "nome_completo": "Cláudio Ibrahim Vaz Leal Branco",
+                "pais": "Brasil",
+                "ano_copa": 1994,
+                "foto": "assets\/imagens\/jogadores\/1994\/cl_audio_ibrahim_vaz_leal_branco.jpg"
+            },
+            {
+                "nome": "Jorginho",
+                "nome_completo": "Jorge de Amorim Campos Jorginho",
+                "pais": "Brasil",
+                "ano_copa": 1994,
+                "foto": "assets\/imagens\/jogadores\/1994\/jorge_de_amorim_campos_jorginho.jpg"
+            }
+        ],
+        "meios": [
+            {
+                "nome": "Dunga",
+                "nome_completo": "Carlos Caetano Bledorn Verri Dunga",
+                "pais": "Brasil",
+                "ano_copa": 1994
+            },
+            {
+                "nome": "Mauro Silva",
+                "nome_completo": "Mauro Silva",
+                "pais": "Brasil",
+                "ano_copa": 1994,
+                "foto": "assets\/imagens\/jogadores\/1994\/mauro_silva.jpg"
+            },
+            {
+                "nome": "Mazinho",
+                "nome_completo": "Mazinho",
+                "pais": "Brasil",
+                "ano_copa": 1994,
+                "foto": "assets\/imagens\/jogadores\/1994\/mazinho.jpg"
+            },
+            {
+                "nome": "Zinho",
+                "nome_completo": "Zinho",
+                "pais": "Brasil",
+                "ano_copa": 1994,
+                "foto": "assets\/imagens\/jogadores\/1994\/zinho.jpg"
+            },
+            {
+                "nome": "Leonardo",
+                "nome_completo": "Leonardo Nascimento de Araújo",
+                "pais": "Brasil",
+                "ano_copa": 1994
+            }
+        ],
+        "atacantes": [
+            {
+                "nome": "Romário",
+                "nome_completo": "Romário de Souza Faria",
+                "pais": "Brasil",
+                "ano_copa": 1994
+            },
+            {
+                "nome": "Bebeto",
+                "nome_completo": "José Roberto Gama de Oliveira Bebeto",
+                "pais": "Brasil",
+                "ano_copa": 1994
+            },
+            {
+                "nome": "Viola",
+                "nome_completo": "Antônio Carlos Bicalho Guimarães Viola",
+                "pais": "Brasil",
+                "ano_copa": 1994
+            },
+            {
+                "nome": "Müller",
+                "nome_completo": "Luís Henrique Conquistador Müller",
+                "pais": "Brasil",
+                "ano_copa": 1994
+            },
+            {
+                "nome": "Ronaldo",
+                "nome_completo": "Ronaldo Luís Nazário de Lima",
+                "pais": "Brasil",
+                "ano_copa": 1994,
+                "foto": "assets\/imagens\/jogadores\/1994\/ronaldo_lu_is_naz_ario_de_lima.jpg"
+            }
+        ],
+        "selecoes": null
+    },
+    {
+        "ano": 1998,
+        "poster": "assets\/imagens\/posters\/copa 1998.jpeg",
+        "foto_selecao": "assets\/imagens\/selecoes\/frança 1998.jpeg",
+        "pais": "França",
+        "apelido": "Les Bleus",
+        "sede": "França",
+        "vice": "Brasil",
+        "placar": "3x0",
+        "artilheiro": {
+            "nome": "Davor Šuker",
+            "nome_completo": "Davor Šuker",
+            "pais": "Croácia",
+            "ano_copa": 1998
+        },
+        "tecnico": {
+            "nome": "Aimé Jacquet",
+            "nome_completo": "Aimé Jacquet",
+            "pais": "França",
+            "ano_copa": 1998
+        },
+        "goleiros": [
+            {
+                "nome": "Fabien Barthez",
+                "nome_completo": "Fabien Barthez",
+                "pais": "França",
+                "ano_copa": 1998,
+                "foto": "assets\/imagens\/jogadores\/1998\/fabien_barthez.jpg"
+            },
+            {
+                "nome": "Bernard Lama",
+                "nome_completo": "Bernard Lama",
+                "pais": "França",
+                "ano_copa": 1998,
+                "foto": "assets\/imagens\/jogadores\/1998\/bernard_lama.jpg"
+            }
+        ],
+        "defensores": [
+            {
+                "nome": "Lilian Thuram",
+                "nome_completo": "Lilian Thuram",
+                "pais": "França",
+                "ano_copa": 1998,
+                "foto": "assets\/imagens\/jogadores\/1998\/lilian_thuram.jpg"
+            },
+            {
+                "nome": "Marcel Desailly",
+                "nome_completo": "Marcel Desailly",
+                "pais": "França",
+                "ano_copa": 1998,
+                "foto": "assets\/imagens\/jogadores\/1998\/marcel_desailly.jpg"
+            },
+            {
+                "nome": "Bixente Lizarazu",
+                "nome_completo": "Bixente Lizarazu",
+                "pais": "França",
+                "ano_copa": 1998,
+                "foto": "assets\/imagens\/jogadores\/1998\/bixente_lizarazu.jpg"
+            },
+            {
+                "nome": "Laurent Blanc",
+                "nome_completo": "Laurent Blanc",
+                "pais": "França",
+                "ano_copa": 1998,
+                "foto": "assets\/imagens\/jogadores\/1998\/laurent_blanc.jpg"
+            }
+        ],
+        "meios": [
+            {
+                "nome": "Zinedine Zidane",
+                "nome_completo": "Zinedine Yazid Zidane",
+                "pais": "França",
+                "ano_copa": 1998
+            },
+            {
+                "nome": "Didier Deschamps",
+                "nome_completo": "Didier Deschamps",
+                "pais": "França",
+                "ano_copa": 1998,
+                "foto": "assets\/imagens\/jogadores\/1998\/didier_deschamps.jpg"
+            },
+            {
+                "nome": "Emmanuel Petit",
+                "nome_completo": "Emmanuel Petit",
+                "pais": "França",
+                "ano_copa": 1998,
+                "foto": "assets\/imagens\/jogadores\/1998\/emmanuel_petit.jpg"
+            },
+            {
+                "nome": "Patrick Vieira",
+                "nome_completo": "Patrick Vieira",
+                "pais": "França",
+                "ano_copa": 1998,
+                "foto": "assets\/imagens\/jogadores\/1998\/patrick_vieira.jpg"
+            },
+            {
+                "nome": "Youri Djorkaeff",
+                "nome_completo": "Youri Djorkaeff",
+                "pais": "França",
+                "ano_copa": 1998,
+                "foto": "assets\/imagens\/jogadores\/1998\/youri_djorkaeff.jpg"
+            }
+        ],
+        "atacantes": [
+            {
+                "nome": "Thierry Henry",
+                "nome_completo": "Thierry Henry",
+                "pais": "França",
+                "ano_copa": 1998,
+                "foto": "assets\/imagens\/jogadores\/1998\/thierry_henry.jpg"
+            },
+            {
+                "nome": "David Trezeguet",
+                "nome_completo": "David Trezeguet",
+                "pais": "França",
+                "ano_copa": 1998,
+                "foto": "assets\/imagens\/jogadores\/1998\/david_trezeguet.jpg"
+            },
+            {
+                "nome": "Christophe Dugarry",
+                "nome_completo": "Christophe Dugarry",
+                "pais": "França",
+                "ano_copa": 1998,
+                "foto": "assets\/imagens\/jogadores\/1998\/christophe_dugarry.jpg"
+            }
+        ],
+        "selecoes": null
+    },
+    {
+        "ano": 2002,
+        "poster": "assets\/imagens\/posters\/copa 2002.jpg",
+        "foto_selecao": "assets\/imagens\/selecoes\/brasil 2002.jpeg",
+        "pais": "Brasil",
+        "apelido": "Brasil Fenomenal",
+        "sede": "Coreia do Sul e Japão",
+        "vice": "Alemanha",
+        "placar": "2x0",
+        "artilheiro": {
+            "nome": "Ronaldo Fenômeno",
+            "nome_completo": "Ronaldo Luís Nazário de Lima",
+            "pais": "Brasil",
+            "ano_copa": 2002
+        },
+        "tecnico": {
+            "nome": "Luiz Felipe Scolari",
+            "nome_completo": "Luiz Felipe Scolari",
+            "pais": "Brasil",
+            "ano_copa": 2002
+        },
+        "goleiros": [
+            {
+                "nome": "Marcos",
+                "nome_completo": "Marcos Roberto Silveira Reis",
+                "pais": "Brasil",
+                "ano_copa": 2002,
+                "foto": "assets\/imagens\/jogadores\/2002\/marcos_roberto_silveira_reis.jpg"
+            },
+            {
+                "nome": "Dida",
+                "nome_completo": "Nelson de Jesus Silva Dida",
+                "pais": "Brasil",
+                "ano_copa": 2002
+            },
+            {
+                "nome": "Rogério Ceni",
+                "nome_completo": "Rogério Ceni",
+                "pais": "Brasil",
+                "ano_copa": 2002,
+                "foto": "assets\/imagens\/jogadores\/2002\/rog_erio_ceni.jpg"
+            }
+        ],
+        "defensores": [
+            {
+                "nome": "Cafu",
+                "nome_completo": "Marcos Evangelista de Morais Cafu",
+                "pais": "Brasil",
+                "ano_copa": 2002,
+                "foto": "assets\/imagens\/jogadores\/2002\/marcos_evangelista_de_morais_cafu.jpg"
+            },
+            {
+                "nome": "Roberto Carlos",
+                "nome_completo": "Roberto Carlos da Silva",
+                "pais": "Brasil",
+                "ano_copa": 2002,
+                "foto": "assets\/imagens\/jogadores\/2002\/roberto_carlos_da_silva.jpg"
+            },
+            {
+                "nome": "Lúcio",
+                "nome_completo": "Lúcio",
+                "pais": "Brasil",
+                "ano_copa": 2002,
+                "foto": "assets\/imagens\/jogadores\/2002\/l_ucio.jpg"
+            },
+            {
+                "nome": "Roque Júnior",
+                "nome_completo": "Roque Júnior",
+                "pais": "Brasil",
+                "ano_copa": 2002,
+                "foto": "assets\/imagens\/jogadores\/2002\/roque_j_unior.jpg"
+            },
+            {
+                "nome": "Edmílson",
+                "nome_completo": "Edmílson",
+                "pais": "Brasil",
+                "ano_copa": 2002,
+                "foto": "assets\/imagens\/jogadores\/2002\/edm_ilson.jpg"
+            }
+        ],
+        "meios": [
+            {
+                "nome": "Gilberto Silva",
+                "nome_completo": "Gilberto Aparecido da Silva",
+                "pais": "Brasil",
+                "ano_copa": 2002,
+                "foto": "assets\/imagens\/jogadores\/2002\/gilberto_aparecido_da_silva.jpg"
+            },
+            {
+                "nome": "Kléberson",
+                "nome_completo": "José Kléberson Pereira",
+                "pais": "Brasil",
+                "ano_copa": 2002,
+                "foto": "assets\/imagens\/jogadores\/2002\/jos_e_kl_eberson_pereira.jpg"
+            },
+            {
+                "nome": "Juninho Paulista",
+                "nome_completo": "Amoroso Juninho Paulista",
+                "pais": "Brasil",
+                "ano_copa": 2002
+            },
+            {
+                "nome": "Rivaldo",
+                "nome_completo": "Rivaldo Vítor Borba Ferreira",
+                "pais": "Brasil",
+                "ano_copa": 2002,
+                "foto": "assets\/imagens\/jogadores\/2002\/rivaldo_v_itor_borba_ferreira.jpg"
+            }
+        ],
+        "atacantes": [
+            {
+                "nome": "Ronaldo Fenômeno",
+                "nome_completo": "Ronaldo Luís Nazário de Lima",
+                "pais": "Brasil",
+                "ano_copa": 2002,
+                "foto": "assets\/imagens\/jogadores\/2002\/ronaldo_lu_is_naz_ario_de_lima.jpg"
+            },
+            {
+                "nome": "Ronaldinho Gaúcho",
+                "nome_completo": "Ronaldo de Assis Moreira Ronaldinho Gaúcho",
+                "pais": "Brasil",
+                "ano_copa": 2002
+            },
+            {
+                "nome": "Denílson",
+                "nome_completo": "Denílson de Oliveira Araújo",
+                "pais": "Brasil",
+                "ano_copa": 2002
+            },
+            {
+                "nome": "Luizão",
+                "nome_completo": "Luiz Henrique da Silva Luizão",
+                "pais": "Brasil",
+                "ano_copa": 2002
+            }
+        ],
+        "selecoes": null
+    },
+    {
+        "ano": 2006,
+        "poster": "assets\/imagens\/posters\/copa 2006.jpeg",
+        "foto_selecao": "assets\/imagens\/selecoes\/itália 2006.jpeg",
+        "pais": "Itália",
+        "apelido": "Azzurra",
+        "sede": "Alemanha",
+        "vice": "França",
+        "placar": "1x1 (5x3 nos pênaltis)",
+        "artilheiro": {
+            "nome": "Miroslav Klose",
+            "nome_completo": "Miroslav Klose",
+            "pais": "Alemanha",
+            "ano_copa": 2006
+        },
+        "tecnico": {
+            "nome": "Marcello Lippi",
+            "nome_completo": "Marcello Lippi",
+            "pais": "Itália",
+            "ano_copa": 2006
+        },
+        "goleiros": [
+            {
+                "nome": "Gianluigi Buffon",
+                "nome_completo": "Gianluigi Buffon",
+                "pais": "Itália",
+                "ano_copa": 2006,
+                "foto": "assets\/imagens\/jogadores\/2006\/gianluigi_buffon.jpg"
+            },
+            {
+                "nome": "Angelo Peruzzi",
+                "nome_completo": "Angelo Peruzzi",
+                "pais": "Itália",
+                "ano_copa": 2006,
+                "foto": "assets\/imagens\/jogadores\/2006\/angelo_peruzzi.jpg"
+            }
+        ],
+        "defensores": [
+            {
+                "nome": "Fabio Cannavaro",
+                "nome_completo": "Fabio Cannavaro",
+                "pais": "Itália",
+                "ano_copa": 2006,
+                "foto": "assets\/imagens\/jogadores\/2006\/fabio_cannavaro.jpg"
+            },
+            {
+                "nome": "Alessandro Nesta",
+                "nome_completo": "Alessandro Nesta",
+                "pais": "Itália",
+                "ano_copa": 2006,
+                "foto": "assets\/imagens\/jogadores\/2006\/alessandro_nesta.jpg"
+            },
+            {
+                "nome": "Marco Materazzi",
+                "nome_completo": "Marco Materazzi",
+                "pais": "Itália",
+                "ano_copa": 2006,
+                "foto": "assets\/imagens\/jogadores\/2006\/marco_materazzi.jpg"
+            },
+            {
+                "nome": "Fabio Grosso",
+                "nome_completo": "Fabio Grosso",
+                "pais": "Itália",
+                "ano_copa": 2006,
+                "foto": "assets\/imagens\/jogadores\/2006\/fabio_grosso.jpg"
+            },
+            {
+                "nome": "Gianluca Zambrotta",
+                "nome_completo": "Gianluca Zambrotta",
+                "pais": "Itália",
+                "ano_copa": 2006,
+                "foto": "assets\/imagens\/jogadores\/2006\/gianluca_zambrotta.jpg"
+            }
+        ],
+        "meios": [
+            {
+                "nome": "Andrea Pirlo",
+                "nome_completo": "Andrea Pirlo",
+                "pais": "Itália",
+                "ano_copa": 2006,
+                "foto": "assets\/imagens\/jogadores\/2006\/andrea_pirlo.jpg"
+            },
+            {
+                "nome": "Gennaro Gattuso",
+                "nome_completo": "Gennaro Gattuso",
+                "pais": "Itália",
+                "ano_copa": 2006,
+                "foto": "assets\/imagens\/jogadores\/2006\/gennaro_gattuso.jpg"
+            },
+            {
+                "nome": "Daniele De Rossi",
+                "nome_completo": "Daniele De Rossi",
+                "pais": "Itália",
+                "ano_copa": 2006,
+                "foto": "assets\/imagens\/jogadores\/2006\/daniele_de_rossi.jpg"
+            },
+            {
+                "nome": "Mauro Camoranesi",
+                "nome_completo": "Mauro Camoranesi",
+                "pais": "Itália",
+                "ano_copa": 2006,
+                "foto": "assets\/imagens\/jogadores\/2006\/mauro_camoranesi.jpg"
+            }
+        ],
+        "atacantes": [
+            {
+                "nome": "Francesco Totti",
+                "nome_completo": "Francesco Totti",
+                "pais": "Itália",
+                "ano_copa": 2006,
+                "foto": "assets\/imagens\/jogadores\/2006\/francesco_totti.jpg"
+            },
+            {
+                "nome": "Luca Toni",
+                "nome_completo": "Luca Toni",
+                "pais": "Itália",
+                "ano_copa": 2006,
+                "foto": "assets\/imagens\/jogadores\/2006\/luca_toni.jpg"
+            },
+            {
+                "nome": "Alessandro Del Piero",
+                "nome_completo": "Alessandro Del Piero",
+                "pais": "Itália",
+                "ano_copa": 2006,
+                "foto": "assets\/imagens\/jogadores\/2006\/alessandro_del_piero.jpg"
+            },
+            {
+                "nome": "Alberto Gilardino",
+                "nome_completo": "Alberto Gilardino",
+                "pais": "Itália",
+                "ano_copa": 2006,
+                "foto": "assets\/imagens\/jogadores\/2006\/alberto_gilardino.jpg"
+            }
+        ],
+        "selecoes": null
+    },
+    {
+        "ano": 2010,
+        "poster": "assets\/imagens\/posters\/copa 2010.jpg",
+        "foto_selecao": "assets\/imagens\/selecoes\/espanha 2010.jpeg",
+        "pais": "Espanha",
+        "apelido": "La Roja do Tiki-Taka",
+        "sede": "África do Sul",
+        "vice": "Holanda",
+        "placar": "1x0",
+        "artilheiro": {
+            "nome": "Thomas Müller",
+            "nome_completo": "Thomas Müller",
+            "pais": "Alemanha",
+            "ano_copa": 2010
+        },
+        "tecnico": {
+            "nome": "Vicente del Bosque",
+            "nome_completo": "Vicente del Bosque",
+            "pais": "Espanha",
+            "ano_copa": 2010
+        },
+        "goleiros": [
+            {
+                "nome": "Iker Casillas",
+                "nome_completo": "Iker Casillas",
+                "pais": "Espanha",
+                "ano_copa": 2010,
+                "foto": "assets\/imagens\/jogadores\/2010\/iker_casillas.jpg"
+            },
+            {
+                "nome": "Pepe Reina",
+                "nome_completo": "Pepe Reina",
+                "pais": "Espanha",
+                "ano_copa": 2010,
+                "foto": "assets\/imagens\/jogadores\/2010\/pepe_reina.jpg"
+            }
+        ],
+        "defensores": [
+            {
+                "nome": "Carles Puyol",
+                "nome_completo": "Carles Puyol",
+                "pais": "Espanha",
+                "ano_copa": 2010,
+                "foto": "assets\/imagens\/jogadores\/2010\/carles_puyol.jpg"
+            },
+            {
+                "nome": "Gerard Piqué",
+                "nome_completo": "Gerard Piqué",
+                "pais": "Espanha",
+                "ano_copa": 2010,
+                "foto": "assets\/imagens\/jogadores\/2010\/gerard_piqu_e.jpg"
+            },
+            {
+                "nome": "Sergio Ramos",
+                "nome_completo": "Sergio Ramos",
+                "pais": "Espanha",
+                "ano_copa": 2010,
+                "foto": "assets\/imagens\/jogadores\/2010\/sergio_ramos.jpg"
+            },
+            {
+                "nome": "Joan Capdevila",
+                "nome_completo": "Joan Capdevila",
+                "pais": "Espanha",
+                "ano_copa": 2010,
+                "foto": "assets\/imagens\/jogadores\/2010\/joan_capdevila.jpg"
+            }
+        ],
+        "meios": [
+            {
+                "nome": "Xavi Hernández",
+                "nome_completo": "Xavier Hernández Creus Xavi",
+                "pais": "Espanha",
+                "ano_copa": 2010,
+                "foto": "assets\/imagens\/jogadores\/2010\/xavier_hern_andez_creus_xavi.jpg"
+            },
+            {
+                "nome": "Andrés Iniesta",
+                "nome_completo": "Andrés Iniesta",
+                "pais": "Espanha",
+                "ano_copa": 2010,
+                "foto": "assets\/imagens\/jogadores\/2010\/andr_es_iniesta.jpg"
+            },
+            {
+                "nome": "Sergio Busquets",
+                "nome_completo": "Sergio Busquets",
+                "pais": "Espanha",
+                "ano_copa": 2010,
+                "foto": "assets\/imagens\/jogadores\/2010\/sergio_busquets.jpg"
+            },
+            {
+                "nome": "Xabi Alonso",
+                "nome_completo": "Xabi Alonso",
+                "pais": "Espanha",
+                "ano_copa": 2010,
+                "foto": "assets\/imagens\/jogadores\/2010\/xabi_alonso.jpg"
+            },
+            {
+                "nome": "David Silva",
+                "nome_completo": "David Josué Jiménez Silva",
+                "pais": "Espanha",
+                "ano_copa": 2010
+            },
+            {
+                "nome": "Cesc Fàbregas",
+                "nome_completo": "Cesc Fàbregas",
+                "pais": "Espanha",
+                "ano_copa": 2010,
+                "foto": "assets\/imagens\/jogadores\/2010\/cesc_f_abregas.jpg"
+            }
+        ],
+        "atacantes": [
+            {
+                "nome": "David Villa",
+                "nome_completo": "David Villa",
+                "pais": "Espanha",
+                "ano_copa": 2010,
+                "foto": "assets\/imagens\/jogadores\/2010\/david_villa.jpg"
+            },
+            {
+                "nome": "Fernando Torres",
+                "nome_completo": "Fernando Torres",
+                "pais": "Espanha",
+                "ano_copa": 2010,
+                "foto": "assets\/imagens\/jogadores\/2010\/fernando_torres.jpg"
+            },
+            {
+                "nome": "Pedro Rodríguez",
+                "nome_completo": "Pedro Rodríguez Ledesma",
+                "pais": "Espanha",
+                "ano_copa": 2010,
+                "foto": "assets\/imagens\/jogadores\/2010\/pedro_rodr_iguez_ledesma.jpg"
+            }
+        ],
+        "selecoes": null
+    },
+    {
+        "ano": 2014,
+        "poster": "assets\/imagens\/posters\/copa 2014.webp",
+        "foto_selecao": "assets\/imagens\/selecoes\/alemanha 2014.jpeg",
+        "pais": "Alemanha",
+        "apelido": "Die Mannschaft de Löw",
+        "sede": "Brasil",
+        "vice": "Argentina",
+        "placar": "1x0",
+        "artilheiro": {
+            "nome": "James Rodríguez",
+            "nome_completo": "James David Rodríguez Rubio",
+            "pais": "Colômbia",
+            "ano_copa": 2014
+        },
+        "tecnico": {
+            "nome": "Joachim Löw",
+            "nome_completo": "Joachim Löw",
+            "pais": "Alemanha",
+            "ano_copa": 2014
+        },
+        "goleiros": [
+            {
+                "nome": "Manuel Neuer",
+                "nome_completo": "Manuel Neuer",
+                "pais": "Alemanha",
+                "ano_copa": 2014,
+                "foto": "assets\/imagens\/jogadores\/2014\/manuel_neuer.jpg"
+            },
+            {
+                "nome": "Roman Weidenfeller",
+                "nome_completo": "Roman Weidenfeller",
+                "pais": "Alemanha",
+                "ano_copa": 2014,
+                "foto": "assets\/imagens\/jogadores\/2014\/roman_weidenfeller.jpg"
+            }
+        ],
+        "defensores": [
+            {
+                "nome": "Philipp Lahm",
+                "nome_completo": "Philipp Lahm",
+                "pais": "Alemanha",
+                "ano_copa": 2014,
+                "foto": "assets\/imagens\/jogadores\/2014\/philipp_lahm.jpg"
+            },
+            {
+                "nome": "Mats Hummels",
+                "nome_completo": "Mats Hummels",
+                "pais": "Alemanha",
+                "ano_copa": 2014,
+                "foto": "assets\/imagens\/jogadores\/2014\/mats_hummels.jpg"
+            },
+            {
+                "nome": "Jérôme Boateng",
+                "nome_completo": "Jérôme Boateng",
+                "pais": "Alemanha",
+                "ano_copa": 2014,
+                "foto": "assets\/imagens\/jogadores\/2014\/j_er_ome_boateng.jpg"
+            },
+            {
+                "nome": "Per Mertesacker",
+                "nome_completo": "Per Mertesacker",
+                "pais": "Alemanha",
+                "ano_copa": 2014,
+                "foto": "assets\/imagens\/jogadores\/2014\/per_mertesacker.jpg"
+            }
+        ],
+        "meios": [
+            {
+                "nome": "Toni Kroos",
+                "nome_completo": "Toni Kroos",
+                "pais": "Alemanha",
+                "ano_copa": 2014,
+                "foto": "assets\/imagens\/jogadores\/2014\/toni_kroos.jpg"
+            },
+            {
+                "nome": "Bastian Schweinsteiger",
+                "nome_completo": "Bastian Schweinsteiger",
+                "pais": "Alemanha",
+                "ano_copa": 2014,
+                "foto": "assets\/imagens\/jogadores\/2014\/bastian_schweinsteiger.jpg"
+            },
+            {
+                "nome": "Sami Khedira",
+                "nome_completo": "Sami Khedira",
+                "pais": "Alemanha",
+                "ano_copa": 2014,
+                "foto": "assets\/imagens\/jogadores\/2014\/sami_khedira.jpg"
+            },
+            {
+                "nome": "Mesut Özil",
+                "nome_completo": "Mesut Özil",
+                "pais": "Alemanha",
+                "ano_copa": 2014,
+                "foto": "assets\/imagens\/jogadores\/2014\/mesut_ozil.jpg"
+            }
+        ],
+        "atacantes": [
+            {
+                "nome": "Thomas Müller",
+                "nome_completo": "Thomas Müller",
+                "pais": "Alemanha",
+                "ano_copa": 2014,
+                "foto": "assets\/imagens\/jogadores\/2014\/thomas_m_uller.jpg"
+            },
+            {
+                "nome": "Miroslav Klose",
+                "nome_completo": "Miroslav Klose",
+                "pais": "Alemanha",
+                "ano_copa": 2014,
+                "foto": "assets\/imagens\/jogadores\/2014\/miroslav_klose.jpg"
+            },
+            {
+                "nome": "Mario Götze",
+                "nome_completo": "Mario Götze",
+                "pais": "Alemanha",
+                "ano_copa": 2014,
+                "foto": "assets\/imagens\/jogadores\/2014\/mario_g_otze.jpg"
+            },
+            {
+                "nome": "André Schürrle",
+                "nome_completo": "André Schürrle",
+                "pais": "Alemanha",
+                "ano_copa": 2014,
+                "foto": "assets\/imagens\/jogadores\/2014\/andr_e_sch_urrle.jpg"
+            },
+            {
+                "nome": "Lukas Podolski",
+                "nome_completo": "Lukas Podolski",
+                "pais": "Alemanha",
+                "ano_copa": 2014,
+                "foto": "assets\/imagens\/jogadores\/2014\/lukas_podolski.jpg"
+            }
+        ],
+        "selecoes": null
+    },
+    {
+        "ano": 2018,
+        "poster": "assets\/imagens\/posters\/copa 2018.jpg",
+        "foto_selecao": "assets\/imagens\/selecoes\/frança 2018.jpeg",
+        "pais": "França",
+        "apelido": "Les Bleus de Deschamps",
+        "sede": "Rússia",
+        "vice": "Croácia",
+        "placar": "4x2",
+        "artilheiro": {
+            "nome": "Harry Kane",
+            "nome_completo": "Harry Kane",
+            "pais": "Inglaterra",
+            "ano_copa": 2018
+        },
+        "tecnico": {
+            "nome": "Didier Deschamps",
+            "nome_completo": "Didier Deschamps",
+            "pais": "França",
+            "ano_copa": 2018
+        },
+        "goleiros": [
+            {
+                "nome": "Hugo Lloris",
+                "nome_completo": "Hugo Lloris",
+                "pais": "França",
+                "ano_copa": 2018,
+                "foto": "assets\/imagens\/jogadores\/2018\/hugo_lloris.jpg"
+            },
+            {
+                "nome": "Steve Mandanda",
+                "nome_completo": "Steve Mandanda",
+                "pais": "França",
+                "ano_copa": 2018,
+                "foto": "assets\/imagens\/jogadores\/2018\/steve_mandanda.jpg"
+            }
+        ],
+        "defensores": [
+            {
+                "nome": "Raphaël Varane",
+                "nome_completo": "Raphaël Varane",
+                "pais": "França",
+                "ano_copa": 2018,
+                "foto": "assets\/imagens\/jogadores\/2018\/rapha_el_varane.jpg"
+            },
+            {
+                "nome": "Samuel Umtiti",
+                "nome_completo": "Samuel Umtiti",
+                "pais": "França",
+                "ano_copa": 2018,
+                "foto": "assets\/imagens\/jogadores\/2018\/samuel_umtiti.jpg"
+            },
+            {
+                "nome": "Benjamin Pavard",
+                "nome_completo": "Benjamin Pavard",
+                "pais": "França",
+                "ano_copa": 2018,
+                "foto": "assets\/imagens\/jogadores\/2018\/benjamin_pavard.jpg"
+            },
+            {
+                "nome": "Lucas Hernández",
+                "nome_completo": "Lucas Hernández",
+                "pais": "França",
+                "ano_copa": 2018,
+                "foto": "assets\/imagens\/jogadores\/2018\/lucas_hern_andez.jpg"
+            }
+        ],
+        "meios": [
+            {
+                "nome": "N'Golo Kanté",
+                "nome_completo": "N'Golo Kanté",
+                "pais": "França",
+                "ano_copa": 2018,
+                "foto": "assets\/imagens\/jogadores\/2018\/n_golo_kant_e.jpg"
+            },
+            {
+                "nome": "Paul Pogba",
+                "nome_completo": "Paul Pogba",
+                "pais": "França",
+                "ano_copa": 2018,
+                "foto": "assets\/imagens\/jogadores\/2018\/paul_pogba.jpg"
+            },
+            {
+                "nome": "Blaise Matuidi",
+                "nome_completo": "Blaise Matuidi",
+                "pais": "França",
+                "ano_copa": 2018,
+                "foto": "assets\/imagens\/jogadores\/2018\/blaise_matuidi.jpg"
+            }
+        ],
+        "atacantes": [
+            {
+                "nome": "Kylian Mbappé",
+                "nome_completo": "Kylian Mbappé",
+                "pais": "França",
+                "ano_copa": 2018,
+                "foto": "assets\/imagens\/jogadores\/2018\/kylian_mbapp_e.jpg"
+            },
+            {
+                "nome": "Antoine Griezmann",
+                "nome_completo": "Antoine Griezmann",
+                "pais": "França",
+                "ano_copa": 2018,
+                "foto": "assets\/imagens\/jogadores\/2018\/antoine_griezmann.jpg"
+            },
+            {
+                "nome": "Olivier Giroud",
+                "nome_completo": "Olivier Giroud",
+                "pais": "França",
+                "ano_copa": 2018,
+                "foto": "assets\/imagens\/jogadores\/2018\/olivier_giroud.jpg"
+            },
+            {
+                "nome": "Ousmane Dembélé",
+                "nome_completo": "Ousmane Dembélé",
+                "pais": "França",
+                "ano_copa": 2018,
+                "foto": "assets\/imagens\/jogadores\/2018\/ousmane_demb_el_e.jpg"
+            }
+        ],
+        "selecoes": null
+    },
+    {
+        "ano": 2022,
+        "poster": "assets\/imagens\/posters\/copa 2022.webp",
+        "foto_selecao": "assets\/imagens\/selecoes\/argentina 2022.jpeg",
+        "pais": "Argentina",
+        "apelido": "La Scaloneta",
+        "sede": "Catar",
+        "vice": "França",
+        "placar": "3x3 (4x2 nos pênaltis)",
+        "artilheiro": {
+            "nome": "Kylian Mbappé",
+            "nome_completo": "Kylian Mbappé",
+            "pais": "França",
+            "ano_copa": 2022
+        },
+        "tecnico": {
+            "nome": "Lionel Scaloni",
+            "nome_completo": "Lionel Scaloni",
+            "pais": "Argentina",
+            "ano_copa": 2022
+        },
+        "goleiros": [
+            {
+                "nome": "Emiliano Martínez",
+                "nome_completo": "Emiliano Martínez",
+                "pais": "Argentina",
+                "ano_copa": 2022,
+                "foto": "assets\/imagens\/jogadores\/2022\/emiliano_mart_inez.jpg"
+            },
+            {
+                "nome": "Franco Armani",
+                "nome_completo": "Franco Armani",
+                "pais": "Argentina",
+                "ano_copa": 2022,
+                "foto": "assets\/imagens\/jogadores\/2022\/franco_armani.jpg"
+            }
+        ],
+        "defensores": [
+            {
+                "nome": "Cristian Romero",
+                "nome_completo": "Cristian Romero",
+                "pais": "Argentina",
+                "ano_copa": 2022,
+                "foto": "assets\/imagens\/jogadores\/2022\/cristian_romero.jpg"
+            },
+            {
+                "nome": "Nicolás Otamendi",
+                "nome_completo": "Nicolás Otamendi",
+                "pais": "Argentina",
+                "ano_copa": 2022,
+                "foto": "assets\/imagens\/jogadores\/2022\/nicol_as_otamendi.jpg"
+            },
+            {
+                "nome": "Nahuel Molina",
+                "nome_completo": "Nahuel Molina",
+                "pais": "Argentina",
+                "ano_copa": 2022,
+                "foto": "assets\/imagens\/jogadores\/2022\/nahuel_molina.jpg"
+            },
+            {
+                "nome": "Nicolás Tagliafico",
+                "nome_completo": "Nicolás Tagliafico",
+                "pais": "Argentina",
+                "ano_copa": 2022,
+                "foto": "assets\/imagens\/jogadores\/2022\/nicol_as_tagliafico.jpg"
+            },
+            {
+                "nome": "Lisandro Martínez",
+                "nome_completo": "Lisandro Martínez",
+                "pais": "Argentina",
+                "ano_copa": 2022,
+                "foto": "assets\/imagens\/jogadores\/2022\/lisandro_mart_inez.jpg"
+            }
+        ],
+        "meios": [
+            {
+                "nome": "Rodrigo De Paul",
+                "nome_completo": "Rodrigo De Paul",
+                "pais": "Argentina",
+                "ano_copa": 2022,
+                "foto": "assets\/imagens\/jogadores\/2022\/rodrigo_de_paul.jpg"
+            },
+            {
+                "nome": "Enzo Fernández",
+                "nome_completo": "Enzo Fernández",
+                "pais": "Argentina",
+                "ano_copa": 2022,
+                "foto": "assets\/imagens\/jogadores\/2022\/enzo_fern_andez.jpg"
+            },
+            {
+                "nome": "Alexis Mac Allister",
+                "nome_completo": "Alexis Mac Allister",
+                "pais": "Argentina",
+                "ano_copa": 2022,
+                "foto": "assets\/imagens\/jogadores\/2022\/alexis_mac_allister.jpg"
+            },
+            {
+                "nome": "Leandro Paredes",
+                "nome_completo": "Leandro Paredes",
+                "pais": "Argentina",
+                "ano_copa": 2022,
+                "foto": "assets\/imagens\/jogadores\/2022\/leandro_paredes.jpg"
+            }
+        ],
+        "atacantes": [
+            {
+                "nome": "Lionel Messi",
+                "nome_completo": "Lionel Andrés Messi",
+                "pais": "Argentina",
+                "ano_copa": 2022,
+                "foto": "assets\/imagens\/jogadores\/2022\/lionel_andr_es_messi.jpg"
+            },
+            {
+                "nome": "Julián Álvarez",
+                "nome_completo": "Julián Álvarez",
+                "pais": "Argentina",
+                "ano_copa": 2022,
+                "foto": "assets\/imagens\/jogadores\/2022\/juli_an_alvarez.jpg"
+            },
+            {
+                "nome": "Ángel Di María",
+                "nome_completo": "Ángel Fabián Di María",
+                "pais": "Argentina",
+                "ano_copa": 2022,
+                "foto": "assets\/imagens\/jogadores\/2022\/angel_fabi_an_di_mar_ia.jpg"
+            },
+            {
+                "nome": "Lautaro Martínez",
+                "nome_completo": "Lautaro Martínez",
+                "pais": "Argentina",
+                "ano_copa": 2022,
+                "foto": "assets\/imagens\/jogadores\/2022\/lautaro_mart_inez.jpg"
+            },
+            {
+                "nome": "Paulo Dybala",
+                "nome_completo": "Paulo Dybala",
+                "pais": "Argentina",
+                "ano_copa": 2022,
+                "foto": "assets\/imagens\/jogadores\/2022\/paulo_dybala.jpg"
+            }
+        ],
+        "selecoes": null
+    }
 ]

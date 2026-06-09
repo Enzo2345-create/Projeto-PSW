@@ -69,21 +69,41 @@ $grupos = [
 
         </div> <br>
 
-       <div class="copa-elenco panel">
-
+        <div class="copa-elenco panel">
             <h2>Elenco Campeão</h2>
 
             <?php foreach($grupos as $titulo => $lista): ?>
                 <div class="elenco-grupo">
                     <div class="elenco-titulo"><?= $titulo ?></div>
                     <div class="elenco-jogadores">
-                        <?php foreach($lista as $j): ?>
-                            <div class="jogador-card fifa-card" 
-                                data-nome="<?= htmlspecialchars($j['nome']) ?>"
-                                data-nome-completo="<?= htmlspecialchars($j['nome_completo']) ?>">
-                                <div class="fifa-card-foto"></div>
+                        <?php foreach($lista as $j): 
+                            $nome = htmlspecialchars($j['nome']);
+                            $nomeCompleto = htmlspecialchars($j['nome_completo'] ?? $nome);
+                            $fotoLocal = $j['foto'] ?? ''; // Caminho salvo no JSON
+                            $temFoto = !empty($fotoLocal) && file_exists($fotoLocal);
+                        ?>
+                            <div class="jogador-card fifa-card">
+                                <div class="fifa-card-foto">
+                                    <?php if($temFoto): ?>
+                                        <img src="<?= $fotoLocal ?>" alt="<?= $nome ?>">
+                                    <?php else: ?>
+                                        <?php 
+                                            // Gera iniciais do nome (até 2 letras)
+                                            $partes = explode(' ', trim($nome));
+                                            $iniciais = '';
+                                            foreach($partes as $p){
+                                                if(strlen($p) > 1){
+                                                    $iniciais .= strtoupper($p[0]);
+                                                    if(strlen($iniciais) == 2) break;
+                                                }
+                                            }
+                                            if(empty($iniciais)) $iniciais = '?';
+                                        ?>
+                                        <span><?= $iniciais ?></span>
+                                    <?php endif; ?>
+                                </div>
                                 <div class="fifa-card-info">
-                                    <span class="fifa-card-nome"><?= $j['nome'] ?></span>
+                                    <span class="fifa-card-nome"><?= $nome ?></span>
                                     <span class="fifa-card-pos"><?= $titulo ?></span>
                                 </div>
                             </div>
@@ -100,31 +120,5 @@ $grupos = [
     </section>
 
 </main>
-
-<script>
-document.querySelectorAll('.fifa-card').forEach(card => {
-    const nome = card.dataset.nome;
-    const nomeCompleto = card.dataset.nomeCompleto || nome;
-    const fotoDiv = card.querySelector('.fifa-card-foto');
-
-    fetch(`/PROJETO PSW/controllers/buscar_foto.php?nome=${encodeURIComponent(nomeCompleto)}`)
-        .then(r => r.json())
-        .then(data => {
-            if(data.foto){
-                fotoDiv.innerHTML = `<img src="${data.foto}" alt="${nome}">`;
-                fotoDiv.classList.add('tem-foto');
-            } else {
-                fotoDiv.classList.add('sem-foto');
-                const ini = nome.trim().split(' ').filter(p=>p.length>1).slice(0,2).map(p=>p[0].toUpperCase()).join('');
-                fotoDiv.innerHTML = `<span>${ini}</span>`;
-            }
-        })
-        .catch(() => {
-            fotoDiv.classList.add('sem-foto');
-            const ini = nome.trim().split(' ').filter(p=>p.length>1).slice(0,2).map(p=>p[0].toUpperCase()).join('');
-            fotoDiv.innerHTML = `<span>${ini}</span>`;
-        });
-});
-</script>
 
 <?php include 'includes/footer.php'; ?>
