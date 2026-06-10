@@ -1,7 +1,8 @@
 [
     {
         "usuario": "Enzo",
-        "senha": "$2y$10$gB.Y7g6C6Tugrcg6BMH72e1Xkqq3rUCZK8c3rkeFWEainQesmmWZC"
+        "senha": "$2y$10$gB.Y7g6C6Tugrcg6BMH72e1Xkqq3rUCZK8c3rkeFWEainQesmmWZC",
+        "foto_perfil": "uploads\/Enzo_1781093972.jpg"
     },
     {
         "usuario": "Gustavo",
@@ -22,5 +23,10 @@
     {
         "usuario": "Otaviomakita",
         "senha": "$2y$10$7uvBP.tOzGeMjLtD9o9FvuD0NUULCYIXB6A1k3nKNl0GawW9rwGtS"
+    },
+    {
+        "usuario": "Daniel",
+        "senha": "$2y$10$r2JIgGQF4XQnWSpTz5.vze8iCV01bKmBWlrQK8R.Oe.uVlD6JVwiu",
+        "foto_perfil": ""
     }
 ]

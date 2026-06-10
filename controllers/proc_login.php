@@ -1,20 +1,20 @@
 <?php
-
 session_start();
 
-$arquivo = '../data/users.json';
+$arquivo = __DIR__ . '/../data/users.json';
 
 $usuario = $_POST['usuario'];
 $senha   = $_POST['senha'];
 
-if(file_exists($arquivo)){
+if (file_exists($arquivo)) {
     $conteudo = file_get_contents($arquivo);
     $usuarios = json_decode($conteudo, true) ?? [];
 
-    foreach($usuarios as $u){
-        if($u['usuario'] === $usuario && password_verify($senha, $u['senha'])){
+    foreach ($usuarios as $u) {
+        if ($u['usuario'] === $usuario && password_verify($senha, $u['senha'])) {
             $_SESSION['usuario'] = $usuario;
             $_SESSION['logado']  = true;
+            $_SESSION['foto_perfil'] = $u['foto_perfil'] ?? '';
             header('Location: ../painel.php');
             exit;
         }
