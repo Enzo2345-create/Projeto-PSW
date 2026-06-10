@@ -63,7 +63,7 @@
         <div class="sidebar-buttons">
             <?php 
                 $temFoto = !empty($_SESSION['foto_perfil']) && file_exists($_SESSION['foto_perfil']);
-                $textoBotaoFoto = $temFoto ? '📷 Alterar foto' : 'Adicionar foto';
+                $textoBotaoFoto = $temFoto ? 'Alterar foto' : 'Adicionar foto';
             ?>
             <button class="sidebar-action-btn" data-action="foto"><?= $textoBotaoFoto ?></button>
             <button class="sidebar-action-btn" data-action="usuario">Alterar usuário</button>
