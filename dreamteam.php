@@ -296,7 +296,9 @@ $jogadores_json = json_encode($jogadores, JSON_UNESCAPED_UNICODE);
 }
 </style>
 
+<head><link rel="stylesheet" href="assets/css/dreamteam.css"></head>
 <main>
+    
     <section class="hero hero-small">
         <div class="hero-overlay"></div>
         <div class="hero-shape hero-shape-1"></div>

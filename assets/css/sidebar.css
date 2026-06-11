@@ -1,0 +1,151 @@
+/* ========================================
+   SIDEBAR.CSS — Sidebar de perfil, avatar
+   Usado por: header.php (todas as páginas)
+======================================== */
+
+.sidebar {
+    position: fixed;
+    top: 0; right: -380px;
+    width: 340px; height: 100%;
+    background-color: #fff;
+    box-shadow: -2px 0 20px rgba(0,0,0,0.15);
+    transition: right 0.3s ease;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Urbanist', sans-serif;
+}
+.sidebar.active { right: 0; }
+
+.sidebar-header {
+    background-color: var(--indigo);
+    color: white;
+    padding: 18px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sidebar-header h3 {
+    margin: 0;
+    font-family: 'Changa One', cursive;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+.close-sidebar {
+    background: none; border: none;
+    font-size: 32px; color: white;
+    cursor: pointer; line-height: 1;
+}
+
+.sidebar-content { padding: 24px 20px; flex: 1; overflow-y: auto; }
+
+.sidebar-user-info { text-align: center; margin-bottom: 28px; }
+
+.sidebar-avatar-img {
+    width: 100px; height: 100px;
+    margin: 0 auto 12px;
+    border-radius: 50%;
+    background-color: var(--indigo);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sidebar-avatar-img img { width: 100%; height: 100%; object-fit: cover; }
+
+.sidebar-iniciais {
+    font-size: 44px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Changa One', cursive;
+}
+
+.sidebar-user-name {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--indigo);
+    font-family: 'Changa One', cursive;
+    letter-spacing: 0.5px;
+}
+
+.sidebar-buttons { display: flex; flex-direction: column; gap: 12px; margin-bottom: 20px; }
+
+.sidebar-action-btn {
+    background-color: var(--blue);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Urbanist', sans-serif;
+    transition: all 0.2s;
+    text-align: left;
+}
+.sidebar-action-btn:hover { background-color: var(--indigo); transform: translateX(4px); }
+
+.action-panel {
+    background-color: #f8f9fc;
+    border-radius: 16px;
+    padding: 16px;
+    margin: 10px 0 20px;
+    border-left: 4px solid var(--orange);
+}
+
+.sidebar-form input {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 14px;
+}
+
+.sidebar-form button,
+.action-panel button {
+    width: 100%;
+    background-color: var(--green);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+    font-family: 'Urbanist', sans-serif;
+}
+.sidebar-form button:hover,
+.action-panel button:hover { background-color: var(--cyan); color: #111; }
+
+.btn-upload-sidebar {
+    display: inline-block;
+    background-color: var(--cyan);
+    color: #111;
+    padding: 8px 16px;
+    border-radius: 30px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+.btn-upload-sidebar:hover { background-color: var(--green); }
+
+.btn-salvar-sidebar { background-color: var(--orange); }
+.btn-salvar-sidebar:hover { background-color: var(--red); }
+
+.sidebar-footer { margin-top: 30px; text-align: center; }
+
+.btn-logout {
+    background-color: var(--red);
+    color: white;
+    padding: 12px;
+    border-radius: 40px;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    font-weight: bold;
+    transition: 0.2s;
+}
+.btn-logout:hover { background-color: var(--maroon); }

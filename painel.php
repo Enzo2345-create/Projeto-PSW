@@ -8,8 +8,9 @@ if (!isset($_SESSION['usuario'])) {
 
 <?php include 'includes/header.php'; ?>
 
+<head><link rel="stylesheet" href="assets/css/index.css"></head>
 <main>
-
+    
     <section class="hero">
         <div class="hero-overlay"></div>
         <div class="hero-content">

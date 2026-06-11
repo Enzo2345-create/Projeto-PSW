@@ -1,7 +1,8 @@
 <?php include 'includes/header.php'; ?>
 
+<head><link rel="stylesheet" href="assets/css/selecoes.css"></head>
 <main>
-
+    
     <section class="hero hero-small">
         <div class="hero-overlay"></div>
         <div class="hero-shape hero-shape-1"></div>

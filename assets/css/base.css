@@ -1,0 +1,170 @@
+/* ========================================
+   BASE.CSS — Reset, variáveis, tipografia,
+   header, footer, hero, botões, panel
+   Usado por: todas as páginas
+======================================== */
+
+:root {
+    --violet: #6101EB;
+    --indigo: #1A247D;
+    --blue:   #304FFF;
+    --cyan:   #62FED7;
+    --green:  #00C752;
+    --red:    #D60000;
+    --orange: #FE3C00;
+    --lime:   #ECFF43;
+    --pink:   #B387FF;
+    --maroon: #741211;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: 'Urbanist', Arial, Helvetica, sans-serif;
+    background: #f0f1f8;
+    color: #222;
+}
+
+h1, h2, h3, .logo, .login-logo, .stat-num, .strip-title, .selecao-ano {
+    font-family: 'Changa One', Arial, sans-serif;
+}
+
+/* ── PANEL ── */
+.panel {
+    background: white;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 2px 16px rgba(26,36,125,0.08);
+    margin-bottom: 40px;
+}
+
+/* ── HEADER ── */
+header {
+    background: var(--indigo);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 50px;
+    border-bottom: 4px solid var(--blue);
+}
+
+.logo { font-size: 26px; letter-spacing: 2px; color: var(--lime); }
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: 14px;
+    opacity: 0.9;
+    transition: .3s;
+}
+nav a:hover { color: #26D9D0; }
+
+/* ── FOOTER ── */
+footer {
+    background: var(--indigo);
+    color: rgba(255,255,255,0.75);
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    border-top: 4px solid var(--blue);
+}
+
+/* ── HERO ── */
+.hero {
+    min-height: 55vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, var(--indigo) 0%, var(--violet) 60%, var(--blue) 100%);
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+.hero-small { min-height: 30vh; padding: 40px 20px; }
+.hero-content { max-width: 700px; }
+
+.hero-shape {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.08;
+    pointer-events: none;
+}
+.hero-shape-1 { width: 600px; height: 600px; background: var(--lime); top: -200px; right: -150px; }
+.hero-shape-2 { width: 400px; height: 400px; background: var(--cyan); bottom: -150px; left: -100px; }
+.hero-shape-3 { width: 200px; height: 200px; background: var(--pink); top: 40%; left: 30%; }
+
+.hero h1 { font-size: 3rem; margin-bottom: 16px; line-height: 1.2; color: var(--lime); }
+.hero p  { font-size: 1.1rem; color: rgba(255,255,255,0.85); margin-bottom: 28px; line-height: 1.6; }
+
+.tag {
+    background: var(--red);
+    color: white;
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+/* ── BOTÕES ── */
+.btn {
+    background: var(--red);
+    color: white;
+    text-decoration: none;
+    padding: 14px 32px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .3s;
+    display: inline-block;
+}
+.btn:hover { background: var(--green); }
+
+.btn-outline {
+    background: transparent;
+    border: 2px solid var(--lime);
+    color: var(--lime);
+}
+.btn-outline:hover { background: var(--lime); color: var(--indigo); }
+
+.btn-login {
+    background-color: var(--orange);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+    display: inline-block;
+}
+.btn-login:hover { background-color: var(--red); }
+
+/* ── AVATAR ── */
+.avatar-btn { background: none; border: none; cursor: pointer; padding: 0; }
+
+.avatar {
+    display: inline-block;
+    width: 40px; height: 40px;
+    border-radius: 50%;
+    background-color: var(--orange);
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    overflow: hidden;
+}
+.avatar img { width: 100%; height: 100%; object-fit: cover; }
+
+/* ── RESPONSIVO BASE ── */
+@media(max-width: 900px) {
+    header { padding: 14px 20px; }
+    .hero h1 { font-size: 2.2rem; }
+}

@@ -1,4 +1,5 @@
 <?php include_once 'includes/header.php'; ?>
+    <head><link rel="stylesheet" href="assets/css/index.css"></head>
     <main>
 
         <section class="hero">

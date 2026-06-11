@@ -98,10 +98,8 @@ function bandeira($selecao) {
 
 <?php include 'includes/header.php'; ?>
 
-
+<head><link rel="stylesheet" href="assets/css/votacao.css"></head>
 <main class="votacao-page">
-
-
     <section class="votacao-topo">
         <h1>Escolha sua seleção</h1>
 

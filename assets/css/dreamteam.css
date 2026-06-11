@@ -1,0 +1,202 @@
+/* ========================================
+   DREAMTEAM.CSS — Montagem do Dream Team
+   Usado por: dreamteam.php
+======================================== */
+
+.dreamteam-section { padding: 40px 30px; }
+
+.dt-controles {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.dt-formacao { display: flex; align-items: center; gap: 12px; font-weight: bold; color: var(--indigo); }
+.dt-formacao select {
+    padding: 8px 14px;
+    border-radius: 8px;
+    border: 2px solid var(--indigo);
+    font-family: 'Urbanist', sans-serif;
+    font-size: 15px;
+    color: var(--indigo);
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn-limpar {
+    background: var(--red);
+    color: white;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+    font-family: 'Urbanist', sans-serif;
+}
+.btn-limpar:hover { background: var(--maroon); }
+
+.dt-wrapper { display: grid; grid-template-columns: 1fr 340px; gap: 24px; align-items: start; }
+
+/* ── CAMPO ── */
+.campo {
+    position: relative;
+    width: 100%;
+    padding-top: 70%;
+    background: linear-gradient(180deg, #1a6b2f 0%, #1e7a35 50%, #1a6b2f 100%);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.2);
+}
+.campo-bg { position: absolute; inset: 0; }
+
+.campo-linha.meio {
+    position: absolute;
+    top: 50%; left: 5%; right: 5%;
+    height: 2px;
+    background: rgba(255,255,255,0.3);
+}
+.campo-circulo {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    width: 18%; padding-top: 18%;
+    border: 2px solid rgba(255,255,255,0.3);
+    border-radius: 50%;
+}
+.campo-area {
+    position: absolute;
+    left: 25%; right: 25%;
+    height: 15%;
+    border: 2px solid rgba(255,255,255,0.3);
+}
+.area-cima  { top: 2%; }
+.area-baixo { bottom: 2%; }
+.posicoes   { position: absolute; inset: 0; }
+
+.posicao {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    width: 56px; height: 56px;
+    background: rgba(26,36,125,0.75);
+    border: 2px solid rgba(255,255,255,0.4);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: .2s;
+    backdrop-filter: blur(4px);
+}
+.posicao:not(.ocupada):hover {
+    background: rgba(48,79,255,0.85);
+    border-color: var(--lime);
+    transform: translate(-50%,-50%) scale(1.1);
+}
+.posicao.ocupada {
+    background: linear-gradient(135deg, var(--indigo), var(--blue));
+    border-color: var(--lime);
+    width: 62px; height: 62px;
+}
+
+.pos-label { font-size: 9px; color: rgba(255,255,255,0.7); text-transform: uppercase; letter-spacing: 1px; }
+
+.pos-jogador { display: flex; flex-direction: column; align-items: center; gap: 1px; position: relative; }
+.pos-nome {
+    font-size: 9px; color: white; font-weight: bold;
+    text-align: center; max-width: 54px;
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+
+.pos-remover {
+    position: absolute;
+    top: -28px; right: -28px;
+    background: var(--red);
+    color: white; border: none;
+    border-radius: 50%;
+    width: 16px; height: 16px;
+    font-size: 10px; cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+}
+
+.pos-avatar-wrap { margin-bottom: 2px; }
+
+/* ── SIDEBAR DO DT ── */
+.dt-sidebar {
+    background: white;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 2px 16px rgba(26,36,125,0.08);
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.dt-filtros { display: flex; flex-direction: column; gap: 8px; }
+.dt-filtros input,
+.dt-filtros select {
+    padding: 9px 12px;
+    border: 1.5px solid #ddd;
+    border-radius: 8px;
+    font-size: 13px;
+    font-family: 'Urbanist', sans-serif;
+    outline: none;
+    transition: .3s;
+    width: 100%;
+}
+.dt-filtros input:focus,
+.dt-filtros select:focus { border-color: var(--blue); }
+
+.dt-jogadores { overflow-y: auto; flex: 1; display: flex; flex-direction: column; gap: 8px; }
+.dt-vazio     { text-align: center; color: #aaa; font-size: 13px; padding: 20px 0; }
+
+/* ── JOGADOR ITEM ── */
+.jogador-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #f5f6fa;
+    border-radius: 10px;
+    padding: 8px 12px;
+    cursor: grab;
+    border-left: 4px solid var(--indigo);
+    transition: .2s;
+}
+.jogador-item:hover { background: #eef0ff; border-left-color: var(--blue); transform: translateX(2px); }
+.jogador-item:active { cursor: grabbing; }
+
+.jogador-item-info { flex: 1; min-width: 0; }
+.jogador-nome { font-size: 13px; font-weight: bold; color: var(--indigo); }
+.jogador-meta { font-size: 11px; color: #999; margin-top: 2px; }
+
+/* ── AVATAR DT ── */
+.dt-avatar {
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, var(--indigo), var(--blue));
+    color: var(--lime);
+    font-family: 'Changa One', Arial, sans-serif;
+    font-size: 13px;
+    letter-spacing: 1px;
+    border: 2px solid rgba(255,255,255,0.3);
+}
+.dt-avatar.tem-foto { background: none; }
+.dt-avatar img { width: 100%; height: 100%; object-fit: cover; object-position: center top; display: block; }
+
+/* ── RESPONSIVO ── */
+@media(max-width: 900px) {
+    .dt-wrapper { grid-template-columns: 1fr; }
+    .campo { padding-top: 150%; }
+    .dt-sidebar { max-height: 400px; }
+}
