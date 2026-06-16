@@ -472,19 +472,22 @@
                 "nome": "Rodolfo Pini",
                 "nome_completo": "Rodolfo Pini",
                 "pais": "Uruguai",
-                "ano_copa": 1950
+                "ano_copa": 1950,
+                "foto": "assets\/imagens\/jogadores\/1950\/rodolfo_pini.jpg"
             },
             {
                 "nome": "Julio César Britos",
                 "nome_completo": "Julio César Britos",
                 "pais": "Uruguai",
-                "ano_copa": 1950
+                "ano_copa": 1950,
+                "foto": "assets\/imagens\/jogadores\/1950\/julio_cesar_britos.jpg"
             },
             {
                 "nome": "Washington Ortuño",
                 "nome_completo": "Washington Ortuño",
                 "pais": "Uruguai",
-                "ano_copa": 1950
+                "ano_copa": 1950,
+                "foto": "assets\/imagens\/jogadores\/1950\/washington_ortuño.jpg"
             }
         ],
         "atacantes": [
@@ -552,19 +555,22 @@
                 "nome": "Toni Turek",
                 "nome_completo": "Toni Turek",
                 "pais": "Alemanha Ocidental",
-                "ano_copa": 1954
+                "ano_copa": 1954,
+                "foto": "assets\/imagens\/jogadores\/1954\/toni_turek.jpg"
             },
             {
                 "nome": "Heinz Kubsch",
                 "nome_completo": "Heinz Kubsch",
                 "pais": "Alemanha Ocidental",
-                "ano_copa": 1954
+                "ano_copa": 1954,
+                "foto": "assets\/imagens\/jogadores\/1954\/heinz_kubsch.jpg"
             },
             {
                 "nome": "Heinrich Kwiatkowski",
                 "nome_completo": "Heinrich Kwiatkowski",
                 "pais": "Alemanha Ocidental",
-                "ano_copa": 1954
+                "ano_copa": 1954,
+                "foto": "assets\/imagens\/jogadores\/1954\/heinrich_kwiatkowski.jpg"
             }
         ],
         "defensores": [
@@ -600,7 +606,8 @@
                 "nome": "Hans Bauer",
                 "nome_completo": "Hans Bauer",
                 "pais": "Alemanha Ocidental",
-                "ano_copa": 1954
+                "ano_copa": 1954,
+                "foto": "assets\/imagens\/jogadores\/1954\/hans_bauer.jpg"
             }
         ],
         "meios": [
@@ -629,13 +636,15 @@
                 "nome": "Alfred Pfaff",
                 "nome_completo": "Alfred Pfaff",
                 "pais": "Alemanha Ocidental",
-                "ano_copa": 1954
+                "ano_copa": 1954,
+                "foto": "assets\/imagens\/jogadores\/1954\/alfred_pfaff.jpg"
             },
             {
                 "nome": "Bernhard Klodt",
                 "nome_completo": "Bernhard Klodt",
                 "pais": "Alemanha Ocidental",
-                "ano_copa": 1954
+                "ano_copa": 1954,
+                "foto": "assets\/imagens\/jogadores\/1954\/bernhard_klodt.jpg"
             }
         ],
         "atacantes": [
@@ -664,7 +673,8 @@
                 "nome": "Richard Herrmann",
                 "nome_completo": "Richard Herrmann",
                 "pais": "Alemanha Ocidental",
-                "ano_copa": 1954
+                "ano_copa": 1954,
+                "foto": "assets\/imagens\/jogadores\/1954\/richard_herrmann.jpg"
             }
         ],
         "selecoes": null
