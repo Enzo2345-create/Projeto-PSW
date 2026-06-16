@@ -721,7 +721,8 @@
                 "nome": "Bellini",
                 "nome_completo": "Hílderaldo Luís Bellini",
                 "pais": "Brasil",
-                "ano_copa": 1958
+                "ano_copa": 1958,
+                "foto": "assets\/imagens\/jogadores\/1958\/h_ilderaldo_lu_s_bellini.jpg"
             },
             {
                 "nome": "Nilton Santos",
@@ -750,19 +751,22 @@
                 "nome": "Didi",
                 "nome_completo": "Valdir Pereira Didi",
                 "pais": "Brasil",
-                "ano_copa": 1958
+                "ano_copa": 1958,
+                "foto": "assets\/imagens\/jogadores\/1958\/valdir_pereira_didi.jpg"
             },
             {
                 "nome": "Zito",
                 "nome_completo": "José Ely de Miranda Zito",
                 "pais": "Brasil",
-                "ano_copa": 1958
+                "ano_copa": 1958,
+                "foto": "assets\/imagens\/jogadores\/1958\/jos_e_ely_de_miranda_zito.jpg"
             },
             {
                 "nome": "Dino Sani",
                 "nome_completo": "Dino Sani",
                 "pais": "Brasil",
-                "ano_copa": 1958
+                "ano_copa": 1958,
+                "foto": "assets\/imagens\/jogadores\/1958\/dino_sani.jpg"
             }
         ],
         "atacantes": [
@@ -784,13 +788,15 @@
                 "nome": "Zagallo",
                 "nome_completo": "Mário Jorge Lobo Zagallo",
                 "pais": "Brasil",
-                "ano_copa": 1958
+                "ano_copa": 1958,
+                "foto": "assets\/imagens\/jogadores\/1958\/m_ario_jorge_lobo_zagallo.jpg"
             },
             {
                 "nome": "Vavá",
                 "nome_completo": "Edvaldo Izídio Neto Vavá",
                 "pais": "Brasil",
-                "ano_copa": 1958
+                "ano_copa": 1958,
+                "foto": "assets\/imagens\/jogadores\/1958\/edvaldo_iz_idio_neto_vav_a.jpg"
             },
             {
                 "nome": "José Altafini",
@@ -835,7 +841,8 @@
                 "nome": "Manga",
                 "nome_completo": "Ildásio Dias Costa Manga",
                 "pais": "Brasil",
-                "ano_copa": 1962
+                "ano_copa": 1962,
+                "foto": "assets\/imagens\/jogadores\/1962\/ildásio_dias_costa_manga.jpg"
             }
         ],
         "defensores": [
@@ -873,7 +880,8 @@
                 "nome": "Zito",
                 "nome_completo": "José Ely de Miranda Zito",
                 "pais": "Brasil",
-                "ano_copa": 1962
+                "ano_copa": 1962,
+                "foto": "assets\/imagens\/jogadores\/1962\/jos_e_ely_de_miranda_zito.jpg"
             },
             {
                 "nome": "Didi",
@@ -886,7 +894,8 @@
                 "nome": "Mengálvio",
                 "nome_completo": "Mengálvio Figueiredo",
                 "pais": "Brasil",
-                "ano_copa": 1962
+                "ano_copa": 1962,
+                "foto": "assets\/imagens\/jogadores\/1962\/meng_alvio_figueiredo.jpg"
             }
         ],
         "atacantes": [
@@ -922,7 +931,8 @@
                 "nome": "Coutinho",
                 "nome_completo": "José Augusto Coutinho",
                 "pais": "Brasil",
-                "ano_copa": 1962
+                "ano_copa": 1962,
+                "foto": "assets\/imagens\/jogadores\/1962\/jos_e_augusto_coutinho.jpg"
             }
         ],
         "selecoes": null
@@ -1105,7 +1115,8 @@
                 "nome": "Brito",
                 "nome_completo": "Wilson Orlando Pereira Brito",
                 "pais": "Brasil",
-                "ano_copa": 1970
+                "ano_copa": 1970,
+                "foto": "assets\/imagens\/jogadores\/1970\/wilson_orlando_pereira_brito.jpg"
             },
             {
                 "nome": "Piazza",
@@ -1185,7 +1196,8 @@
                 "nome": "Dadá Maravilha",
                 "nome_completo": "Dario José dos Santos Dadá Maravilha",
                 "pais": "Brasil",
-                "ano_copa": 1970
+                "ano_copa": 1970,
+                "foto": "assets\/imagens\/jogadores\/1970\/dario_josé_dos_santos_dadá_maravilha.jpg"
             }
         ],
         "selecoes": null
@@ -1621,7 +1633,8 @@
                 "nome": "Jorge Burruchaga",
                 "nome_completo": "Jorge Burruchaga",
                 "pais": "Argentina",
-                "ano_copa": 1986
+                "ano_copa": 1986,
+                "foto": "assets\/imagens\/jogadores\/1986\/jorge_burruchaga.jpg"
             },
             {
                 "nome": "Sergio Batista",
@@ -1742,13 +1755,15 @@
                 "nome": "Pierre Littbarski",
                 "nome_completo": "Pierre Littbarski",
                 "pais": "Alemanha",
-                "ano_copa": 1990
+                "ano_copa": 1990,
+                "foto": "assets\/imagens\/jogadores\/1990\/pierre_littbarski.jpg"
             },
             {
                 "nome": "Thomas Häßler",
                 "nome_completo": "Thomas Häßler",
                 "pais": "Alemanha",
-                "ano_copa": 1990
+                "ano_copa": 1990,
+                "foto": "assets\/imagens\/jogadores\/1990\/thomas_h_essler.jpg"
             }
         ],
         "atacantes": [
@@ -1802,7 +1817,8 @@
                 "nome": "Cláudio Taffarel",
                 "nome_completo": "Cláudio André Mergen Taffarel",
                 "pais": "Brasil",
-                "ano_copa": 1994
+                "ano_copa": 1994,
+                "foto": "assets\/imagens\/jogadores\/1994\/claudio_andr_mergen_taffarel.jpg"
             },
             {
                 "nome": "Zetti",
@@ -1854,7 +1870,8 @@
                 "nome": "Dunga",
                 "nome_completo": "Carlos Caetano Bledorn Verri Dunga",
                 "pais": "Brasil",
-                "ano_copa": 1994
+                "ano_copa": 1994,
+                "foto": "assets\/imagens\/jogadores\/1994\/carlos_caetano_bledorn_verri_dunga.jpg"
             },
             {
                 "nome": "Mauro Silva",
@@ -1881,7 +1898,8 @@
                 "nome": "Leonardo",
                 "nome_completo": "Leonardo Nascimento de Araújo",
                 "pais": "Brasil",
-                "ano_copa": 1994
+                "ano_copa": 1994,
+                "foto": "assets\/imagens\/jogadores\/1994\/leonardo_nascimento_de_araujo.jpg"
             }
         ],
         "atacantes": [
@@ -1889,25 +1907,29 @@
                 "nome": "Romário",
                 "nome_completo": "Romário de Souza Faria",
                 "pais": "Brasil",
-                "ano_copa": 1994
+                "ano_copa": 1994,
+                "foto": "assets\/imagens\/jogadores\/1994\/rom_ario_de_souza_faria.jpg"
             },
             {
                 "nome": "Bebeto",
                 "nome_completo": "José Roberto Gama de Oliveira Bebeto",
                 "pais": "Brasil",
-                "ano_copa": 1994
+                "ano_copa": 1994,
+                "foto": "assets\/imagens\/jogadores\/1994\/jos_e_roberto_gama_de_oliveira_bebeto.jpg"
             },
             {
                 "nome": "Viola",
                 "nome_completo": "Antônio Carlos Bicalho Guimarães Viola",
                 "pais": "Brasil",
-                "ano_copa": 1994
+                "ano_copa": 1994,
+                "foto": "assets\/imagens\/jogadores\/1994\/ant_nio_carlos_bicalho_guimar_es_viola.jpg"
             },
             {
                 "nome": "Müller",
                 "nome_completo": "Luís Henrique Conquistador Müller",
                 "pais": "Brasil",
-                "ano_copa": 1994
+                "ano_copa": 1994,
+                "foto": "assets\/imagens\/jogadores\/1994\/lu_s_henrique_conquistador_m_uller.jpg"
             },
             {
                 "nome": "Ronaldo",
@@ -1991,7 +2013,8 @@
                 "nome": "Zinedine Zidane",
                 "nome_completo": "Zinedine Yazid Zidane",
                 "pais": "França",
-                "ano_copa": 1998
+                "ano_copa": 1998,
+                "foto": "assets\/imagens\/jogadores\/1998\/zinedine_yazid_zidane.jpg"
             },
             {
                 "nome": "Didier Deschamps",
@@ -2080,7 +2103,8 @@
                 "nome": "Dida",
                 "nome_completo": "Nelson de Jesus Silva Dida",
                 "pais": "Brasil",
-                "ano_copa": 2002
+                "ano_copa": 2002,
+                "foto": "assets\/imagens\/jogadores\/2002\/nelson_de_jesus_silva_dida.jpg"
             },
             {
                 "nome": "Rogério Ceni",
@@ -2146,7 +2170,8 @@
                 "nome": "Juninho Paulista",
                 "nome_completo": "Amoroso Juninho Paulista",
                 "pais": "Brasil",
-                "ano_copa": 2002
+                "ano_copa": 2002,
+                "foto": "assets\/imagens\/jogadores\/2002\/amoroso_juninho_paulista.jpg"
             },
             {
                 "nome": "Rivaldo",
@@ -2168,19 +2193,22 @@
                 "nome": "Ronaldinho Gaúcho",
                 "nome_completo": "Ronaldo de Assis Moreira Ronaldinho Gaúcho",
                 "pais": "Brasil",
-                "ano_copa": 2002
+                "ano_copa": 2002,
+                "foto": "assets\/imagens\/jogadores\/2002\/ronaldo_de_assis_moreira_ronaldinho_ga_ucho.jpg"
             },
             {
                 "nome": "Denílson",
                 "nome_completo": "Denílson de Oliveira Araújo",
                 "pais": "Brasil",
-                "ano_copa": 2002
+                "ano_copa": 2002,
+                "foto": "assets\/imagens\/jogadores\/2002\/den_ilson_de_oliveira_araujo.jpg"
             },
             {
                 "nome": "Luizão",
                 "nome_completo": "Luiz Henrique da Silva Luizão",
                 "pais": "Brasil",
-                "ano_copa": 2002
+                "ano_copa": 2002,
+                "foto": "assets\/imagens\/jogadores\/2002\/luiz_henrique_da_silva_luiz_ao.jpg"
             }
         ],
         "selecoes": null
@@ -2421,7 +2449,8 @@
                 "nome": "David Silva",
                 "nome_completo": "David Josué Jiménez Silva",
                 "pais": "Espanha",
-                "ano_copa": 2010
+                "ano_copa": 2010,
+                "foto": "assets\/imagens\/jogadores\/2010\/david_jos_u_jim_enez_silva.jpg"
             },
             {
                 "nome": "Cesc Fàbregas",
