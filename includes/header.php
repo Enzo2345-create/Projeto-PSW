@@ -38,112 +38,224 @@
     </div>
 </header>
 
-<!-- Sidebar de perfil -->
+<!-- Overlay -->
+<div id="sidebarOverlay" class="sidebar-overlay"></div>
+
+<!-- ══════════════════════════════════════
+     SIDEBAR DE PERFIL
+══════════════════════════════════════ -->
 <div id="profileSidebar" class="sidebar">
+
     <div class="sidebar-header">
-        <h3>Meu perfil</h3>
+        <h3>Meu Perfil</h3>
         <button id="closeSidebarBtn" class="close-sidebar">&times;</button>
     </div>
+
     <div class="sidebar-content">
-        <!-- Avatar e nome do usuário -->
+
+        <!-- Avatar + nome -->
         <div class="sidebar-user-info">
             <div class="sidebar-avatar-img">
                 <?php if (isset($_SESSION['usuario'])): ?>
                     <?php if (!empty($_SESSION['foto_perfil']) && file_exists($_SESSION['foto_perfil'])): ?>
-                        <img src="<?= $_SESSION['foto_perfil'] ?>" id="sidebarAvatarImg" alt="Avatar">
+                        <img src="<?= $_SESSION['foto_perfil'] ?>" alt="Avatar">
                     <?php else: ?>
                         <div class="sidebar-iniciais"><?= strtoupper(substr($_SESSION['usuario'], 0, 2)) ?></div>
                     <?php endif; ?>
                 <?php endif; ?>
             </div>
-            <div class="sidebar-user-name"><?= $_SESSION['usuario'] ?? 'Usuário' ?></div>
+            <div class="sidebar-user-text">
+                <div class="sidebar-user-name"><?= htmlspecialchars($_SESSION['usuario'] ?? 'Usuário') ?></div>
+            </div>
         </div>
 
-        <!-- Botões de ação principais -->
-        <div class="sidebar-buttons">
-            <?php 
-                $temFoto = !empty($_SESSION['foto_perfil']) && file_exists($_SESSION['foto_perfil']);
-                $textoBotaoFoto = $temFoto ? 'Alterar foto' : 'Adicionar foto';
-            ?>
-            <button class="sidebar-action-btn" data-action="foto"><?= $textoBotaoFoto ?></button>
-            <button class="sidebar-action-btn" data-action="usuario">Alterar usuário</button>
-            <button class="sidebar-action-btn" data-action="senha">Alterar senha</button>
+        <!-- Botão Configurações -->
+        <div class="btn-config-wrap">
+            <button class="btn-configuracoes" id="btnConfig">
+                <span>⚙ Configurações</span>
+                <span class="cfg-icon">›</span>
+            </button>
         </div>
 
-        <!-- Painéis -->
-        <div id="panel-foto" class="action-panel" style="display:none;">
-            <form enctype="multipart/form-data" action="controllers/proc_upload_foto.php" method="post" class="sidebar-form">
-                <label for="foto_sidebar" class="btn-upload-sidebar">Escolher nova foto</label>
-                <input type="file" name="foto_perfil" id="foto_sidebar" accept="image/jpeg,image/png,image/jpg" style="display:none">
-                <button type="submit" class="btn-salvar-sidebar">Salvar foto</button>
-            </form>
-        </div>
+        <!-- Painel de configurações -->
+        <div class="config-panel" id="configPanel">
 
-        <div id="panel-usuario" class="action-panel" style="display:none;">
-            <form id="formAlterarNome" action="controllers/proc_alterar_nome.php" method="post" class="sidebar-form">
-                <input type="text" name="novo_usuario" placeholder="Novo nome de usuário" required>
-                <button type="submit">Alterar usuário</button>
-            </form>
-        </div>
+            <!-- ETAPA 1: verificar senha atual -->
+            <div class="cfg-step ativa" id="stepSenha">
+                <div style="padding:20px 18px 4px;">
+                    <div class="cfg-step-titulo">Verificação</div>
+                    <p style="font-size:13px;color:#666;margin-bottom:14px;line-height:1.5;">
+                        Digite sua senha atual para liberar as configurações.
+                    </p>
+                    <input type="password" class="cfg-input" id="senhaVerificacao" placeholder="Senha atual" autocomplete="current-password">
+                    <div class="cfg-erro" id="erroSenha">Senha incorreta. Tente novamente.</div>
+                </div>
+                <div style="padding:0 18px 18px;">
+                    <button class="cfg-btn-primary" id="btnVerificarSenha">Verificar →</button>
+                </div>
+            </div>
 
-        <div id="panel-senha" class="action-panel" style="display:none;">
-            <form id="formAlterarSenha" action="controllers/proc_alterar_senha.php" method="post" class="sidebar-form">
-                <input type="password" name="senha_atual" placeholder="Senha atual" required>
-                <input type="password" name="nova_senha" placeholder="Nova senha" required>
-                <button type="submit">Alterar senha</button>
-            </form>
-        </div>
+            <!-- ETAPA 2: abas de edição (só aparece após verificação) -->
+            <div class="cfg-step" id="stepEdicao">
 
+                <!-- Abas -->
+                <div class="cfg-abas" style="padding:0;">
+                    <button class="cfg-aba ativa" data-aba="foto">Foto</button>
+                    <button class="cfg-aba" data-aba="usuario">Usuário</button>
+                    <button class="cfg-aba" data-aba="senha">Senha</button>
+                </div>
+
+                <!-- Aba: Foto -->
+                <div class="cfg-aba-conteudo ativa" id="aba-foto" style="padding:18px;">
+                    <form enctype="multipart/form-data" action="controllers/proc_upload_foto.php" method="post">
+                        <label for="foto_sidebar" class="cfg-btn-upload">
+                            📷 Escolher nova foto
+                        </label>
+                        <input type="file" name="foto_perfil" id="foto_sidebar"
+                               accept="image/jpeg,image/png,image/jpg" style="display:none">
+                        <button type="submit" class="cfg-btn-primary" style="margin-top:10px;">
+                            Salvar foto
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Aba: Usuário -->
+                <div class="cfg-aba-conteudo" id="aba-usuario" style="display:none;padding:18px;">
+                    <form action="controllers/proc_alterar_nome.php" method="post"
+                          style="display:flex;flex-direction:column;gap:10px;">
+                        <input type="text" name="novo_usuario" class="cfg-input"
+                               placeholder="Novo nome de usuário" required>
+                        <button type="submit" class="cfg-btn-primary">Salvar usuário</button>
+                    </form>
+                </div>
+
+                <!-- Aba: Senha -->
+                <div class="cfg-aba-conteudo" id="aba-senha" style="display:none;padding:18px;">
+                    <form action="controllers/proc_alterar_senha.php" method="post"
+                          style="display:flex;flex-direction:column;gap:10px;">
+                        <!-- Passa a senha já verificada para o controller -->
+                        <input type="hidden" name="senha_atual" id="senhaAtualHidden">
+                        <input type="password" name="nova_senha" class="cfg-input"
+                               placeholder="Nova senha" required>
+                        <button type="submit" class="cfg-btn-primary">Salvar senha</button>
+                    </form>
+                </div>
+
+            </div><!-- /stepEdicao -->
+
+        </div><!-- /configPanel -->
+
+        <!-- Sair -->
         <div class="sidebar-footer">
-            <a href="logout.php" class="btn-logout">Sair</a>
+            <a href="logout.php" class="btn-logout">Sair da conta</a>
         </div>
-    </div>
+
+    </div><!-- /sidebar-content -->
 </div>
 
 <script>
-    // Abrir/fechar sidebar
-    const openBtn = document.getElementById('openSidebarBtn');
-    const sidebar = document.getElementById('profileSidebar');
+(function () {
+    /* ── Abrir / fechar sidebar ── */
+    const openBtn  = document.getElementById('openSidebarBtn');
+    const sidebar  = document.getElementById('profileSidebar');
     const closeBtn = document.getElementById('closeSidebarBtn');
-    if (openBtn) openBtn.onclick = () => sidebar.classList.add('active');
-    if (closeBtn) closeBtn.onclick = () => sidebar.classList.remove('active');
-    window.onclick = function(event) {
-        if (event.target == sidebar) sidebar.classList.remove('active');
+    const overlay  = document.getElementById('sidebarOverlay');
+
+    function abrirSidebar()  { sidebar.classList.add('active');    overlay.classList.add('active'); }
+    function fecharSidebar() { sidebar.classList.remove('active'); overlay.classList.remove('active'); }
+
+    if (openBtn)  openBtn.onclick  = abrirSidebar;
+    if (closeBtn) closeBtn.onclick = fecharSidebar;
+    if (overlay)  overlay.onclick  = fecharSidebar;
+
+    /* ── Botão Configurações (toggle) ── */
+    const btnConfig   = document.getElementById('btnConfig');
+    const configPanel = document.getElementById('configPanel');
+
+    btnConfig.addEventListener('click', () => {
+        const aberto = configPanel.classList.toggle('aberto');
+        btnConfig.classList.toggle('aberto', aberto);
+        // Resetar para etapa 1 ao fechar e reabrir
+        if (!aberto) resetConfig();
+    });
+
+    /* ── Verificação de senha via fetch ── */
+    const btnVerificar  = document.getElementById('btnVerificarSenha');
+    const inputSenha    = document.getElementById('senhaVerificacao');
+    const erroSenha     = document.getElementById('erroSenha');
+    const stepSenha     = document.getElementById('stepSenha');
+    const stepEdicao    = document.getElementById('stepEdicao');
+    const senhaHidden   = document.getElementById('senhaAtualHidden');
+
+    btnVerificar.addEventListener('click', async () => {
+        const senha = inputSenha.value.trim();
+        if (!senha) { mostrarErro('Digite sua senha.'); return; }
+
+        btnVerificar.textContent = 'Verificando...';
+        btnVerificar.disabled = true;
+
+        try {
+            const fd = new FormData();
+            fd.append('senha', senha);
+            const res  = await fetch('controllers/proc_dados.php', { method: 'POST', body: fd });
+            const json = await res.json();
+
+            if (json.ok) {
+                erroSenha.style.display = 'none';
+                senhaHidden.value = senha; // passa para o form de alterar senha
+                stepSenha.classList.remove('ativa');
+                stepEdicao.classList.add('ativa');
+            } else {
+                mostrarErro('Senha incorreta. Tente novamente.');
+            }
+        } catch (e) {
+            mostrarErro('Erro de conexão. Tente novamente.');
+        }
+
+        btnVerificar.textContent = 'Verificar →';
+        btnVerificar.disabled = false;
+    });
+
+    /* Enter no campo de senha */
+    inputSenha.addEventListener('keydown', e => {
+        if (e.key === 'Enter') btnVerificar.click();
+    });
+
+    function mostrarErro(msg) {
+        erroSenha.textContent = msg;
+        erroSenha.style.display = 'block';
     }
 
-    // Controle de toggle dos painéis
-    const panels = {
-        foto: document.getElementById('panel-foto'),
-        usuario: document.getElementById('panel-usuario'),
-        senha: document.getElementById('panel-senha')
-    };
-    const actionBtns = document.querySelectorAll('.sidebar-action-btn');
-    let currentOpen = null;
+    /* ── Abas de edição ── */
+    document.querySelectorAll('.cfg-aba').forEach(aba => {
+        aba.addEventListener('click', () => {
+            const alvo = aba.dataset.aba;
 
-    actionBtns.forEach(btn => {
-        btn.addEventListener('click', () => {
-            const action = btn.getAttribute('data-action');
-            // Se o painel já está aberto e é o mesmo, fecha
-            if (currentOpen === action) {
-                panels[action].style.display = 'none';
-                currentOpen = null;
-            } else {
-                // Fecha todos
-                Object.values(panels).forEach(p => p.style.display = 'none');
-                // Abre o selecionado
-                if (panels[action]) {
-                    panels[action].style.display = 'block';
-                    currentOpen = action;
-                }
-            }
+            document.querySelectorAll('.cfg-aba').forEach(a => a.classList.remove('ativa'));
+            document.querySelectorAll('.cfg-aba-conteudo').forEach(c => c.style.display = 'none');
+
+            aba.classList.add('ativa');
+            document.getElementById('aba-' + alvo).style.display = 'block';
         });
     });
 
-    // Auto-submit ao escolher foto
+    /* ── Auto-submit ao escolher foto ── */
     const fotoInput = document.getElementById('foto_sidebar');
     if (fotoInput) {
-        fotoInput.addEventListener('change', function() {
+        fotoInput.addEventListener('change', function () {
             this.closest('form').submit();
         });
     }
+
+    /* ── Reset ao fechar configurações ── */
+    function resetConfig() {
+        inputSenha.value = '';
+        erroSenha.style.display = 'none';
+        stepSenha.classList.add('ativa');
+        stepEdicao.classList.remove('ativa');
+        // Volta para aba foto
+        document.querySelectorAll('.cfg-aba').forEach((a,i) => a.classList.toggle('ativa', i===0));
+        document.querySelectorAll('.cfg-aba-conteudo').forEach((c,i) => c.style.display = i===0 ? 'block' : 'none');
+    }
+})();
 </script>

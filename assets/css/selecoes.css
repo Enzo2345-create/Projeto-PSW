@@ -1,9 +1,3 @@
-/* ========================================
-   SELECOES.CSS — Lista e detalhe de copas
-   Usado por: selecoes.php, copa.php
-======================================== */
-
-/* ── GRID DE SELEÇÕES ── */
 .selecoes-grid-section { padding: 60px 50px; }
 
 .selecoes-grid {
@@ -37,7 +31,6 @@
 .selecao-meta     { display: flex; gap: 20px; font-size: 13px; color: #555; }
 .selecao-arrow    { font-size: 1.4rem; color: var(--blue); font-weight: bold; }
 
-/* ── DETALHE DA COPA ── */
 .copa-detalhe {
     padding: 60px 50px;
     max-width: 1000px;
@@ -79,7 +72,6 @@
 .resumo-label { font-size: 11px; text-transform: uppercase; letter-spacing: 1px; color: #999; }
 .resumo-valor { font-size: 15px; font-weight: bold; color: var(--indigo); }
 
-/* ── ELENCO ── */
 .copa-elenco h2  { color: var(--indigo); margin-bottom: 30px; font-size: 1.5rem; }
 .elenco-grupo    { margin-bottom: 24px; }
 .elenco-titulo   { font-size: 11px; text-transform: uppercase; letter-spacing: 2px; color: #999; margin-bottom: 10px; font-weight: bold; }
@@ -91,7 +83,6 @@
     margin-top: 10px;
 }
 
-/* ── FIFA CARDS ── */
 .fifa-card {
     background: linear-gradient(180deg, var(--indigo) 0%, #0f1650 100%);
     border-radius: 10px;
@@ -140,7 +131,6 @@
 .fifa-card-pos { display: none; }
 .copa-nav { text-align: center; }
 
-/* ── RESPONSIVO ── */
 @media(max-width: 900px) {
     .selecoes-grid-section { padding: 30px 16px; }
     .copa-detalhe { padding: 30px 16px; }

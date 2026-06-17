@@ -1,9 +1,3 @@
-/* ========================================
-   INDEX.CSS — Home e painel
-   Usado por: index.php, painel.php
-======================================== */
-
-/* ── HERO STATS ── */
 .hero-btns {
     display: flex;
     gap: 14px;
@@ -27,7 +21,6 @@
 .stat-label { font-size: 13px; color: rgba(255,255,255,0.65); text-transform: uppercase; letter-spacing: 1px; }
 .stat-divider { width: 1px; height: 50px; background: rgba(255,255,255,0.2); }
 
-/* ── FEATURES / CARDS ── */
 .features {
     background: #f0f1f8;
     padding: 80px 50px;
@@ -102,7 +95,6 @@
 #card-selecoes  .card-link { color: var(--green); }
 #card-dreamteam .card-link { color: var(--red); }
 
-/* ── STRIP CAMPEÕES ── */
 .campeoes-strip {
     background: linear-gradient(90deg, var(--indigo) 0%, #1e2e8a 50%, var(--violet) 100%);
     padding: 28px 50px;
@@ -152,7 +144,6 @@
     font-size: 12px;
 }
 
-/* ── RESPONSIVO ── */
 @media(max-width: 900px) {
     .hero-stats { gap: 20px; }
     .stat-divider { display: none; }
