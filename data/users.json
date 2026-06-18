@@ -28,5 +28,10 @@
         "usuario": "Daniel",
         "senha": "$2y$10$r2JIgGQF4XQnWSpTz5.vze8iCV01bKmBWlrQK8R.Oe.uVlD6JVwiu",
         "foto_perfil": "uploads\/Daniel_1781103222.jpg"
+    },
+    {
+        "usuario": "Daniel1234",
+        "senha": "$2y$10$nQQkIrDtFtqhsJQ5SSTIIOfxlmZdPnYsJcXbjJv\/yeFKx\/0l66Zue",
+        "foto_perfil": ""
     }
 ]
