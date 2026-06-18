@@ -1,11 +1,7 @@
 <?php
-session_start();
-if (!isset($_SESSION['usuario'])) {
-    header('Location: ../login.php');
-    exit;
-}
+require_once '../includes/funcoes.php';
 
-$usuario = $_SESSION['usuario'];
+$usuario = verificarLogin();
 $uploadDir = '../uploads/';
 if (!file_exists($uploadDir)) mkdir($uploadDir, 0777, true);
 
@@ -23,7 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_FILES['foto_perfil'])) {
 
     if (move_uploaded_file($_FILES['foto_perfil']['tmp_name'], $caminhoAbsoluto)) {
         $arquivoUsers = '../data/users.json';
-        $users = json_decode(file_get_contents($arquivoUsers), true);
+        $users = lerJson($arquivoUsers);
         foreach ($users as &$u) {
             if ($u['usuario'] === $usuario) {
                 if (!empty($u['foto_perfil']) && file_exists('../' . $u['foto_perfil'])) {
@@ -33,7 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_FILES['foto_perfil'])) {
                 break;
             }
         }
-        file_put_contents($arquivoUsers, json_encode($users, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+        escreverJson($arquivoUsers, $users);
         $_SESSION['foto_perfil'] = $caminho;
         header('Location: ../painel.php?ok=foto_alterada');
     } else {

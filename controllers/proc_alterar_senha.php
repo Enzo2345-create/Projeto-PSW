@@ -1,22 +1,18 @@
 <?php
-session_start();
-if (!isset($_SESSION['usuario'])) {
-    header('Location: ../login.php');
-    exit;
-}
+require_once '../includes/funcoes.php';
 
-$usuario = $_SESSION['usuario'];
-$senhaAtual = $_POST['senha_atual'];
-$novaSenha = $_POST['nova_senha'];
+$usuario = verificarLogin();
+$senhaAtual = $_POST['senha_atual'] ?? '';
+$novaSenha = $_POST['nova_senha'] ?? '';
 
 if (empty($senhaAtual) || empty($novaSenha)) {
     header('Location: ../painel.php?erro=senha_vazia');
     exit;
 }
 
-$arquivo = __DIR__ . '/../data/users.json';
-$users = json_decode(file_get_contents($arquivo), true);
+$users = lerJson(__DIR__ . '/../data/users.json');
 $encontrado = false;
+
 foreach ($users as &$u) {
     if ($u['usuario'] === $usuario) {
         if (password_verify($senhaAtual, $u['senha'])) {
@@ -29,8 +25,9 @@ foreach ($users as &$u) {
         break;
     }
 }
+
 if ($encontrado) {
-    file_put_contents($arquivo, json_encode($users, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+    escreverJson(__DIR__ . '/../data/users.json', $users);
     header('Location: ../painel.php?ok=senha_alterada');
 } else {
     header('Location: ../painel.php?erro=usuario_nao_encontrado');

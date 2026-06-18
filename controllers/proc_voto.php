@@ -1,22 +1,11 @@
 <?php
-session_start();
+require_once '../includes/funcoes.php';
 
-if (!isset($_SESSION['usuario'])) {
-    header('Location: ../login.php');
-    exit;
-}
+$usuario = verificarLogin();
+$selecao = limpar($_POST['selecao'] ?? '');
 
-$usuario = $_SESSION['usuario'];
-$selecao = trim($_POST['selecao'] ?? '');
-
-$arquivoVotos = __DIR__ . '/../data/votos.json';
 $arquivoSelecoes = __DIR__ . '/../data/selecoes_2026.json';
-
-$selecoes = [];
-
-if (file_exists($arquivoSelecoes)) {
-    $selecoes = json_decode(file_get_contents($arquivoSelecoes), true);
-}
+$selecoes = lerJson($arquivoSelecoes);
 
 if (!is_array($selecoes)) {
     $selecoes = [];
@@ -27,18 +16,14 @@ if ($selecao === '' || !in_array($selecao, $selecoes)) {
     exit;
 }
 
-$votos = [];
-
-if (file_exists($arquivoVotos)) {
-    $votos = json_decode(file_get_contents($arquivoVotos), true);
-}
+$arquivoVotos = __DIR__ . '/../data/votos.json';
+$votos = lerJson($arquivoVotos);
 
 if (!is_array($votos)) {
     $votos = [];
 }
 
 $jaVotou = false;
-
 foreach ($votos as &$voto) {
     if ($voto['usuario'] === $usuario) {
         $voto['selecao'] = $selecao;
@@ -56,10 +41,7 @@ if (!$jaVotou) {
     ];
 }
 
-file_put_contents(
-    $arquivoVotos,
-    json_encode($votos, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE)
-);
+escreverJson($arquivoVotos, $votos);
 
 header('Location: ../votacao.php?sucesso=1');
 exit;

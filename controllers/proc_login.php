@@ -1,23 +1,20 @@
 <?php
+require_once '../includes/funcoes.php';
+
 session_start();
 
-$arquivo = __DIR__ . '/../data/users.json';
+$usuario = limpar($_POST['usuario'] ?? '');
+$senha = $_POST['senha'] ?? '';
 
-$usuario = $_POST['usuario'];
-$senha   = $_POST['senha'];
+$usuarios = lerJson(__DIR__ . '/../data/users.json');
 
-if (file_exists($arquivo)) {
-    $conteudo = file_get_contents($arquivo);
-    $usuarios = json_decode($conteudo, true) ?? [];
-
-    foreach ($usuarios as $u) {
-        if ($u['usuario'] === $usuario && password_verify($senha, $u['senha'])) {
-            $_SESSION['usuario'] = $usuario;
-            $_SESSION['logado']  = true;
-            $_SESSION['foto_perfil'] = $u['foto_perfil'] ?? '';
-            header('Location: ../painel.php');
-            exit;
-        }
+foreach ($usuarios as $u) {
+    if ($u['usuario'] === $usuario && password_verify($senha, $u['senha'])) {
+        $_SESSION['usuario'] = $usuario;
+        $_SESSION['logado'] = true;
+        $_SESSION['foto_perfil'] = $u['foto_perfil'] ?? '';
+        header('Location: ../painel.php');
+        exit;
     }
 }
 
